@@ -52,7 +52,8 @@ async def quiz(interaction: discord.Interaction, topic: app_commands.Choice[str]
 
     if topic.value == "capacitor":
         q = random.choice(capacitor_questions)
-        await interaction.response.send_message(q["question"])
+        view = FlashcardView(q["answer"])
+        await interaction.response.send_message(q["question"], view=view)
 
 
 bot.run(TOKEN)
