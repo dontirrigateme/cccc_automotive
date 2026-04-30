@@ -35,13 +35,25 @@ TOPICS = [
 ]
 
 class FlashcardView(discord.ui.View):
-    def __init__(self, answer):
-        super().__init__()
-        self.answer = answer
+    def __init__(self, questions):
+        super().__init__(timeout=None)
+        self.questions = questions
+        self.current = random.choice(self.questions)
+
+    def get_question(self):
+        return self.current["question"]
+
+    def get_answer(self):
+        return self.current["answer"]
 
     @discord.ui.button(label="Show Answer", style=discord.ButtonStyle.primary)
     async def show_answer(self, interaction: discord.Interaction, button: discord.ui.Button):
-        await interaction.response.send_message(self.answer, ephemeral=True)
+        await interaction.response.send_message(self.get_answer(), ephemeral=True)
+
+    @discord.ui.button(label="Next Question", style=discord.ButtonStyle.secondary)
+    async def next_question(self, interaction: discord.Interaction, button: discord.ui.Button):
+        self.current = random.choice(self.questions)
+        await interaction.response.edit_message(content=self.get_question(), view=self)
 
 @bot.tree.command(name="quiz", description="Start a quiz")
 @app_commands.describe(topic="Choose a topic")
@@ -51,9 +63,8 @@ class FlashcardView(discord.ui.View):
 async def quiz(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
     if topic.value == "capacitor":
-        q = random.choice(capacitor_questions)
-        view = FlashcardView(q["answer"])
-        await interaction.response.send_message(q["question"], view=view)
+        view = FlashcardView(capacitor_questions)
+        await interaction.response.send_message(view.get_question(), view=view)
 
 
 bot.run(TOKEN)
