@@ -34,6 +34,15 @@ TOPICS = [
     "trailer_lights"
 ]
 
+class FlashcardView(discord.ui.View):
+    def __init__(self, answer):
+        super().__init__()
+        self.answer = answer
+
+    @discord.ui.button(label="Show Answer", style=discord.ButtonStyle.primary)
+    async def show_answer(self, interaction: discord.Interaction, button: discord.ui.Button):
+        await interaction.response.send_message(self.answer, ephemeral=True)
+
 @bot.tree.command(name="quiz", description="Start a quiz")
 @app_commands.describe(topic="Choose a topic")
 @app_commands.choices(topic=[
