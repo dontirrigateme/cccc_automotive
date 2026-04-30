@@ -2,6 +2,8 @@ import os
 import discord
 from discord import app_commands
 from discord.ext import commands
+import random
+from data.capacitors import QUESTIONS as capacitor_questions
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
@@ -35,10 +37,13 @@ TOPICS = [
 @bot.tree.command(name="quiz", description="Start a quiz")
 @app_commands.describe(topic="Choose a topic")
 @app_commands.choices(topic=[
-    app_commands.Choice(name=t.replace("_", " ").title(), value=t) for t in TOPICS
+    app_commands.Choice(name="Capacitor", value="capacitor")
 ])
 async def quiz(interaction: discord.Interaction, topic: app_commands.Choice[str]):
-    await interaction.response.send_message(f"Starting quiz on {topic.value}")
+
+    if topic.value == "capacitor":
+        q = random.choice(capacitor_questions)
+        await interaction.response.send_message(q["question"])
 
 
 bot.run(TOKEN)
