@@ -34,7 +34,7 @@ TOPIC_DATA = {
     "resistor": resistor_questions,
     "fuse": fuse_questions,
     "ntc_ptc": ntc_ptc_questions,
-    "any": capacitor_questions + resistor_questions + fuse_questions,
+    "any": capacitor_questions + resistor_questions + fuse_questions + ntc_ptc_questions,
 }
 
 class FlashcardView(discord.ui.View):
