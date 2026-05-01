@@ -6,6 +6,7 @@ import random
 from data.capacitors import QUESTIONS as capacitor_questions
 from data.resistors import QUESTIONS as resistor_questions
 from data.fuses import QUESTIONS as fuse_questions
+from data.ntc_ptc import QUESTIONS as ntc_ptc_questions
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
@@ -32,6 +33,8 @@ TOPIC_DATA = {
     "capacitor": capacitor_questions,
     "resistor": resistor_questions,
     "fuse": fuse_questions,
+    "ntc_ptc": ntc_ptc_questions,
+    "any": capacitor_questions + resistor_questions + fuse_questions,
 }
 
 class FlashcardView(discord.ui.View):
@@ -77,9 +80,11 @@ class FlashcardView(discord.ui.View):
 @bot.tree.command(name="quiz", description="Start a quiz")
 @app_commands.describe(topic="Choose a topic")
 @app_commands.choices(topic=[
+    app_commands.Choice(name="Any / Random", value="any"),
     app_commands.Choice(name="Capacitor", value="capacitor"),
     app_commands.Choice(name="Resistor", value="resistor"),
     app_commands.Choice(name="Fuse", value="fuse"),
+    app_commands.Choice(name="NTC / PTC", value="ntc_ptc"),
 ])
 async def quiz(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
