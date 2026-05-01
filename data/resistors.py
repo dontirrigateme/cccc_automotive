@@ -77,4 +77,16 @@ QUESTIONS = [
         "question": "On resistors with four bands, what does band 4 represent?", #19
         "answer": "tolerance",
     },
+    {
+        "question": "In what part of a vehicle are magnetic-dependent resistors used?", #20
+        "answer": "ABS systems",
+    },
+    {
+        "question": "The resistance of a magnetic-dependent resistor is at its maximum at an angle of __________ degrees between the direction of the current through the resistor and the magnetic field lines.", #21
+        "answer": "0",
+    },
+    {
+        "question": "The resistance of a magnetic-dependent resistor is at its minimum at an angle of __________ degrees between the direction of the current through the resistor and the magnetic field lines.", #22
+        "answer": "90",
+    },
 ]
