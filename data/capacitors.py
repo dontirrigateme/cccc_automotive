@@ -1,23 +1,23 @@
 QUESTIONS = [
     {
         "question": "A capacitor is often used to __________ and __________ interfering signals.", #01
-        "answer": "suppress and filter"
+        "answer": "suppress and filter",
     },
     {
         "question": "You will find capacitors in the ignition system of vehicles with __________ ignition.", #02
-        "answer": "distributor"
+        "answer": "distributor",
     },
     {
         "question": "What is the value of a capacitor called?", #03
-        "answer": "capacitance"
+        "answer": "capacitance",
     },
     {
         "question": "What is a unit of capacitance called?", #04
-        "answer": "farad"
+        "answer": "farad",
     },
     {
         "question": "What is specified on the casing of a capacitor?", #05
-        "answer": "capacitance and voltage"
+        "answer": "capacitance and voltage",
     },
     {
         "question": "Which number is next to the symbol of a variable capacitor?", #06
