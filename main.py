@@ -5,7 +5,6 @@ from discord.ext import commands
 import random
 from data.capacitors import QUESTIONS as capacitor_questions
 from data.resistors import QUESTIONS as resistor_questions
-from data.relay_circuits import QUESTIONS as relay_questions
 from data.fuses import QUESTIONS as fuse_questions
 
 TOKEN = os.getenv("DISCORD_TOKEN")
@@ -32,7 +31,6 @@ async def ping(interaction: discord.Interaction):
 TOPIC_DATA = {
     "capacitor": capacitor_questions,
     "resistor": resistor_questions,
-    "relay": relay_questions,
     "fuse": fuse_questions,
 }
 
@@ -81,7 +79,6 @@ class FlashcardView(discord.ui.View):
 @app_commands.choices(topic=[
     app_commands.Choice(name="Capacitor", value="capacitor"),
     app_commands.Choice(name="Resistor", value="resistor"),
-    app_commands.Choice(name="Relay Circuits", value="relay circuits"),
     app_commands.Choice(name="Fuse", value="fuse"),
 ])
 async def quiz(interaction: discord.Interaction, topic: app_commands.Choice[str]):
