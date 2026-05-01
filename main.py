@@ -7,6 +7,7 @@ from data.capacitors import QUESTIONS as capacitor_questions
 from data.resistors import QUESTIONS as resistor_questions
 from data.fuses import QUESTIONS as fuse_questions
 from data.ntc_ptc import QUESTIONS as ntc_ptc_questions
+from data.wiring_and_wiring_repair import QUESTIONS as wiring_and_wiring_repair_questions
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
@@ -33,7 +34,8 @@ TOPIC_DATA = {
     "capacitor": capacitor_questions,
     "resistor": resistor_questions,
     "fuse": fuse_questions,
-    "ntc_ptc": ntc_ptc_questions,
+    "ntc ptc": ntc_ptc_questions,
+    "wiring and wiring repair": wiring_and_wiring_repair_questions,
     "any": capacitor_questions + resistor_questions + fuse_questions + ntc_ptc_questions,
 }
 
@@ -84,7 +86,8 @@ class FlashcardView(discord.ui.View):
     app_commands.Choice(name="Capacitor", value="capacitor"),
     app_commands.Choice(name="Resistor", value="resistor"),
     app_commands.Choice(name="Fuse", value="fuse"),
-    app_commands.Choice(name="NTC / PTC", value="ntc_ptc"),
+    app_commands.Choice(name="NTC / PTC", value="ntc ptc"),
+    app_commands.Choice(name="Wiring & Wiring Repair", value="wiring and wiring repair",
 ])
 async def quiz(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
