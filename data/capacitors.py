@@ -19,4 +19,9 @@ QUESTIONS = [
         "question": "What is specified on the casing of a capacitor?",
         "answer": "capacitance and voltage"
     },
+    {
+        "question": "What is specified on the casing of a capacitor?",
+        "answer": "capacitance and voltage",
+        "image": "images/capacitor_wiring_symbols.png",
+    },
 ]
