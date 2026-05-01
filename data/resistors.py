@@ -89,4 +89,30 @@ QUESTIONS = [
         "question": "The resistance of a magnetic-dependent resistor is at its minimum at an angle of __________ degrees between the direction of the current through the resistor and the magnetic field lines.", #22
         "answer": "90",
     },
+    {
+        "question": "What kind of resistor does a potentiometer behave like?", #23
+        "answer": "variable resistor",
+    },
+    {
+        "question": "How do you adjust the resistance on a potentiometer?", #24
+        "answer": "with a knob that fits over the shaft",
+    },
+    {
+        "question": "What kind of resistor does a potentiometer behave like?", #25
+        "answer": "variable resistor",
+    },
+    {
+        "question": "What are the parts of a potentiometer?", #26
+        "answer": "1 = connections, 2 = adjustment axis, 3 = track without variable resistor, 4 = carbion track for variable resistor, 5 = stylus, 6 = stylus carrier, 7 = housing",
+        "image": "images/potentiometer.png",
+    },
+    {
+        "question": "Potentiometers only have linear resistance. True or false?", #27
+        "answer": "False. Potentiometers can have linear or logarithmic resistance.",
+    },
+    {
+        "question": "What is represented in the symbol?", #28
+        "answer": "potentiometer",
+        "image": "images/potentiometer_symbol.png",
+    },
 ]
