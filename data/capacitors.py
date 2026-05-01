@@ -82,7 +82,7 @@ QUESTIONS = [
     },
     {
         "question": "The ceramic material on a ceramic capacitor has a low resistance. True or false?", #19
-        "answer": "False",
+        "answer": "False. The ceramic material has a high resistance.",
     },
     {
         "question": "The dielectric constant on a ceramic capacitor is high. True or false?", #20
