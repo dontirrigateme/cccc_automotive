@@ -87,7 +87,7 @@ class FlashcardView(discord.ui.View):
     app_commands.Choice(name="Resistor", value="resistor"),
     app_commands.Choice(name="Fuse", value="fuse"),
     app_commands.Choice(name="NTC / PTC", value="ntc ptc"),
-    app_commands.Choice(name="Wiring & Wiring Repair", value="wiring and wiring repair",
+    app_commands.Choice(name="Wiring & Wiring Repair", value="wiring and wiring repair"),
 ])
 async def quiz(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
