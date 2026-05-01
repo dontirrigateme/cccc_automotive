@@ -4,6 +4,9 @@ from discord import app_commands
 from discord.ext import commands
 import random
 from data.capacitors import QUESTIONS as capacitor_questions
+from data.resistors import QUESTIONS as resistor_questions
+from data.relays import QUESTIONS as relay_questions
+from data.fuses import QUESTIONS as fuse_questions
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
@@ -26,13 +29,12 @@ async def on_ready():
 async def ping(interaction: discord.Interaction):
     await interaction.response.send_message("Pong!")
 
-TOPICS = [
-    "capacitor",
-    "resistor",
-    "fuse",
-    "relay_circuits",
-    "trailer_lights"
-]
+TOPIC_DATA = {
+    "capacitor": capacitor_questions,
+    "resistor": resistor_questions,
+    "relay": relay_questions,
+    "fuse": fuse_questions,
+}
 
 class FlashcardView(discord.ui.View):
     def __init__(self, questions):
@@ -46,6 +48,9 @@ class FlashcardView(discord.ui.View):
     def get_answer(self):
         return self.current["answer"]
 
+    def get_image(self):
+        return self.current.get("image")
+
     @discord.ui.button(label="Show Answer", style=discord.ButtonStyle.primary)
     async def show_answer(self, interaction: discord.Interaction, button: discord.ui.Button):
         await interaction.response.send_message(self.get_answer(), ephemeral=True)
@@ -53,18 +58,56 @@ class FlashcardView(discord.ui.View):
     @discord.ui.button(label="Next Question", style=discord.ButtonStyle.secondary)
     async def next_question(self, interaction: discord.Interaction, button: discord.ui.Button):
         self.current = random.choice(self.questions)
-        await interaction.response.edit_message(content=self.get_question(), view=self)
+    
+        question = self.get_question()
+        image_path = self.get_image()
+    
+        if image_path:
+            file = discord.File(image_path)
+            await interaction.response.edit_message(
+                content=question,
+                attachments=[file],
+                view=self
+            )
+        else:
+            await interaction.response.edit_message(
+                content=question,
+                attachments=[],
+                view=self
+            )
 
 @bot.tree.command(name="quiz", description="Start a quiz")
 @app_commands.describe(topic="Choose a topic")
 @app_commands.choices(topic=[
-    app_commands.Choice(name="Capacitor", value="capacitor")
+    app_commands.Choice(name="Capacitor", value="capacitor"),
+    app_commands.Choice(name="Resistor", value="resistor"),
+    app_commands.Choice(name="Relay", value="relay"),
+    app_commands.Choice(name="Fuse", value="fuse"),
 ])
 async def quiz(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
-    if topic.value == "capacitor":
-        view = FlashcardView(capacitor_questions)
-        await interaction.response.send_message(view.get_question(), view=view)
+    questions = TOPIC_DATA.get(topic.value)
+
+    if not questions:
+        await interaction.response.send_message("No questions found for this topic.")
+        return
+    
+    view = FlashcardView(questions)
+    question_text = view.get_question()
+    image_path = view.get_image()
+    
+    if image_path:
+        file = discord.File(image_path)
+        await interaction.response.send_message(
+            question_text,
+            file=file,
+            view=view
+        )
+    else:
+        await interaction.response.send_message(
+            question_text,
+            view=view
+        )
 
 
 bot.run(TOKEN)
