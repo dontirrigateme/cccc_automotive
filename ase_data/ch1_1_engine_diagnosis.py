@@ -151,7 +151,7 @@ QUESTIONS = [
     },
     {
         "question": "Following dry then wet compression tests, what is the diagnosis if compression increases significantly (20% or more)?", #038
-        "answer": "Worn piston rings, because the oil temporarily deals the rings, boosting the pressure",
+        "answer": "Worn piston rings, because the oil temporarily seals the rings, boosting the pressure",
     },
     {
         "question": "Following dry then wet compression tests, what is the diagnosis if compression stays the same or changes very little?", #039
