@@ -375,7 +375,7 @@ QUESTIONS = [
     },
     {
         "question": (
-            "How often should timing gears be inspected on an engine block?"\n\n"
+            "How often should timing gears be inspected on an engine block?\n\n"
             "A. During major engine overhaul\n"
             "B. Every oil change\n"
             "C. Every 500 miles\n"
