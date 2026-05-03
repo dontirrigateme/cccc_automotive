@@ -37,7 +37,7 @@ TOPIC_DATA = {
     "fuse": fuse_questions,
     "ntc ptc": ntc_ptc_questions,
     "lighting and signaling circuits": lighting_and_signaling_circuits_questions,
-    "schematics": schematics_questions",
+    "schematics": schematics_questions,
     "any": capacitor_questions + resistor_questions + fuse_questions + ntc_ptc_questions,
 }
 
