@@ -1,6 +1,10 @@
 QUESTIONS = [
     {
-        "question": "A capacitor is often used to __________ and __________ interfering signals.", #01
-        "answer": "suppress and filter",
+        "question": "Battery sensors are used to measure which parameters?", #01
+        "answer": "electrical current draw, temperature, and voltage",
+    },
+    {
+        "question": "What are the three states that determine a battery's condition?", #02
+        "answer": "state of charge, state of health, state of function",
     },
 ]
