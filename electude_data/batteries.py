@@ -1,7 +1,7 @@
 QUESTIONS = [
     {
         "question": (
-            "Battery sensors are used to measure which parameters?\n\n"
+            "Battery sensors are used to measure which parameters?"
         ), #001
         "answer": (
             "Electrical current draw\n"
@@ -11,7 +11,7 @@ QUESTIONS = [
     },
     {
         "question": (
-            "What are the three states that determine a battery's condition?\n\n"
+            "What are the three states that determine a battery's condition?"
         ), #002
         "answer": (
             "State of charge\n"
@@ -34,5 +34,100 @@ QUESTIONS = [
     {
         "question": "What is the state of function?", #006
         "answer": "The expected starting capacity, or the extent to which the battery can perform its function, calculated in the battery management system.",
+    },
+    {
+        "question": (
+            "How does a battery sensor monitor the condition of the battery?"
+        ), #007
+        "answer": (
+            "Measures the voltage of the battery\n"
+            "Measures the current with which the battery is being charged and discharged\n"
+            "Measures the temperature of the battery"
+        ),
+    },
+    {
+        "question": "What tool is used to allow the management system to relearn a new battery?", #008
+        "answer": "Diagnostic scan tool",
+    },
+    {
+        "question": "During the starting phase, on-board voltage __________.", #009
+        "answer": "dips",
+    },
+    {
+        "question": "What is used to keep the on-board network at the correct voltage, and to protect the battery, during the starting phase?", #010
+        "answer": "An on-board network control unit",
+    },
+    {
+        "question": "In an on-board battery system with two batteries, one is the __________ battery and the other is the __________ battery.", #011
+        "answer": "starter, auxiliary",
+    },
+    {
+        "question": "The density of electrolyte is an indicator of a battery's state of __________.", #012
+        "answer": "charge",
+    },
+    {
+        "question": (
+            "What can cause small discharge currents to start running on a battery that is NOT in use?"
+        ), #013
+        "answer": (
+            "- Contamination of the electrolyte by components of the plate\n"
+            "- Electrochemical reactions between the metals that make up the plate"
+        ),
+    },
+    {
+        "question": "What can accelerate the self-discharge of a battery?", #014
+        "answer": "Storing the battery at high temperature",
+    },
+    {
+        "question": (
+            "Under what conditions should a battery be stored?"
+        ), #015
+        "answer": (
+            "- The battery must be fully-charged\n"
+            "- The battery must be stored in a cool, dark place\n"
+            "- The state-of-charge of the battery must be checked regularly"
+        ),
+    },
+    {
+        "question": "What is a cold start?", #016
+        "answer": "Starting a car under very cold conditions",
+    },
+    {
+        "question": "Cold conditions slow the chemical reactions in a battery, which reduces the battery’s __________ and __________.", #017
+        "answer": "capacity, source voltage",
+    },
+    {
+        "question": "Who determines the value of a battery's cold-cranking amps?", #018
+        "answer": "The manufacturer",
+    },
+    {
+        "question": "What is the formula for determining a battery's discharge current?", #019
+        "answer": "Discharge current = capacity / 20 hours",
+    },
+    {
+        "question": "What is the capacity of a battery?", #020
+        "answer": "The measure of the amount of electrical energy that a battery can contain",
+    },
+    {
+        "question": "What unit is used to measure battery capacity?", #021
+        "answer": "Ampere-hours (Ah)",
+    },
+    {
+        "question": "What formula determines the capacity of a battery?", #022
+        "answer": "Capacity (Ah) = current (A) x time (h)",
+    },
+    {
+        "question": "In lead batteries, a chemical reaction takes place on the battery __________.", #023
+        "answer": "plates",
+    },
+    {
+        "question": (
+            "The capacity of a battery is determined by a set standard that includes which three factors?"
+        ), #024
+        "answer": (
+            "Discharge time\n"
+            "Temperature\n"
+            "Residual voltage"
+        ),
     },
 ]
