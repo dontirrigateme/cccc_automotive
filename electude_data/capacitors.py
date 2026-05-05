@@ -1,3 +1,5 @@
+# CAPACITORS
+
 QUESTIONS = [
     {
         "question": "A capacitor is often used to __________ and __________ interfering signals.", #01
