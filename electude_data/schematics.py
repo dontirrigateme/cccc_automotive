@@ -1,3 +1,5 @@
+# ELECTUDE - SCHEMATICS
+
 QUESTIONS = [
     {
         "question": "How many positions does the ignition switch in the diagram have?", #01
