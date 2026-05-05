@@ -130,4 +130,20 @@ QUESTIONS = [
             "Residual voltage"
         ),
     },
+    {
+        "question": "A battery converts __________ energy into __________ energy.", #025
+        "answer": "chemical, electrical",
+    },
+    {
+        "question": "What connects the positive and negative electrodes of a lead acid battery?", #026
+        "answer": "Consumer",
+    },
+    {
+        "question": "What does the electrolyte consist of in a lead acid battery?", #027
+        "answer": "Sulfuric acid (H2SO4) and water",
+    },
+    {
+        "question": "When charged, the positive electrode of a lead acid battery consists of __________ and the negative electrode consists of __________.", #026
+        "answer": "Lead dioxide (PbO2), lead (Pb)",
+    },
 ]
