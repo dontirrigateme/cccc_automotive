@@ -146,4 +146,13 @@ QUESTIONS = [
         "question": "When charged, the positive electrode of a lead acid battery consists of __________ and the negative electrode consists of __________.", #026
         "answer": "Lead dioxide (PbO2), lead (Pb)",
     },
+    {
+        "question": (
+            "What are two types of improved batteries that are suitable for use in cars with energy management?"
+        ), #027
+        "answer": (
+            "Enhanced flooded batteries (EFB)\n"
+            "Absorbent glass mats (AGM)"
+        ),
+    },
 ]
