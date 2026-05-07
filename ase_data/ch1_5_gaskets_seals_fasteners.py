@@ -1,315 +1,315 @@
 #01.05 Engine Repair - Gaskets, Seals, & Fastener Service
 
 QUESTIONS = [
-    {
-        "question": "The head gasket forms a critical seal between __________.", #001
-        "answer": "the engine block and cylinder head",
-    },
-    {
-        "question": (
-            "What three materials are head gaskets commonly made of?"
-        ), #002
-        "answer": (
-            "Multi-layer steel (MLS)\n"
-            "Composite materials\n"
-            "Copper"
-        ),
-    },
-    {
-        "question": "Which head gasket material is most common in modern engines?", #003
-        "answer": "Multi-layer steel (MLS)",
-    },
-    {
-        "question": "Blown head gaskets often result from __________.", #004
-        "answer": "overheating",
-    },
-    {
-        "question": (
-            "What three materials are intake and exhaust manifold gaskets commonly made of?"
-        ), #005
-        "answer": (
-            "Graphite layered over steel or composite backing\n"
-            "Multi-layer steel (MLS)\n"
-            "Metal-clad composite"
-        ),
-    },
-    {
-        "question": (
-            "What are two common symptoms of intake manifold gasket failure?"
-        ), #006
-        "answer": (
-            "Lean condition\n"
-            "Vacuum leak"
-        ),
-    },
-    {
-        "question": (
-            "What are two common symptoms of exhaust manifold gasket failure?"
-        ), #007
-        "answer": (
-            "Ticking noise\n"
-            "Oxygen sensor errors"
-        ),
-    },
-    {
-        "question": (
-            "What three materials are oil pan gaskets commonly made of?"
-        ), #008
-        "answer": (
-            "Cork-rubber composite\n"
-            "Silicone room-temperature vulcanizing (RTV) sealant\n"
-            "Molded rubber with steel core"
-        ),
-    },
-    {
-        "question": (
-            "What two materials are valve cover gaskets commonly made of?"
-        ), #009
-        "answer": (
-            "Rubber or silicone\n"
-            "Corn or cork-rubber composite"
-        ),
-    },
-    {
-        "question": (
-            "What are three common symptoms of head gasket failure?"
-        ), #010
-        "answer": (
-            "Overheating\n"
-            "Coolant in oil\n"
-            "Misfire"
-        ),
-    },
-    {
-        "question": (
-            "What are two common symptoms of oil pan gasket failure?"
-        ), #011
-        "answer": (
-            "Oil leaks\n"
-            "Low oil level"
-        ),
-    },
-    {
-        "question": (
-            "What are two common symptoms of valve cover gasket failure?"
-        ), #012
-        "answer": (
-            "Oil on engine exterior\n"
-            "Spark plug fouling"
-        ),
-    },
-    {
-        "question": "What is another term for the front crankshaft seal?", #013
-        "answer": "Timing cover seal",
-    },
-    {
-        "question": "What is another term for the rear crankshaft seal?", #014
-        "answer": "Rear main seal",
-    },
-    {
-        "question": (
-            "What are four common symptoms of crankshaft seal failure?"
-        ), #015
-        "answer": (
-            "- Oil leaking from the front or rear of the engine\n"
-            "- Oil on the flywheel/flexplate or inside the bellhousing (rear)\n"
-            "- Oil sling on the crank pulley or belts (front)\n"
-            "- Low oil levels and oil on driveway or undercarriage"
-        ),
-    },
-    {
-        "question": (
-            "Camshaft seals are rare in overhead cam (OHC) engines. True or false?"
-        ), #016
-        "answer": (
-            "False.\n"
-            "These are common in overhead cam (OHC) engines and are usually located behind the timing gear or sprocket."
-        ),
-    },
-    {
-        "question": (
-            "What are three common symptoms of camshaft seal failure?"
-        ), #017
-        "answer": (
-            "- Oil leaks from the front of the engine\n"
-            "- Contamination of timing belt (can lead to belt degradation)\n"
-            "- Oil-burning smells or oil dripping near the front of the engine"
-        ),
-    },
-    {
-        "question": (
-            "What are two uses for room-temperature vulcanizing (RTV) silicone?"
-        ), #018
-        "answer": (
-            "- Gasket substitute (e.g., sealing timing covers, oil pans)\n"
-            "- Gasket supplement, applied at seams or corners (e.g., junction of timing cover and oil pan)"
-        ),
-    },
-    {
-        "question": (
-            "What are three types of room-temperature vulcanizing (RTV) silicone?"
-        ), #019
-        "answer": (
-            "Oil-resistant RTV\n"
-            "Sensor-safe RTV\n"
-            "High-temp RTV"
-        ),
-    },
-    {
-        "question": "How were rope seals traditionally used?", #020
-        "answer": "As rear main seals in older engines (especially pre-1980s domestic and industrial engines)",
-    },
-    {
-        "question": (
-            "What are two common symptoms of rope seal failure?"
-        ), #021
-        "answer": (
-            "- Persistent oil leak at rear main, often slow and steady\n"
-            "- Oil accumulation around the rear of the oil pan or bellhousing"
-        ),
-    },
-    {
-        "question": "How do you ensure even load distribution across sealing surfaces when torquing a cylinder head?", #022
-        "answer": "Move from the center outward in a spiral or cross pattern",
-    },
-    {
-        "question": "Standard bolts are torqued to a specific value within their elastic range, meaning they can return to their original shape if removed. True or false?", #023
-        "answer": "True",
-    },
-    {
-        "question": (
-            "Standard bolts are not typically reusable. True or false?"
-        ), #024
-        "answer": (
-            "False.\n"
-            "These bolts are typically reusable if they are not damaged or stretched beyond specification."
-        ),
-    },
-    {
-        "question": "Torque-to-yield (TTY) bolts are tightened beyond the yield point into the plastic deformation zone, where they permanently stretch to maintain clamping force. True or false?", #025
-        "answer": "True",
-    },
-    {
-        "question": (
-            "Torque-to-yield (TTY) bolts are not reusable. True or false?"
-        ), #026
-        "answer": (
-            "True.\n"
-            "Once stretched, they must be replaced."
-        ),
-    },
-    {
-        "question": (
-            "What are two common applications for standard bolts?"
-        ), #027
-        "answer": (
-            "Oil pans\n"
-            "Accessory brackets"
-        ),
-    },
-    {
-        "question": (
-            "What are two common applications for torque-to-yield (TTY) bolts?"
-        ), #028
-        "answer": (
-            "Cylinder heads\n"
-            "Main bearing caps"
-        ),
-    },
-    {
-        "question": (
-            "What are four common causes of stripped threads?"
-        ), #029
-        "answer": (
-            "- Over-tightening fasteners beyond torque spec\n"
-            "- Cross-threading during installation\n"
-            "- Corrosion and thread galling (especially in aluminum)\n"
-            "- Improper use of power tools or impact drivers"
-        ),
-    },
-    {
-        "question": (
-            "What are three symptoms of stripped threads?"
-        ), #030
-        "answer": (
-            "- Bolt spins without tightening\n"
-            "- Inability to torque to spec\n"
-            "- Coolant, oil, or compression leaks at the joint"
-        ),
-    },
-    {
-        "question": "What are helicoil inserts?", #031
-        "answer": "Helicoils (or similar thread inserts like Time-Sert) are coiled wire or solid inserts used to restore damaged threads",
-    },
-    {
-        "question": (
-            "What do you use to repair stripped threads?"
-        ), #032
-        "answer": (
-            "Helicoil\n"
-            "Solid inserts"
-        ),
-    },
-    {
-        "question": (
-            "What tool(s) is/are required to repair stripped threads?"
-        ), #033
-        "answer": (
-            "Drill\n"
-            "Tap\n"
-            "Insert tool"
-        ),
-    },
-    {
-        "question": (
-            "What do you use to repair a broken exposed stud?"
-        ), #034
-        "answer": (
-            "Double-nut\n"
-            "Stud extractor"
-        ),
-    },
-    {
-        "question": (
-            "What tool(s) is/are required to repair a broken exposed stud?"
-        ), #035
-        "answer": (
-            "Wrenches\n"
-            "Extractor tool"
-        ),
-    },
-    {
-        "question": "What do you use to repair a broken flush stud?", #036
-        "answer": "Drill + Easy-Out extractor",
-    },
-    {
-        "question": (
-            "What tool(s) is/are required to repair a broken flush stud?"
-        ), #037
-        "answer": (
-            "Drill bits\n"
-            "Extractor"
-        ),
-    },
-    {
-        "question": (
-            "What do you use to repair corroded thread holes?"
-        ), #038
-        "answer": (
-            "Clean the thread holes\n"
-            "Chase threads\n"
-            "Insert"
-        ),
-    },
-    {
-        "question": (
-            "What tool(s) is/are required to repair corroded thread holes?"
-        ), #039
-        "answer": (
-            "Thread chaser\n"
-            "Tap/Die"
-        ),
-    },
+    # {
+    #     "question": "The head gasket forms a critical seal between __________.", #001
+    #     "answer": "the engine block and cylinder head",
+    # },
+    # {
+    #     "question": (
+    #         "What three materials are head gaskets commonly made of?"
+    #     ), #002
+    #     "answer": (
+    #         "Multi-layer steel (MLS)\n"
+    #         "Composite materials\n"
+    #         "Copper"
+    #     ),
+    # },
+    # {
+    #     "question": "Which head gasket material is most common in modern engines?", #003
+    #     "answer": "Multi-layer steel (MLS)",
+    # },
+    # {
+    #     "question": "Blown head gaskets often result from __________.", #004
+    #     "answer": "overheating",
+    # },
+    # {
+    #     "question": (
+    #         "What three materials are intake and exhaust manifold gaskets commonly made of?"
+    #     ), #005
+    #     "answer": (
+    #         "Graphite layered over steel or composite backing\n"
+    #         "Multi-layer steel (MLS)\n"
+    #         "Metal-clad composite"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are two common symptoms of intake manifold gasket failure?"
+    #     ), #006
+    #     "answer": (
+    #         "Lean condition\n"
+    #         "Vacuum leak"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are two common symptoms of exhaust manifold gasket failure?"
+    #     ), #007
+    #     "answer": (
+    #         "Ticking noise\n"
+    #         "Oxygen sensor errors"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What three materials are oil pan gaskets commonly made of?"
+    #     ), #008
+    #     "answer": (
+    #         "Cork-rubber composite\n"
+    #         "Silicone room-temperature vulcanizing (RTV) sealant\n"
+    #         "Molded rubber with steel core"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What two materials are valve cover gaskets commonly made of?"
+    #     ), #009
+    #     "answer": (
+    #         "Rubber or silicone\n"
+    #         "Corn or cork-rubber composite"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are three common symptoms of head gasket failure?"
+    #     ), #010
+    #     "answer": (
+    #         "Overheating\n"
+    #         "Coolant in oil\n"
+    #         "Misfire"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are two common symptoms of oil pan gasket failure?"
+    #     ), #011
+    #     "answer": (
+    #         "Oil leaks\n"
+    #         "Low oil level"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are two common symptoms of valve cover gasket failure?"
+    #     ), #012
+    #     "answer": (
+    #         "Oil on engine exterior\n"
+    #         "Spark plug fouling"
+    #     ),
+    # },
+    # {
+    #     "question": "What is another term for the front crankshaft seal?", #013
+    #     "answer": "Timing cover seal",
+    # },
+    # {
+    #     "question": "What is another term for the rear crankshaft seal?", #014
+    #     "answer": "Rear main seal",
+    # },
+    # {
+    #     "question": (
+    #         "What are four common symptoms of crankshaft seal failure?"
+    #     ), #015
+    #     "answer": (
+    #         "- Oil leaking from the front or rear of the engine\n"
+    #         "- Oil on the flywheel/flexplate or inside the bellhousing (rear)\n"
+    #         "- Oil sling on the crank pulley or belts (front)\n"
+    #         "- Low oil levels and oil on driveway or undercarriage"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "Camshaft seals are rare in overhead cam (OHC) engines. True or false?"
+    #     ), #016
+    #     "answer": (
+    #         "False.\n"
+    #         "These are common in overhead cam (OHC) engines and are usually located behind the timing gear or sprocket."
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are three common symptoms of camshaft seal failure?"
+    #     ), #017
+    #     "answer": (
+    #         "- Oil leaks from the front of the engine\n"
+    #         "- Contamination of timing belt (can lead to belt degradation)\n"
+    #         "- Oil-burning smells or oil dripping near the front of the engine"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are two uses for room-temperature vulcanizing (RTV) silicone?"
+    #     ), #018
+    #     "answer": (
+    #         "- Gasket substitute (e.g., sealing timing covers, oil pans)\n"
+    #         "- Gasket supplement, applied at seams or corners (e.g., junction of timing cover and oil pan)"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are three types of room-temperature vulcanizing (RTV) silicone?"
+    #     ), #019
+    #     "answer": (
+    #         "Oil-resistant RTV\n"
+    #         "Sensor-safe RTV\n"
+    #         "High-temp RTV"
+    #     ),
+    # },
+    # {
+    #     "question": "How were rope seals traditionally used?", #020
+    #     "answer": "As rear main seals in older engines (especially pre-1980s domestic and industrial engines)",
+    # },
+    # {
+    #     "question": (
+    #         "What are two common symptoms of rope seal failure?"
+    #     ), #021
+    #     "answer": (
+    #         "- Persistent oil leak at rear main, often slow and steady\n"
+    #         "- Oil accumulation around the rear of the oil pan or bellhousing"
+    #     ),
+    # },
+    # {
+    #     "question": "How do you ensure even load distribution across sealing surfaces when torquing a cylinder head?", #022
+    #     "answer": "Move from the center outward in a spiral or cross pattern",
+    # },
+    # {
+    #     "question": "Standard bolts are torqued to a specific value within their elastic range, meaning they can return to their original shape if removed. True or false?", #023
+    #     "answer": "True",
+    # },
+    # {
+    #     "question": (
+    #         "Standard bolts are not typically reusable. True or false?"
+    #     ), #024
+    #     "answer": (
+    #         "False.\n"
+    #         "These bolts are typically reusable if they are not damaged or stretched beyond specification."
+    #     ),
+    # },
+    # {
+    #     "question": "Torque-to-yield (TTY) bolts are tightened beyond the yield point into the plastic deformation zone, where they permanently stretch to maintain clamping force. True or false?", #025
+    #     "answer": "True",
+    # },
+    # {
+    #     "question": (
+    #         "Torque-to-yield (TTY) bolts are not reusable. True or false?"
+    #     ), #026
+    #     "answer": (
+    #         "True.\n"
+    #         "Once stretched, they must be replaced."
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are two common applications for standard bolts?"
+    #     ), #027
+    #     "answer": (
+    #         "Oil pans\n"
+    #         "Accessory brackets"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are two common applications for torque-to-yield (TTY) bolts?"
+    #     ), #028
+    #     "answer": (
+    #         "Cylinder heads\n"
+    #         "Main bearing caps"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are four common causes of stripped threads?"
+    #     ), #029
+    #     "answer": (
+    #         "- Over-tightening fasteners beyond torque spec\n"
+    #         "- Cross-threading during installation\n"
+    #         "- Corrosion and thread galling (especially in aluminum)\n"
+    #         "- Improper use of power tools or impact drivers"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are three symptoms of stripped threads?"
+    #     ), #030
+    #     "answer": (
+    #         "- Bolt spins without tightening\n"
+    #         "- Inability to torque to spec\n"
+    #         "- Coolant, oil, or compression leaks at the joint"
+    #     ),
+    # },
+    # {
+    #     "question": "What are helicoil inserts?", #031
+    #     "answer": "Helicoils (or similar thread inserts like Time-Sert) are coiled wire or solid inserts used to restore damaged threads",
+    # },
+    # {
+    #     "question": (
+    #         "What do you use to repair stripped threads?"
+    #     ), #032
+    #     "answer": (
+    #         "Helicoil\n"
+    #         "Solid inserts"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What tool(s) is/are required to repair stripped threads?"
+    #     ), #033
+    #     "answer": (
+    #         "Drill\n"
+    #         "Tap\n"
+    #         "Insert tool"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What do you use to repair a broken exposed stud?"
+    #     ), #034
+    #     "answer": (
+    #         "Double-nut\n"
+    #         "Stud extractor"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What tool(s) is/are required to repair a broken exposed stud?"
+    #     ), #035
+    #     "answer": (
+    #         "Wrenches\n"
+    #         "Extractor tool"
+    #     ),
+    # },
+    # {
+    #     "question": "What do you use to repair a broken flush stud?", #036
+    #     "answer": "Drill + Easy-Out extractor",
+    # },
+    # {
+    #     "question": (
+    #         "What tool(s) is/are required to repair a broken flush stud?"
+    #     ), #037
+    #     "answer": (
+    #         "Drill bits\n"
+    #         "Extractor"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What do you use to repair corroded thread holes?"
+    #     ), #038
+    #     "answer": (
+    #         "Clean the thread holes\n"
+    #         "Chase threads\n"
+    #         "Insert"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What tool(s) is/are required to repair corroded thread holes?"
+    #     ), #039
+    #     "answer": (
+    #         "Thread chaser\n"
+    #         "Tap/Die"
+    #     ),
+    # },
     {
         "question": ( #01
             "What is the main function of a head gasket?\n\n"
