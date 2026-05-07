@@ -101,10 +101,10 @@ ASE_TOPICS = {
         "label": "01.06 Engine Repair: General Engine Reassembly",
         "questions": ch1_6_gen_engine_reassembly_questions,
     },
-    "ch2_1_hydraulic_automatic_transmission": {
-        "label": "02.01 Automatic Transmission/Transaxle: Hydraulic Systems in Automatic Transmissions",
-        "questions": ch2_1_hydraulic_automatic_transmission_questions,
-    },
+    # "ch2_1_hydraulic_automatic_transmission": {
+    #     "label": "02.01 Automatic Transmission/Transaxle: Hydraulic Systems in Automatic Transmissions",
+    #     "questions": ch2_1_hydraulic_automatic_transmission_questions,
+    # },
     "ch2_2_mech_systems_components": {
         "label": "02.02 Automatic Transmission/Transaxle: Mechanical Systems & Components",
         "questions": ch2_2_mech_systems_components_questions,
@@ -222,7 +222,7 @@ async def electude(interaction: discord.Interaction, topic: app_commands.Choice[
     app_commands.Choice(name="01.04 Engine Repair: Lubrication & Cooling Systems Diagnosis & Repair", value="ch1_4_lubrication_cooling_diagnosis"),
     app_commands.Choice(name="01.05 Engine Repair: Gaskets, Seals, & Fastener Service", value="ch1_5_gaskets_seals_fasteners"),
     app_commands.Choice(name="01.06 Engine Repair: General Engine Reassembly", value="ch1_6_gen_engine_reassembly"),
-    app_commands.Choice(name="02.01 Automatic Transmission/Transaxle: Hydraulic Systems in Automatic Transmissions", value="ch2_1_hydraulic_automatic_transmission"),
+    # app_commands.Choice(name="02.01 Automatic Transmission/Transaxle: Hydraulic Systems in Automatic Transmissions", value="ch2_1_hydraulic_automatic_transmission"),
     app_commands.Choice(name="02.02 Automatic Transmission/Transaxle: Mechanical Systems & Components", value="ch2_2_mech_systems_components"),
 ])
 async def ase(interaction: discord.Interaction, topic: app_commands.Choice[str]):
