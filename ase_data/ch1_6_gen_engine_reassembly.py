@@ -1,101 +1,101 @@
 #01.06 Engine Repair - General Engine Reassembly
 
 QUESTIONS = [
-    {
-        "question": (
-            "What can be used to clean the engine block?"
-        ), #001
-        "answer": (
-            "Hot-tanking cleaners\n"
-            "Pressure-washing cleaners\n"
-            "Solvent-based cleaners"
-        ),
-    },
-    {
-        "question": "How is compressed air used to clean an engine?", #002
-        "answer": "Blow out oil galleries and coolant passages with compressed air after washing. Ensure no water or debris remains.",
-    },
-    {
-        "question": "What tools are used to check valve-to-piston clearance?", #003
-        "answer": "Clay or feeler gauges",
-    },
-    {
-        "question": "In a 4-stroke engine, how often does the crankshaft turn?", #004
-        "answer": "Twice for every one camshaft revolution",
-    },
-    {
-        "question": (
-            "What are some common timing components?"
-        ), #005
-        "answer": (
-            "Crankshaft gear/sprocket\n"
-            "Camshaft gear(s)/sprocket(s)\n"
-            "Timing belt or chain\n"
-            "Tensioners and guides\n"
-            "Balance shaft sprockets (on some engines)"
-        ),
-    },
-    {
-        "question": (
-            "What is the basic procedure for aligning the timing system?"
-        ), #006
-        "answer": (
-            "1 - Rotate crankshaft to top dead center (TDC) on the compression stroke for cylinder #1\n"
-            "2 - Align crankshaft gear mark with its reference point (often a notch or dot)\n"
-            "3 - Align camshaft gear(s) to their respective marks (which might be on the backing plate, cylinder head, or valve cover mating surface)\n"
-            "4 - Install chain or belt without disturbing gear positions"
-        ),
-    },
-    {
-        "question": "Some dual overhead cam (DOHC) engines require a camshaft alignment tool to hold both cams in position during timing. True or false?", #007
-        "answer": "True",
-    },
-    {
-        "question": (
-            "You should NOT lubricate before an engine's first start-up. True or false?"
-        ), #008
-        "answer": (
-            "False.\n"
-            "Lubrication before an engine's first start-up is critical. Most engine damage during a rebuild occurs during the initial seconds of the first start-up due to dry metal-to-metal contact. Proper preparation ensures a smooth, safe break-in."
-        ),
-    },
-    {
-        "question": (
-            "Where is assembly lube applied?"
-        ), #009
-        "answer": (
-            "Camshaft lobes and journals\n"
-            "Main and rod bearings\n"
-            "Lifter bases and pushrods\n"
-            "Rocker arms and valve tips\n"
-            "Timing components (light coating)\n"
-            "Oil pump gears and shaft (if external)"
-        ),
-    },
-    {
-        "question": "What protects bearings before oil pressure builds up?", #010
-        "answer": "Assembly lube",
-    },
-    {
-        "question": "What tool is used to spin the oil pump before start-up?", #011
-        "answer": "Drill + priming tool",
-    },
-    {
-        "question": "What should be done immediately upon starting an assembled engine?", #012
-        "answer": "Set RPM to 1,500-2,000 and hold it steady for the first 20-30 minutes",
-    },
-    {
-        "question": "What is the reason for holding a high idle on first start-up?", #013
-        "answer": "Ensures camshaft and lifter lubrication",
-    },
-    {
-        "question": "What should be done if oil pressure is low on first start-up?", #014
-        "answer": "The engine should be shut off immediately",
-    },
-    {
-        "question": "A leakdown test is more accurate for pinpointing problems than compression test alone. True or false?", #013
-        "answer": "True",
-    },
+    # {
+    #     "question": (
+    #         "What can be used to clean the engine block?"
+    #     ), #001
+    #     "answer": (
+    #         "Hot-tanking cleaners\n"
+    #         "Pressure-washing cleaners\n"
+    #         "Solvent-based cleaners"
+    #     ),
+    # },
+    # {
+    #     "question": "How is compressed air used to clean an engine?", #002
+    #     "answer": "Blow out oil galleries and coolant passages with compressed air after washing. Ensure no water or debris remains.",
+    # },
+    # {
+    #     "question": "What tools are used to check valve-to-piston clearance?", #003
+    #     "answer": "Clay or feeler gauges",
+    # },
+    # {
+    #     "question": "In a 4-stroke engine, how often does the crankshaft turn?", #004
+    #     "answer": "Twice for every one camshaft revolution",
+    # },
+    # {
+    #     "question": (
+    #         "What are some common timing components?"
+    #     ), #005
+    #     "answer": (
+    #         "Crankshaft gear/sprocket\n"
+    #         "Camshaft gear(s)/sprocket(s)\n"
+    #         "Timing belt or chain\n"
+    #         "Tensioners and guides\n"
+    #         "Balance shaft sprockets (on some engines)"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What is the basic procedure for aligning the timing system?"
+    #     ), #006
+    #     "answer": (
+    #         "1 - Rotate crankshaft to top dead center (TDC) on the compression stroke for cylinder #1\n"
+    #         "2 - Align crankshaft gear mark with its reference point (often a notch or dot)\n"
+    #         "3 - Align camshaft gear(s) to their respective marks (which might be on the backing plate, cylinder head, or valve cover mating surface)\n"
+    #         "4 - Install chain or belt without disturbing gear positions"
+    #     ),
+    # },
+    # {
+    #     "question": "Some dual overhead cam (DOHC) engines require a camshaft alignment tool to hold both cams in position during timing. True or false?", #007
+    #     "answer": "True",
+    # },
+    # {
+    #     "question": (
+    #         "You should NOT lubricate before an engine's first start-up. True or false?"
+    #     ), #008
+    #     "answer": (
+    #         "False.\n"
+    #         "Lubrication before an engine's first start-up is critical. Most engine damage during a rebuild occurs during the initial seconds of the first start-up due to dry metal-to-metal contact. Proper preparation ensures a smooth, safe break-in."
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "Where is assembly lube applied?"
+    #     ), #009
+    #     "answer": (
+    #         "Camshaft lobes and journals\n"
+    #         "Main and rod bearings\n"
+    #         "Lifter bases and pushrods\n"
+    #         "Rocker arms and valve tips\n"
+    #         "Timing components (light coating)\n"
+    #         "Oil pump gears and shaft (if external)"
+    #     ),
+    # },
+    # {
+    #     "question": "What protects bearings before oil pressure builds up?", #010
+    #     "answer": "Assembly lube",
+    # },
+    # {
+    #     "question": "What tool is used to spin the oil pump before start-up?", #011
+    #     "answer": "Drill + priming tool",
+    # },
+    # {
+    #     "question": "What should be done immediately upon starting an assembled engine?", #012
+    #     "answer": "Set RPM to 1,500-2,000 and hold it steady for the first 20-30 minutes",
+    # },
+    # {
+    #     "question": "What is the reason for holding a high idle on first start-up?", #013
+    #     "answer": "Ensures camshaft and lifter lubrication",
+    # },
+    # {
+    #     "question": "What should be done if oil pressure is low on first start-up?", #014
+    #     "answer": "The engine should be shut off immediately",
+    # },
+    # {
+    #     "question": "A leakdown test is more accurate for pinpointing problems than compression test alone. True or false?", #013
+    #     "answer": "True",
+    # },
     {
         "question": ( #01
             "What is the main purpose of applying assembly lube during engine reassembly?\n\n"
