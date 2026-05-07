@@ -1,144 +1,144 @@
 #01.04 Engine Repair - Lubrication & Cooling Systems Diagnosis & Repair
 
 QUESTIONS = [
-    {
-        "question": (
-            "What are three key oil system components?"
-        ), #001
-        "answer": (
-            "Oil pumps\n"
-            "Pressure sensors\n"
-            "Oil filters"
-        ),
-    },
-    {
-        "question": "What are the two most common types of oil pumps?", #002
-        "answer": "Gear pumps and rotor (gerotor) pumps",
-    },
-    {
-        "question": "How do gear pumps work?", #003
-        "answer": "They use meshing gears to push oil through the system",
-    },
-    {
-        "question": "How do rotor pumps work?", #004
-        "answer": "They employ an inner and outer rotor to generate pressure",
-    },
-    {
-        "question": "What are some things that abnormally high oil pressure might indicate?", #005
-        "answer": "Blockages or malfunctioning pressure-relief valves",
-    },
-    {
-        "question": "What component removes contaminants and debris from the circulating oil to prevent wear and damage to engine parts?", #006
-        "answer": "Oil filter",
-    },
-    {
-        "question": "What are two types of oil filters?", #007
-        "answer": "Cartridge-type or spin-on",
-    },
-    {
-        "question": "What part of an oil filter maintains oil pressure during shutdown?", #008
-        "answer": "Anti-drainback valve",
-    },
-    {
-        "question": (
-            "What are some common causes of low oil pressure?"
-        ), #009
-        "answer": (
-            "Worn or damaged oil pump\n"
-            "Excessive bearing clearance\n"
-            "Oil leaks\n"
-            "Clogged oil filter or passages\n"
-            "Using incorrect oil viscosity\n"
-            "Faulty oil pressure sensor or gauge"
-        ),
-    },
-    {
-        "question": (
-            "What are the components of the engine's cooling system?"
-        ), #010
-        "answer": (
-            "Radiator\n"
-            "Thermostat\n"
-            "Water pump\n"
-            "Cooling fans"
-        ),
-    },
-    {
-        "question": "What part of the cooling system acts as the primary heat exchanger?", #011
-        "answer": "Radiator",
-    },
-    {
-        "question": "What are radiators usually made of?", #012
-        "answer": "Aluminum or copper alloys",
-    },
-    {
-        "question": "Thermostats control coolant flow based on __________.", #013
-        "answer": "Temperature",
-    },
-    {
-        "question": "At what temperature range does the thermostat usually open to allow coolant to flow to the radiator?", #014
-        "answer": "180-195°F (82-90°C)",
-    },
-    {
-        "question": "What typically drives the water pump?", #015
-        "answer": "The engine's accessory belt or timing belt",
-    },
-    {
-        "question": "Cooling fans can be mechanically driven by a belt or or electrically powered with thermostatic or ECU control. True or false?", #016
-        "answer": "True",
-    },
-    {
-        "question": (
-            "What are some things that can cause cooling fan failure?"
-        ), #017
-        "answer": (
-            "- Mechanical issues like broken fan blades, damaged belts, or seized fan clutches\n"
-            "- Electrical faults, such as failed electric fan motors, blown fuses, faulty relays, or damaged wiring\n"
-            "- Control system failures like malfunctioning temperature sensors or engine control modules (ECMs)"
-        ),
-    },
-    {
-        "question": "What happens if the thermostat is stuck closed?", #018
-        "answer": "This can prevent coolant from flowing to the radiator, causing rapid overheating. The engine warms quickly, but temperature rises sharply and stays high",
-    },
-    {
-        "question": "What happens if the thermostat is stuck open?", #019
-        "answer": "This causes the engine to run too cool, leading to poor efficiency, but generally not overheating.",
-    },
-    {
-        "question": (
-            "What are some symptoms of a thermostat that is stuck closed?"
-        ), #020
-        "answer": (
-            "Overheating after warm-up\n"
-            "Poor heater performance\n"
-            "Fluctuating temperature gauge readings"
-        ),
-    },
-    {
-        "question": (
-            "What are some symptoms of a clogged radiator?"
-        ), #021
-        "answer": (
-            "Overheating under load or prolonged idling\n"
-            "Visible debris on radiator fins\n"
-            "Fluctuating temperature gauge readings"
-        ),
-    },
-    {
-        "question": "What kind of test can identify leaks that may not be visible when the engine is off or cold?", #022
-        "answer": "Pressure testing",
-    },
-    {
-        "question": (
-            "Detecting combustion gases in the coolant is a key method for diagnosing what three things?"
-        ), #023
-        "answer": (
-            "Head gasket failure\n"
-            "Cracked cylinder heads\n"
-            "Block cracks"
-        ),
-    },
+    # {
+    #     "question": (
+    #         "What are three key oil system components?"
+    #     ), #001
+    #     "answer": (
+    #         "Oil pumps\n"
+    #         "Pressure sensors\n"
+    #         "Oil filters"
+    #     ),
+    # },
+    # {
+    #     "question": "What are the two most common types of oil pumps?", #002
+    #     "answer": "Gear pumps and rotor (gerotor) pumps",
+    # },
+    # {
+    #     "question": "How do gear pumps work?", #003
+    #     "answer": "They use meshing gears to push oil through the system",
+    # },
+    # {
+    #     "question": "How do rotor pumps work?", #004
+    #     "answer": "They employ an inner and outer rotor to generate pressure",
+    # },
+    # {
+    #     "question": "What are some things that abnormally high oil pressure might indicate?", #005
+    #     "answer": "Blockages or malfunctioning pressure-relief valves",
+    # },
+    # {
+    #     "question": "What component removes contaminants and debris from the circulating oil to prevent wear and damage to engine parts?", #006
+    #     "answer": "Oil filter",
+    # },
+    # {
+    #     "question": "What are two types of oil filters?", #007
+    #     "answer": "Cartridge-type or spin-on",
+    # },
+    # {
+    #     "question": "What part of an oil filter maintains oil pressure during shutdown?", #008
+    #     "answer": "Anti-drainback valve",
+    # },
+    # {
+    #     "question": (
+    #         "What are some common causes of low oil pressure?"
+    #     ), #009
+    #     "answer": (
+    #         "Worn or damaged oil pump\n"
+    #         "Excessive bearing clearance\n"
+    #         "Oil leaks\n"
+    #         "Clogged oil filter or passages\n"
+    #         "Using incorrect oil viscosity\n"
+    #         "Faulty oil pressure sensor or gauge"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are the components of the engine's cooling system?"
+    #     ), #010
+    #     "answer": (
+    #         "Radiator\n"
+    #         "Thermostat\n"
+    #         "Water pump\n"
+    #         "Cooling fans"
+    #     ),
+    # },
+    # {
+    #     "question": "What part of the cooling system acts as the primary heat exchanger?", #011
+    #     "answer": "Radiator",
+    # },
+    # {
+    #     "question": "What are radiators usually made of?", #012
+    #     "answer": "Aluminum or copper alloys",
+    # },
+    # {
+    #     "question": "Thermostats control coolant flow based on __________.", #013
+    #     "answer": "Temperature",
+    # },
+    # {
+    #     "question": "At what temperature range does the thermostat usually open to allow coolant to flow to the radiator?", #014
+    #     "answer": "180-195°F (82-90°C)",
+    # },
+    # {
+    #     "question": "What typically drives the water pump?", #015
+    #     "answer": "The engine's accessory belt or timing belt",
+    # },
+    # {
+    #     "question": "Cooling fans can be mechanically driven by a belt or or electrically powered with thermostatic or ECU control. True or false?", #016
+    #     "answer": "True",
+    # },
+    # {
+    #     "question": (
+    #         "What are some things that can cause cooling fan failure?"
+    #     ), #017
+    #     "answer": (
+    #         "- Mechanical issues like broken fan blades, damaged belts, or seized fan clutches\n"
+    #         "- Electrical faults, such as failed electric fan motors, blown fuses, faulty relays, or damaged wiring\n"
+    #         "- Control system failures like malfunctioning temperature sensors or engine control modules (ECMs)"
+    #     ),
+    # },
+    # {
+    #     "question": "What happens if the thermostat is stuck closed?", #018
+    #     "answer": "This can prevent coolant from flowing to the radiator, causing rapid overheating. The engine warms quickly, but temperature rises sharply and stays high",
+    # },
+    # {
+    #     "question": "What happens if the thermostat is stuck open?", #019
+    #     "answer": "This causes the engine to run too cool, leading to poor efficiency, but generally not overheating.",
+    # },
+    # {
+    #     "question": (
+    #         "What are some symptoms of a thermostat that is stuck closed?"
+    #     ), #020
+    #     "answer": (
+    #         "Overheating after warm-up\n"
+    #         "Poor heater performance\n"
+    #         "Fluctuating temperature gauge readings"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are some symptoms of a clogged radiator?"
+    #     ), #021
+    #     "answer": (
+    #         "Overheating under load or prolonged idling\n"
+    #         "Visible debris on radiator fins\n"
+    #         "Fluctuating temperature gauge readings"
+    #     ),
+    # },
+    # {
+    #     "question": "What kind of test can identify leaks that may not be visible when the engine is off or cold?", #022
+    #     "answer": "Pressure testing",
+    # },
+    # {
+    #     "question": (
+    #         "Detecting combustion gases in the coolant is a key method for diagnosing what three things?"
+    #     ), #023
+    #     "answer": (
+    #         "Head gasket failure\n"
+    #         "Cracked cylinder heads\n"
+    #         "Block cracks"
+    #     ),
+    # },
     {
         "question": ( #01
             "What is the primary function of an oil pump?\n\n"
