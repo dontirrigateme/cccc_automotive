@@ -497,6 +497,7 @@ QUESTIONS = [
             "Where is a three-way converter often used?\n\n"
             "A. Gasoline-powered passenger vehicles\n"
             "B. Diesel passenger vehicles"
+        ),
         "answer": (
             "A. Gasoline-powered passenger vehicles"
         ),
