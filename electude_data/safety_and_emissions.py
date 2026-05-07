@@ -382,7 +382,7 @@ QUESTIONS = [
             "How much oxygen does the exhaust gas contain after the combustion of a rich mixture?\n\n"
             "A. Sufficient oxygen to reduce NOx\n"
             "B. No oxygen\n"
-            "C. Sufficient oxygen to oxidize NOx
+            "C. Sufficient oxygen to oxidize NOx"
         ),
         "answer": (
             "B. No oxygen"
