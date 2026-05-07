@@ -27,7 +27,7 @@ QUESTIONS = [
         "image": "images/ignition_switch_positions.png",
     },
     {
-        "question": "With the switch in Position 2, which connestions are connected to Terminal 30?", #06
+        "question": "With the switch in Position 2, which connections are connected to Terminal 30?", #06
         "answer": "Acc and 15",
         "image": "images/ignition_switch_positions.png",
     },
