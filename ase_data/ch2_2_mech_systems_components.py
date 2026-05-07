@@ -1,165 +1,165 @@
 #02.02 Automatic Transmission/Transaxle - Mechanical Systems & Components
 
 QUESTIONS = [
-    {
-        "question": "What is another term for a planetary gear set?", #001
-        "answer": "Epicyclic gear set",
-    },
-    {
-        "question": (
-            "What are the three main components of a planetary gear set?"
-        ), #002
-        "answer": (
-            "Sun gear\n"
-            "Planet gears and carriers\n"
-            "Ring gear (annulus)"
-        ),
-    },
-    {
-        "question": "What is a sun gear?", #003
-        "answer": "The central gear around which the planet gears rotate",
-    },
-    {
-        "question": "What are planet gears and carriers?", #004
-        "answer": "Several smaller gears (planet gears) mounted on a carrier that orbits around the sun gear. The carrier holds the planet gears and allows them to rotate.",
-    },
-    {
-        "question": "What is a ring gear (annulus)?", #005
-        "answer": "A large outer gear that meshes with the planet gears from the outside",
-    },
-    {
-        "question": (
-            "What are the planetary gear ratios/settings?"
-        ), #006
-        "answer": (
-            "Direct drive (1:1 ratio)\n"
-            "Reduction gear (low gear)\n"
-            "Overdrive (high gear)\n"
-            "Reverse"
-        ),
-    },
-    {
-        "question": "With regard to planetary gears, what is direct drive (1:1 ratio)?", #007
-        "answer": "When the sun gear, planet carrier, and ring gear all rotate together, the output speed equals the input speed",
-    },
-    {
-        "question": "With regard to planetary gears, what is reduction gear (low gear)?", #008
-        "answer": "Holding the ring gear stationary allows the planet carrier to turn slower than the sun gear input, resulting in torque multiplication and lower output speed",
-    },
-    {
-        "question": "With regard to planetary gears, what is overdrive (high gear)?", #009
-        "answer": "Holding the sun gear stationary allows the planet carrier to turn faster than the ring gear input, providing higher output speed",
-    },
-    {
-        "question": "With regard to planetary gears, what is reverse?", #010
-        "answer": "The ring gear is held stationary, and the sun gear is driven in reverse, causing the planet carrier (output) to turn backwards",
-    },
-    {
-        "question": (
-            "What are the types of gear train arrangements?"
-        ), #011
-        "answer": (
-            "Single planetary gear set\n"
-            "Compound planetary gear sets\n"
-            "Ravigneaux gear set\n"
-            "Simpson gear set\n"
-            "Compound gear train with multiple sets"
-        ),
-    },
-    {
-        "question": "What is the function of the input shaft?", #012
-        "answer": "Transfers engine power into the transmission",
-    },
-    {
-        "question": "What is the function of the output shaft?", #013
-        "answer": "Delivers power from the transmission to the driveshaft or transaxle",
-    },
-    {
-        "question": "What is the role of the input shaft in the gear set?", #014
-        "answer": "Drives sun gear, carrier, or ring",
-    },
-    {
-        "question": "What is the role of the output shaft in the gear set?", #015
-        "answer": "Driven by carrier or ring gear",
-    },
-    {
-        "question": "What is the role of the sun gear in the gear set?", #016
-        "answer": "Drives or held to set ratio/direction",
-    },
-    {
-        "question": "What is the role of the ring gear in the gear set?", #017
-        "answer": "Held or driven to control output",
-    },
-    {
-        "question": "What is the role of the planet carrier in the gear set?", #018
-        "answer": "Transfers power to output shaft or held",
-    },
-    {
-        "question": (
-            "What are the two main types of clutches in an automatic transmission?"
-        ), #019
-        "answer": (
-            "Friction clutch (multi-plate clutch)\n"
-            "Sprag clutch"
-        ),
-    },
-    {
-        "question": "__________ engage to connect rotating components, while __________ hold specific parts stationary.", #020
-        "answer": "Clutches, bands",
-    },
-    {
-        "question": (
-            "Which components are responsible for applying and releasing the bands and clutches that control gear changes?"
-        ), #021
-        "answer": (
-            "Servos\n"
-            "Actuators"
-        ),
-    },
-    {
-        "question": "What are hydraulic servos?", #022
-        "answer": "They use pressurized transmission fluid to move a piston inside a cylinder",
-    },
-    {
-        "question": "What are mechanical actuators in an automatic transmission?", #023
-        "answer": "Found in older or simpler designs, they use direct mechanical linkage, such as rods or cables, to engage bands or clutches",
-    },
-    {
-        "question": "What are hydraulic actuators?", #024
-        "answer": "They are controlled by valves within the valve body, often coordinated by electronic controls, responding to pressure signals based on vehicle speed, throttle position, and other sensor inputs",
-    },
-    {
-        "question": (
-            "What are some symptoms of band problems in an automatic transmission?"
-        ), #025
-        "answer": (
-            "Slipping in certain gears\n"
-            "Burnt transmission fluid smell\n"
-            "Harsh or erratic shifts\n"
-            "Delayed or no engagement"
-        ),
-    },
-    {
-        "question": (
-            "What are some causes of band problems in an automatic transmission?"
-        ), #026
-        "answer": (
-            "Wear and stretching\n"
-            "Improper adjustment\n"
-            "Contamination\n"
-            "Hydraulic problems"
-        ),
-    },
-    {
-        "question": (
-            "What are some symptoms of servo problems in an automatic transmission?"
-        ), #027
-        "answer": (
-            "Incomplete band application\n"
-            "Delayed or harsh shifts\n"
-            "Noise during shifts"
-        ),
-    },
+    # {
+    #     "question": "What is another term for a planetary gear set?", #001
+    #     "answer": "Epicyclic gear set",
+    # },
+    # {
+    #     "question": (
+    #         "What are the three main components of a planetary gear set?"
+    #     ), #002
+    #     "answer": (
+    #         "Sun gear\n"
+    #         "Planet gears and carriers\n"
+    #         "Ring gear (annulus)"
+    #     ),
+    # },
+    # {
+    #     "question": "What is a sun gear?", #003
+    #     "answer": "The central gear around which the planet gears rotate",
+    # },
+    # {
+    #     "question": "What are planet gears and carriers?", #004
+    #     "answer": "Several smaller gears (planet gears) mounted on a carrier that orbits around the sun gear. The carrier holds the planet gears and allows them to rotate.",
+    # },
+    # {
+    #     "question": "What is a ring gear (annulus)?", #005
+    #     "answer": "A large outer gear that meshes with the planet gears from the outside",
+    # },
+    # {
+    #     "question": (
+    #         "What are the planetary gear ratios/settings?"
+    #     ), #006
+    #     "answer": (
+    #         "Direct drive (1:1 ratio)\n"
+    #         "Reduction gear (low gear)\n"
+    #         "Overdrive (high gear)\n"
+    #         "Reverse"
+    #     ),
+    # },
+    # {
+    #     "question": "With regard to planetary gears, what is direct drive (1:1 ratio)?", #007
+    #     "answer": "When the sun gear, planet carrier, and ring gear all rotate together, the output speed equals the input speed",
+    # },
+    # {
+    #     "question": "With regard to planetary gears, what is reduction gear (low gear)?", #008
+    #     "answer": "Holding the ring gear stationary allows the planet carrier to turn slower than the sun gear input, resulting in torque multiplication and lower output speed",
+    # },
+    # {
+    #     "question": "With regard to planetary gears, what is overdrive (high gear)?", #009
+    #     "answer": "Holding the sun gear stationary allows the planet carrier to turn faster than the ring gear input, providing higher output speed",
+    # },
+    # {
+    #     "question": "With regard to planetary gears, what is reverse?", #010
+    #     "answer": "The ring gear is held stationary, and the sun gear is driven in reverse, causing the planet carrier (output) to turn backwards",
+    # },
+    # {
+    #     "question": (
+    #         "What are the types of gear train arrangements?"
+    #     ), #011
+    #     "answer": (
+    #         "Single planetary gear set\n"
+    #         "Compound planetary gear sets\n"
+    #         "Ravigneaux gear set\n"
+    #         "Simpson gear set\n"
+    #         "Compound gear train with multiple sets"
+    #     ),
+    # },
+    # {
+    #     "question": "What is the function of the input shaft?", #012
+    #     "answer": "Transfers engine power into the transmission",
+    # },
+    # {
+    #     "question": "What is the function of the output shaft?", #013
+    #     "answer": "Delivers power from the transmission to the driveshaft or transaxle",
+    # },
+    # {
+    #     "question": "What is the role of the input shaft in the gear set?", #014
+    #     "answer": "Drives sun gear, carrier, or ring",
+    # },
+    # {
+    #     "question": "What is the role of the output shaft in the gear set?", #015
+    #     "answer": "Driven by carrier or ring gear",
+    # },
+    # {
+    #     "question": "What is the role of the sun gear in the gear set?", #016
+    #     "answer": "Drives or held to set ratio/direction",
+    # },
+    # {
+    #     "question": "What is the role of the ring gear in the gear set?", #017
+    #     "answer": "Held or driven to control output",
+    # },
+    # {
+    #     "question": "What is the role of the planet carrier in the gear set?", #018
+    #     "answer": "Transfers power to output shaft or held",
+    # },
+    # {
+    #     "question": (
+    #         "What are the two main types of clutches in an automatic transmission?"
+    #     ), #019
+    #     "answer": (
+    #         "Friction clutch (multi-plate clutch)\n"
+    #         "Sprag clutch"
+    #     ),
+    # },
+    # {
+    #     "question": "__________ engage to connect rotating components, while __________ hold specific parts stationary.", #020
+    #     "answer": "Clutches, bands",
+    # },
+    # {
+    #     "question": (
+    #         "Which components are responsible for applying and releasing the bands and clutches that control gear changes?"
+    #     ), #021
+    #     "answer": (
+    #         "Servos\n"
+    #         "Actuators"
+    #     ),
+    # },
+    # {
+    #     "question": "What are hydraulic servos?", #022
+    #     "answer": "They use pressurized transmission fluid to move a piston inside a cylinder",
+    # },
+    # {
+    #     "question": "What are mechanical actuators in an automatic transmission?", #023
+    #     "answer": "Found in older or simpler designs, they use direct mechanical linkage, such as rods or cables, to engage bands or clutches",
+    # },
+    # {
+    #     "question": "What are hydraulic actuators?", #024
+    #     "answer": "They are controlled by valves within the valve body, often coordinated by electronic controls, responding to pressure signals based on vehicle speed, throttle position, and other sensor inputs",
+    # },
+    # {
+    #     "question": (
+    #         "What are some symptoms of band problems in an automatic transmission?"
+    #     ), #025
+    #     "answer": (
+    #         "Slipping in certain gears\n"
+    #         "Burnt transmission fluid smell\n"
+    #         "Harsh or erratic shifts\n"
+    #         "Delayed or no engagement"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are some causes of band problems in an automatic transmission?"
+    #     ), #026
+    #     "answer": (
+    #         "Wear and stretching\n"
+    #         "Improper adjustment\n"
+    #         "Contamination\n"
+    #         "Hydraulic problems"
+    #     ),
+    # },
+    # {
+    #     "question": (
+    #         "What are some symptoms of servo problems in an automatic transmission?"
+    #     ), #027
+    #     "answer": (
+    #         "Incomplete band application\n"
+    #         "Delayed or harsh shifts\n"
+    #         "Noise during shifts"
+    #     ),
+    # },
     {
         "question": ( #01
             "What is the primary function of a planetary gear set in an automatic transmission?\n\n"
