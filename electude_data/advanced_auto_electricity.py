@@ -303,4 +303,76 @@ QUESTIONS = [
             "images/series_circuit18.png"
         ),
     },
+    {
+        "question": ( #028
+            "Look at the electrical diagram.\n"
+            "Calculate the total current."
+        ),
+        "answer": (
+            "2.3 A"
+        ),
+        "image": (
+            "images/parallel_circuit01.png"
+        ),
+    },
+    {
+        "question": ( #029
+            "Look at the electrical diagram.\n"
+            "Calculate the total current."
+        ),
+        "answer": (
+            "5.3 A"
+        ),
+        "image": (
+            "images/parallel_circuit02.png"
+        ),
+    },
+    {
+        "question": ( #030
+            "Look at the electrical diagram.\n"
+            "Calculate R2."
+        ),
+        "answer": (
+            "21.5 Ω"
+        ),
+        "image": (
+            "images/parallel_circuit03.png"
+        ),
+    },
+    {
+        "question": ( #031
+            "Look at the electrical diagram.\n"
+            "Calculate the source voltage."
+        ),
+        "answer": (
+            "0.75 V"
+        ),
+        "image": (
+            "images/parallel_circuit04.png"
+        ),
+    },
+    {
+        "question": ( #032
+            "Look at the electrical diagram.\n"
+            "Calculate the total resistance."
+        ),
+        "answer": (
+            "12.78 Ω"
+        ),
+        "image": (
+            "images/parallel_circuit05.png"
+        ),
+    },
+    {
+        "question": ( #033
+            "Look at the electrical diagram.\n"
+            "Calculate the source voltage."
+        ),
+        "answer": (
+            "2 V"
+        ),
+        "image": (
+            "images/parallel_circuit07.png"
+        ),
+    },
 ]
