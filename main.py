@@ -11,6 +11,7 @@ from electude_data.schematics import QUESTIONS as schematics_questions
 from electude_data.batteries import QUESTIONS as batteries_questions
 from electude_data.charging_system_theory import QUESTIONS as charging_system_theory_questions
 from electude_data.safety_and_emissions import QUESTIONS as safety_and_emissions_questions
+from electude_data.series_and_parallel_circuits import QUESTION as series_and_parallel_circuits_questions
 from ase_data.ch1_1_engine_diagnosis import QUESTIONS as ch1_1_engine_diagnosis_questions
 from ase_data.ch1_2_cylinder_head_valve_train import QUESTIONS as ch1_2_cylinder_head_valve_train_questions
 from ase_data.ch1_3_engine_block_diagnosis import QUESTIONS as ch1_3_engine_block_diagnosis_questions
@@ -74,6 +75,10 @@ ELECTUDE_TOPICS = {
         "label": "Safety & Emissions",
         "questions": safety_and_emissions_questions,
     },
+    "series_and_parallel_circuits": {
+        "label": "Series & Parallel Circuits",
+        "questions": series_and_parallel_circuits_questions,
+    }
 }
 
 ASE_TOPICS = {
@@ -177,6 +182,7 @@ class FlashcardView(discord.ui.View):
     app_commands.Choice(name="Batteries", value="batteries"),
     app_commands.Choice(name="Charging System Theory", value="charging_system_theory"),
     app_commands.Choice(name="Safety & Emissions", value="safety_and_emissions"),
+    app_commands.Choice(name="Series & Parallel Circuits", value="series_and_parallel_circuits"),
 ])
 async def electude(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
