@@ -84,6 +84,7 @@ ELECTUDE_TOPICS = {
     "label": "Advanced Auto Electricity",
     "questions": advanced_auto_electricity_questions,
     },
+}
 
 ASE_TOPICS = {
     "ch1_1_engine_diagnosis": {
