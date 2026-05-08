@@ -375,4 +375,136 @@ QUESTIONS = [
             "images/parallel_circuit07.png"
         ),
     },
+    {
+        "question": ( #034
+            "Look at the electrical diagram.\n"
+            "Calculate the total current."
+        ),
+        "answer": (
+            "6.1 A"
+        ),
+        "image": (
+            "images/parallel_circuit08.png"
+        ),
+    },
+    {
+        "question": ( #035
+            "Look at the electrical diagram.\n"
+            "Calculate the total current."
+        ),
+        "answer": (
+            "7.5 A"
+        ),
+        "image": (
+            "images/parallel_circuit09.png"
+        ),
+    },
+    {
+        "question": ( #036
+            "Look at the electrical diagram.\n"
+            "Calculate R2."
+        ),
+        "answer": (
+            "8.44 Ω"
+        ),
+        "image": (
+            "images/parallel_circuit10.png"
+        ),
+    },
+    {
+        "question": ( #037
+            "Look at the electrical diagram.\n"
+            "Calculate the source voltage."
+        ),
+        "answer": (
+            "5.49 V"
+        ),
+        "image": (
+            "images/parallel_circuit11.png"
+        ),
+    },
+    {
+        "question": ( #038
+            "Look at the electrical diagram.\n"
+            "Calculate the total resistance."
+        ),
+        "answer": (
+            "16.6 Ω"
+        ),
+        "image": (
+            "images/parallel_circuit12.png"
+        ),
+    },
+    {
+        "question": ( #039
+            "Look at the electrical diagram.\n"
+            "Calculate the total resistance."
+        ),
+        "answer": (
+            "4.19 Ω"
+        ),
+        "image": (
+            "images/parallel_circuit13.png"
+        ),
+    },
+    {
+        "question": ( #040
+            "Look at the electrical diagram.\n"
+            "Calculate the source voltage."
+        ),
+        "answer": (
+            "10 V"
+        ),
+        "image": (
+            "images/parallel_circuit14.png"
+        ),
+    },
+    {
+        "question": ( #041
+            "Look at the electrical diagram.\n"
+            "Calculate the current through R2."
+        ),
+        "answer": (
+            "5.5 A"
+        ),
+        "image": (
+            "images/parallel_circuit15.png"
+        ),
+    },
+    {
+        "question": ( #042
+            "Look at the electrical diagram.\n"
+            "Calculate resistance R2."
+        ),
+        "answer": (
+            "8 Ω"
+        ),
+        "image": (
+            "images/parallel_circuit16.png"
+        ),
+    },
+    {
+        "question": ( #043
+            "Look at the electrical diagram.\n"
+            "Calculate resistance R2."
+        ),
+        "answer": (
+            "9.02 Ω"
+        ),
+        "image": (
+            "images/parallel_circuit17.png"
+        ),
+    },
+    {
+        "question": ( #044
+            "Look at the electrical diagram.\n"
+            "Calculate the total resistance."
+        ),
+        "answer": (
+            "4.71 Ω"
+        ),
+        "image": (
+            "images/parallel_circuit18.png"
+        ),
+    },
 ]
