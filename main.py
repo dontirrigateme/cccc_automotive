@@ -188,7 +188,7 @@ class FlashcardView(discord.ui.View):
     app_commands.Choice(name="Charging System Theory", value="charging_system_theory"),
     app_commands.Choice(name="Safety & Emissions", value="safety_and_emissions"),
     app_commands.Choice(name="Series & Parallel Circuits", value="series_and_parallel_circuits"),
-    app.commands.Choice(name="Coils & Relays", value="coils_and_relays"),
+    app_commands.Choice(name="Coils & Relays", value="coils_and_relays"),
 ])
 async def electude(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
