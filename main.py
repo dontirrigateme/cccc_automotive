@@ -83,6 +83,7 @@ ELECTUDE_TOPICS = {
     "coils_and_relays": (
         "label": "Coils & Relays",
         "questions": coils_and_relays_questions,
+    ),
 }
 
 ASE_TOPICS = {
