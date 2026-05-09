@@ -125,7 +125,7 @@ QUESTIONS = [
             "B. Reflector module"
         ),
         "image": (
-            images/types_of_headlights.png"
+            "images/types_of_headlights.png"
         ),
     },
     {
@@ -138,7 +138,7 @@ QUESTIONS = [
             "B. Projection module"
         ),
         "image": (
-            images/types_of_headlights.png"
+            "images/types_of_headlights.png"
         ),
     },
     {
