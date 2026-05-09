@@ -210,7 +210,7 @@ QUESTIONS = [
     {
         "question": ( #016
             "Why would your multimeter measure a low resistance in a coil?\n\n"
-            "A. The coil does not function; therefore, the resistance must be very high.\n
+            "A. The coil does not function; therefore, the resistance must be very high.\n"
             "B. The resistance of copper is very low."
         ),
         "answer": (
