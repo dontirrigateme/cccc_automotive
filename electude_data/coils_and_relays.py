@@ -226,7 +226,7 @@ QUESTIONS = [
             "C."
         ),
         "image": (
-            images/relay_schematic.png"
+            "images/relay_schematic.png"
         ),
     },
     {
