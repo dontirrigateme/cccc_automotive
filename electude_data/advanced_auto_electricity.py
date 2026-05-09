@@ -183,4 +183,38 @@ QUESTIONS = [
             "C. To suppress interfering signals"
         ),
     },
+    {
+        "question": ( #015
+            "Which coil has the largest coefficient of self-induction? The smallest?"
+        ),
+        "answer": (
+            "A. Smallest\n"
+            "B. Middle\n"
+            "C. Largest"
+        ),
+        "image": (
+            "images/coefficient_of_self_induction.png"
+        ),
+    },
+    {
+        "question": ( #015
+            "Which part of the circuit board is the coils of the transformer?"
+        ),
+        "answer": (
+            "D."
+        ),
+        "image": (
+            "images/circuit_board01.png"
+        ),
+    },
+    {
+        "question": ( #016
+            "Why would your multimeter measure a low resistance in a coil?\n\n"
+            "A. The coil does not function; therefore, the resistance must be very high.\n
+            "B. The resistance of copper is very low."
+        ),
+        "answer": (
+            "B. The resistance of copper is very low."
+        ),
+    },
 ]
