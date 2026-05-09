@@ -80,10 +80,10 @@ ELECTUDE_TOPICS = {
         "label": "Series & Parallel Circuits",
         "questions": series_and_parallel_circuits_questions,
     },
-    "coils_and_relays": (
+    "coils_and_relays": {
         "label": "Coils & Relays",
         "questions": coils_and_relays_questions,
-    ),
+    },
 }
 
 ASE_TOPICS = {
