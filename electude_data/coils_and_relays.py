@@ -217,4 +217,72 @@ QUESTIONS = [
             "B. The resistance of copper is very low."
         ),
     },
+    {
+        "question": ( #017
+            "What are the connections of the relay in the schematic through which the control current will flow?\n\n"
+        ),
+        "answer": (
+            "A.\n"
+            "C."
+        ),
+        "image": (
+            images/relay_schematic.png"
+        ),
+    },
+    {
+        "question": ( #018
+            "What are the connections of the relay in the schematic through which the main current will flow?\n\n"
+        ),
+        "answer": (
+            "B.\n"
+            "D."
+        ),
+        "image": (
+            images/relay_schematic.png"
+        ),
+    },
+    {
+        "question": ( #019
+            "Which kind of relay closes the circuit when it's energized?\n\n"
+            "A. Break-contact relay\n"
+            "B. Make-contact relay\n"
+            "C. Changeover relay"
+        ),
+        "answer": (
+            "B. Make-contact relay"
+        ),
+    },
+    {
+        "question": ( #020
+            "Which kind of relay breaks the circuit when it's energized?\n\n"
+            "A. Break-contact relay\n"
+            "B. Make-contact relay\n"
+            "C. Changeover relay"
+        ),
+        "answer": (
+            "A. Break-contact relay"
+        ),
+    },
+    {
+        "question": ( #021
+            "Which kind of relay closes a circuit when it's energized and closes another circuit when it's not energized?\n\n"
+            "A. Break-contact relay\n"
+            "B. Make-contact relay\n"
+            "C. Changeover relay"
+        ),
+        "answer": (
+            "C. Changeover relay"
+        ),
+    },
+    {
+        "question": ( #022
+            "Which kind of relay closes the circuit when it's energized?\n\n"
+            "A. Break-contact relay\n"
+            "B. Make-contact relay\n"
+            "C. Changeover relay"
+        ),
+        "answer": (
+            "B. Make-contact relay"
+        ),
+    },
 ]
