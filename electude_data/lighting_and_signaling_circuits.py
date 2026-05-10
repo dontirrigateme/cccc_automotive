@@ -278,7 +278,7 @@ QUESTIONS = [
     },
     {
         "question": ( #042
-            "What are the differences between the two reflector headlamps\n\n?"
+            "What are the differences between the two reflector headlamps?\n\n"
             "A. The faceted headlamp has a larger reflector surface\n"
             "B. The faceted headlamp has clear headlamp glass\n"
             "C. The paraboloid headlamp has profiled headlamp glass\n"
@@ -338,7 +338,7 @@ QUESTIONS = [
     },
     {
         "question": ( #047
-            "What are the differences between the two projector headlamps\n\n?"
+            "What are the differences between the two projector headlamps?\n\n"
             "A. The superellipsoid headlamp is smaller\n"
             "B. The superellipsoid headlamp is has a larger reflector surface\n"
             "C. The superellipsoid headlamp has a higher light output\n"
@@ -349,6 +349,219 @@ QUESTIONS = [
             "B. The superellipsoid headlamp is has a larger reflector surface\n"
             "C. The superellipsoid headlamp has a higher light output\n"
             "D. The superellipsoid headlamp has clear headlamp glass"
+        ),
+    },
+    {
+        "question": ( #048
+            "What are the functions of the headlight cleaning system?\n\n"
+            "A. Cooling the headlight glass\n"
+            "B. Preventing light diffusion\n"
+            "C. Preventing incorrect beam pattern\n"
+            "D. All of the above"
+        ),
+        "answer": (
+            "B. Preventing light diffusion\n"
+            "C. Preventing incorrect beam pattern"
+        ),
+    },
+    {
+        "question": ( #049
+            "Identify which headlight cleaning system is the high-pressure system and which is the low-pressure system."
+        ),
+        "answer": (
+            "A. High-pressure system\n"
+            "B. Low-pressure system"
+        ),
+        "image": (
+            "images/headlight_cleaning_systems.png"
+        ),
+    },
+    {
+        "question": ( #050
+            "Which part of the high-pressure headlight cleaning system is the light switch?"
+        ),
+        "answer": (
+            "B. Light switch"
+        ),
+        "image": (
+            "images/high_pressure_system.png"
+        ),
+    },
+    {
+        "question": ( #051
+            "Which part of the high-pressure headlight cleaning system is the central valve?"
+        ),
+        "answer": (
+            "F. Central valve"
+        ),
+        "image": (
+            "images/high_pressure_system.png"
+        ),
+    },
+    {
+        "question": ( #052
+            "Which part of the high-pressure headlight cleaning system is the washers?"
+        ),
+        "answer": (
+            "E. Washers"
+        ),
+        "image": (
+            "images/high_pressure_system.png"
+        ),
+    },
+    {
+        "question": ( #053
+            "Which part of the high-pressure headlight cleaning system is the windshield washer switch?"
+        ),
+        "answer": (
+            "A. Windshield washer switch"
+        ),
+        "image": (
+            "images/high_pressure_system.png"
+        ),
+    },
+    {
+        "question": ( #054
+            "Which part of the high-pressure headlight cleaning system is the reservoir and pump?"
+        ),
+        "answer": (
+            "C. Reservoir and pump"
+        ),
+        "image": (
+            "images/high_pressure_system.png"
+        ),
+    },
+    {
+        "question": ( #055
+            "Which part of the high-pressure headlight cleaning system is the control unit?"
+        ),
+        "answer": (
+            "D. Control unit"
+        ),
+        "image": (
+            "images/high_pressure_system.png"
+        ),
+    },
+    {
+        "question": ( #056
+            "Identify the reverse light."
+        ),
+        "answer": (
+            "A. Reverse light"
+        ),
+        "image": (
+            "images/tail_lights.png"
+        ),
+    },
+    {
+        "question": ( #057
+            "Identify the rear fog light."
+        ),
+        "answer": (
+            "D. Rear fog light"
+        ),
+        "image": (
+            "images/tail_lights.png"
+        ),
+    },
+    {
+        "question": ( #058
+            "Identify the brake light/tail light."
+        ),
+        "answer": (
+            "C. Brake light/tail light"
+        ),
+        "image": (
+            "images/tail_lights.png"
+        ),
+    },
+    {
+        "question": ( #059
+            "Identify the turn signals."
+        ),
+        "answer": (
+            "B. Turn signals"
+        ),
+        "image": (
+            "images/tail_lights.png"
+        ),
+    },
+    {
+        "question": ( #060
+            "Which lamp types are used for taillights?\n\n"
+            "A. Halogen lamps\n"
+            "B. Bulbs\n"
+            "C. LED lamps\n"
+            "D. Gas discharge tubes\n"
+            "E. All of the above"
+        ),
+        "answer": (
+            "B. Bulbs\n"
+            "C. LED lamps"
+        ),
+    },
+    {
+        "question": ( #061
+            "Identify the taillight system with profiled glass."
+        ),
+        "answer": (
+            "A. Profiled glass"
+        ),
+        "image": (
+            "images/tail_light_systems.png"
+        ),
+    },
+    {
+        "question": ( #062
+            "Identify the taillight system with a prism."
+        ),
+        "answer": (
+            "C. Prism"
+        ),
+        "image": (
+            "images/tail_light_systems.png"
+        ),
+    },
+    {
+        "question": ( #063
+            "Identify the taillight system with a reflector."
+        ),
+        "answer": (
+            "B. Reflector"
+        ),
+        "image": (
+            "images/tail_light_systems.png"
+        ),
+    },
+    {
+        "question": ( #064
+            "What is the function of cornering lights?\n\n"
+            "A. To illuminate the road and obstacles clearly when turning into corners.\n"
+            "B. To make it clear to other road users that the car is turning a corner.\n"
+            "C. To better illuminate the roadside."
+        ),
+        "answer": (
+            "A. To illuminate the road and obstacles clearly when turning into corners."
+        ),
+    },
+    {
+        "question": ( #065
+            "What is the task of the static cornering light?\n\n"
+            "A. To illuminate the road to a larger extent when turning a gentle corner.\n"
+            "B. Illuminate the immediate area when turning a sharp corner."
+        ),
+        "answer": (
+            "B. Illuminate the immediate area when turning a sharp corner."
+        ),
+    },
+    {
+        "question": ( #066
+            "What is the task of the dynamic cornering light?\n\n"
+            "A. To illuminate the road to a larger extent when turning a gentle corner.\n"
+            "B. Illuminate the immediate area when turning a sharp corner."
+        ),
+        "answer": (
+            "A. To illuminate the road to a larger extent when turning a gentle corner."
         ),
     },
 ]
