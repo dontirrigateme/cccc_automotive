@@ -3,15 +3,15 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 import random
-from electude_data.capacitors import QUESTIONS as capacitor_questions
-from electude_data.resistors import QUESTIONS as resistor_questions
-from electude_data.fuses import QUESTIONS as fuse_questions
-from electude_data.lighting_and_signaling_circuits import QUESTIONS as lighting_and_signaling_circuits_questions
-from electude_data.schematics import QUESTIONS as schematics_questions
+# from electude_data.capacitors import QUESTIONS as capacitor_questions
+# from electude_data.resistors import QUESTIONS as resistor_questions
+# from electude_data.fuses import QUESTIONS as fuse_questions
+# from electude_data.lighting_and_signaling_circuits import QUESTIONS as lighting_and_signaling_circuits_questions
+# from electude_data.schematics import QUESTIONS as schematics_questions
 # from electude_data.batteries import QUESTIONS as batteries_questions
-from electude_data.charging_system_theory import QUESTIONS as charging_system_theory_questions
+# from electude_data.charging_system_theory import QUESTIONS as charging_system_theory_questions
 from electude_data.safety_and_emissions import QUESTIONS as safety_and_emissions_questions
-from electude_data.series_and_parallel_circuits import QUESTIONS as series_and_parallel_circuits_questions
+# from electude_data.series_and_parallel_circuits import QUESTIONS as series_and_parallel_circuits_questions
 from electude_data.coils_and_relays import QUESTIONS as coils_and_relays_questions
 from ase_data.ch1_1_engine_diagnosis import QUESTIONS as ch1_1_engine_diagnosis_questions
 from ase_data.ch1_2_cylinder_head_valve_train import QUESTIONS as ch1_2_cylinder_head_valve_train_questions
@@ -47,42 +47,42 @@ async def ping(interaction: discord.Interaction):
     await interaction.response.send_message("Pong!")
 
 ELECTUDE_TOPICS = {
-    "capacitors": {
-        "label": "Capacitors",
-        "questions": capacitor_questions,
-    },
-    "resistors": {
-        "label": "Resistors",
-        "questions": resistor_questions,
-    },
-    "fuses": {
-        "label": "Fuses",
-        "questions": fuse_questions,
-    },
-    "lighting_and_signaling_circuits": {
-        "label": "Lighting & Signaling Circuits",
-        "questions": lighting_and_signaling_circuits_questions,
-    },
-    "schematics": {
-        "label": "Schematics",
-        "questions": schematics_questions,
-    },
+    # "capacitors": {
+    #     "label": "Capacitors",
+    #     "questions": capacitor_questions,
+    # },
+    # "resistors": {
+    #     "label": "Resistors",
+    #     "questions": resistor_questions,
+    # },
+    # "fuses": {
+    #     "label": "Fuses",
+    #     "questions": fuse_questions,
+    # },
+    # "lighting_and_signaling_circuits": {
+    #     "label": "Lighting & Signaling Circuits",
+    #     "questions": lighting_and_signaling_circuits_questions,
+    # },
+    # "schematics": {
+    #     "label": "Schematics",
+    #     "questions": schematics_questions,
+    # },
     # "batteries": {
     #     "label": "Batteries",
     #     "questions": batteries_questions,
     # },
-    "charging_system_theory": {
-        "label": "Charging System Theory",
-        "questions": charging_system_theory_questions,
-    },
+    # "charging_system_theory": {
+    #     "label": "Charging System Theory",
+    #     "questions": charging_system_theory_questions,
+    # },
     "safety_and_emissions": {
         "label": "Safety & Emissions",
         "questions": safety_and_emissions_questions,
     },
-    "series_and_parallel_circuits": {
-        "label": "Series & Parallel Circuits",
-        "questions": series_and_parallel_circuits_questions,
-    },
+    # "series_and_parallel_circuits": {
+    #     "label": "Series & Parallel Circuits",
+    #     "questions": series_and_parallel_circuits_questions,
+    # },
     "coils_and_relays": {
         "label": "Coils & Relays",
         "questions": coils_and_relays_questions,
@@ -250,15 +250,15 @@ class NextQuestionButton(discord.ui.Button):
 @app_commands.describe(topic="Choose a topic")
 @app_commands.choices(topic=[
     app_commands.Choice(name="Any / Random", value="any"),
-    app_commands.Choice(name="Capacitors", value="capacitors"),
-    app_commands.Choice(name="Resistors", value="resistors"),
-    app_commands.Choice(name="Fuses", value="fuses"),
-    app_commands.Choice(name="Lighting & Signaling Circuits", value="lighting_and_signaling_circuits"),
-    app_commands.Choice(name="Schematics", value="schematics"),
+    # app_commands.Choice(name="Capacitors", value="capacitors"),
+    # app_commands.Choice(name="Resistors", value="resistors"),
+    # app_commands.Choice(name="Fuses", value="fuses"),
+    # app_commands.Choice(name="Lighting & Signaling Circuits", value="lighting_and_signaling_circuits"),
+    # app_commands.Choice(name="Schematics", value="schematics"),
     # app_commands.Choice(name="Batteries", value="batteries"),
-    app_commands.Choice(name="Charging System Theory", value="charging_system_theory"),
+    # app_commands.Choice(name="Charging System Theory", value="charging_system_theory"),
     app_commands.Choice(name="Safety & Emissions", value="safety_and_emissions"),
-    app_commands.Choice(name="Series & Parallel Circuits", value="series_and_parallel_circuits"),
+    # app_commands.Choice(name="Series & Parallel Circuits", value="series_and_parallel_circuits"),
     app_commands.Choice(name="Coils & Relays", value="coils_and_relays"),
 ])
 async def electude(interaction: discord.Interaction, topic: app_commands.Choice[str]):
