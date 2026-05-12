@@ -22,6 +22,7 @@ from ase_data.ch1_6_gen_engine_reassembly import QUESTIONS as ch1_6_gen_engine_r
 # from ase_data.ch2_1_hydraulic_automatic_transmission import QUESTIONS as ch2_1_hydraulic_automatic_transmission_questions
 from ase_data.ch2_2_mech_systems_components import QUESTIONS as ch2_2_mech_systems_components_questions
 from study_guide_data.adv_auto_elec_sg import QUESTIONS as adv_auto_elec_sg_questions
+from study_guide_data.adv_transp_elec_sg import QUESTIONS as adv_transp_elec_sg_questions
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
@@ -125,6 +126,10 @@ STUDY_GUIDE_TOPICS = {
     "adv_auto_elec_sg": {
         "label": "Advanced Automotive Electricity Study Guide",
         "questions": adv_auto_elec_sg_questions,
+    },
+    "adv_transp_elec_sg": {
+        "label": "Advanced Transportation Electronics Study Guide",
+        "questions": adv_transp_elec_sg_questions,
     },
 }
 
@@ -343,6 +348,10 @@ async def ase(interaction: discord.Interaction, topic: app_commands.Choice[str])
     app_commands.Choice(
         name="Advanced Automotive Electricity Study Guide",
         value="adv_auto_elec_sg"
+    ),
+    app_commands.Choice(
+        name="Advanced Transportation Electronics Study Guide",
+        value="adv_transp_elec_sg"
     ),
 ])
 async def studyguide(interaction: discord.Interaction, topic: app_commands.Choice[str]):
