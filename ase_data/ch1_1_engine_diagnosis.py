@@ -192,8 +192,7 @@ QUESTIONS = [
             "D. Camshaft lobe wear"
         ), #046
         "answer": (
-            "B. Worn piston rings\n\n"
-            "Explanation: The significant increase in compression after oil is added suggests the rings were not sealing well."
+            "B. Worn piston rings"
         ),
         "image": "images/cylinder_psi.png",
     },
@@ -207,8 +206,7 @@ QUESTIONS = [
             "D. Leaking intake gasket on one cylinder"
         ), #047
         "answer": (
-            "C. Incorrect camshaft timing\n\n"
-            "Explanation: Even compression that is low across all cylinders often points to cam timing problems."
+            "C. Incorrect camshaft timing"
         ),
     },
     # {
@@ -301,8 +299,7 @@ QUESTIONS = [
             "D. Blown head gasket"
         ), #068
         "answer": (
-            "C. Leaking exhaust valve\n\n"
-            "Explanation: Air escaping through the tailpipe during a leakdown test indicates an exhaust valve sealing issue"
+            "C. Leaking exhaust valve"
         ),
     },
     {
@@ -315,8 +312,7 @@ QUESTIONS = [
             "D. Blown head gasket"
         ), #069
         "answer": (
-            "D. Blown head gasket\n\n"
-            "Explanation: Air entering the cooling system is a strong indicator of cobustion gases leaking past the head gasket into coolant passages."
+            "D. Blown head gasket"
         ),
     },
     # {
@@ -413,8 +409,7 @@ QUESTIONS = [
             "D. Exhaust restriction"
         ), #091
         "answer": (
-            "B. Late valve timing\n\n"
-            "Explanation: A steady but low vacuum reading (10-15 inHg) typically points to retarded valve or ignition timing."
+            "B. Late valve timing"
         ),
     },
     {
@@ -427,8 +422,7 @@ QUESTIONS = [
             "D. Lean air-fuel mixture"
         ), #092
         "answer": (
-            "A. Sticking intake valve\n\n"
-            "Explanation: A bouncing or flickering needle usually indicates valve-sealing problems, like sticking or burned valves."
+            "A. Sticking intake valve"
         ),
     },
     # {
@@ -501,8 +495,7 @@ QUESTIONS = [
             "D. Oxygen sensor failure"
         ), #108
         "answer": (
-            "C. Burned exhaust valve\n\n"
-            "Explanation: Persistent cylinder-specific misfire + lean condition usually means compression loss, often from a valve issue."
+            "C. Burned exhaust valve"
         ),
     },
     {
