@@ -13,31 +13,31 @@ QUESTIONS = [
     #         "Non-combusted hydrocarbons (HC)"
     #     ),
     # },
-    {
-        "question": ( #002
-            "What substances are brought together in a combustion engine?\n\n"
-            "A. Air\n"
-            "B. Water\n"
-            "C. Fuel"
-        ),
-        "answer": (
-            "A. Air\n"
-            "C. Fuel"
-        ),
-    },
-    {
-        "question": ( #003
-            "What does air contain?\n\n"
-            "A. Nitrogen (N2)\n"
-            "B. Ammonia (NH3)\n"
-            "C. Oxygen (O2)\n"
-            "D. Carbon (C)"
-        ),
-        "answer": (
-            "A. Nitrogen (N2)\n"
-            "C. Oxygen (O2)"
-        ),
-    },
+    # {
+    #     "question": ( #002
+    #         "What substances are brought together in a combustion engine?\n\n"
+    #         "A. Air\n"
+    #         "B. Water\n"
+    #         "C. Fuel"
+    #     ),
+    #     "answer": (
+    #         "A. Air\n"
+    #         "C. Fuel"
+    #     ),
+    # },
+    # {
+    #     "question": ( #003
+    #         "What does air contain?\n\n"
+    #         "A. Nitrogen (N2)\n"
+    #         "B. Ammonia (NH3)\n"
+    #         "C. Oxygen (O2)\n"
+    #         "D. Carbon (C)"
+    #     ),
+    #     "answer": (
+    #         "A. Nitrogen (N2)\n"
+    #         "C. Oxygen (O2)"
+    #     ),
+    # },
     {
         "question": ( #004
             "What is the chemical name for fuel?\n\n"
@@ -50,19 +50,19 @@ QUESTIONS = [
             "D. Hydrocarbon"
         ),
     },
-    {
-        "question": ( #005
-            "If combustion is ideal, what substances are produced in the engine?\n\n"
-            "A. Ammonia (NH3)\n"
-            "B. Nitrogen oxides (NOx)\n"
-            "C. Water (H2O)\n"
-            "D. Carbon dioxide (CO2)"
-        ),
-        "answer": (
-            "C. Water (H2O)\n"
-            "D. Carbon dioxide (CO2)"
-        ),
-    },
+    # {
+    #     "question": ( #005
+    #         "If combustion is ideal, what substances are produced in the engine?\n\n"
+    #         "A. Ammonia (NH3)\n"
+    #         "B. Nitrogen oxides (NOx)\n"
+    #         "C. Water (H2O)\n"
+    #         "D. Carbon dioxide (CO2)"
+    #     ),
+    #     "answer": (
+    #         "C. Water (H2O)\n"
+    #         "D. Carbon dioxide (CO2)"
+    #     ),
+    # },
     {
         "question": ( #006
             "Which of these chemical reactions represents ideal combustion in the engine?\n\n"
@@ -225,38 +225,38 @@ QUESTIONS = [
             "C. The voltage delivered by the sensor is so small that this would be unusable due to external influences."
         ),
     },
-    {
-        "question": ( #020
-            "An ideal mix of oxygen and fuel enters the system.\n"
-            "What substances enter the engine?\n\n"
-            "A. O2 (oxygen)\n"
-            "B. HC (hydrocarbons)\n"
-            "C. NOx (nitrogen oxide)"
-        ),
-        "answer": (
-            "A. O2 (oxygen)\n"
-            "B. HC (hydrocarbons)"
-        ),
-        "image": (
-            "images/gases_entering_the_engine.png"
-        ),
-    },
-    {
-        "question": ( #021
-            "What gases can be found in the exhaust gas following combustion under ideal conditions?\n\n"
-            "A. CO (carbon monoxide)\n"
-            "B. H2O (water)\n"
-            "C. CO2 (carbon dioxide)\n"
-            "D. NOx (nitrogen oxide)"
-        ),
-        "answer": (
-            "B. H2O (water)\n"
-            "C. CO2 (carbon dioxide)"
-        ),
-        "image": (
-            "images/exhaust_gases.png"
-        ),
-    },
+    # {
+    #     "question": ( #020
+    #         "An ideal mix of oxygen and fuel enters the system.\n"
+    #         "What substances enter the engine?\n\n"
+    #         "A. O2 (oxygen)\n"
+    #         "B. HC (hydrocarbons)\n"
+    #         "C. NOx (nitrogen oxide)"
+    #     ),
+    #     "answer": (
+    #         "A. O2 (oxygen)\n"
+    #         "B. HC (hydrocarbons)"
+    #     ),
+    #     "image": (
+    #         "images/gases_entering_the_engine.png"
+    #     ),
+    # },
+    # {
+    #     "question": ( #021
+    #         "What gases can be found in the exhaust gas following combustion under ideal conditions?\n\n"
+    #         "A. CO (carbon monoxide)\n"
+    #         "B. H2O (water)\n"
+    #         "C. CO2 (carbon dioxide)\n"
+    #         "D. NOx (nitrogen oxide)"
+    #     ),
+    #     "answer": (
+    #         "B. H2O (water)\n"
+    #         "C. CO2 (carbon dioxide)"
+    #     ),
+    #     "image": (
+    #         "images/exhaust_gases.png"
+    #     ),
+    # },
     {
         "question": ( #022
             "What does the catalytic converter do?\n\n"
@@ -304,35 +304,35 @@ QUESTIONS = [
             "images/monolith.png"
         ),
     },
-    {
-        "question": ( #026
-            "What can you say about the ceramic monolith and the aluminum oxide substrate layer?\n\n"
-            "A. A thin coating of precious metals is applied to the substrate layer.\n"
-            "B. The substrate layer keeps the ceramic monolith together.\n"
-            "C. The monolith and substrate layer are the actual catalyst.\n"
-            "D. The honeycomb design increases the surface area that comes in contact with the exhaust gases"
-        ),
-        "answer": (
-            "A. A thin coating of precious metals is applied to the substrate layer.\n"
-            "D. The honeycomb design increases the surface area that comes in contact with the exhaust gases."
-        ),
-        "image": (
-            "images/monolith_aluminum_oxide_substrate.png"
-        ),
-    },
-    {
-        "question": ( #027
-            "What precious metal(s) is/are used in an oxidizing catalytic converter?\n\n"
-            "A. Barium oxide\n"
-            "B. Palladium\n"
-            "C. Rhodium\n"
-            "D. Platinum"
-        ),
-        "answer": (
-            "B. Palladium\n"
-            "D. Platinum"
-        ),
-    },
+    # {
+    #     "question": ( #026
+    #         "What can you say about the ceramic monolith and the aluminum oxide substrate layer?\n\n"
+    #         "A. A thin coating of precious metals is applied to the substrate layer.\n"
+    #         "B. The substrate layer keeps the ceramic monolith together.\n"
+    #         "C. The monolith and substrate layer are the actual catalyst.\n"
+    #         "D. The honeycomb design increases the surface area that comes in contact with the exhaust gases"
+    #     ),
+    #     "answer": (
+    #         "A. A thin coating of precious metals is applied to the substrate layer.\n"
+    #         "D. The honeycomb design increases the surface area that comes in contact with the exhaust gases."
+    #     ),
+    #     "image": (
+    #         "images/monolith_aluminum_oxide_substrate.png"
+    #     ),
+    # },
+    # {
+    #     "question": ( #027
+    #         "What precious metal(s) is/are used in an oxidizing catalytic converter?\n\n"
+    #         "A. Barium oxide\n"
+    #         "B. Palladium\n"
+    #         "C. Rhodium\n"
+    #         "D. Platinum"
+    #     ),
+    #     "answer": (
+    #         "B. Palladium\n"
+    #         "D. Platinum"
+    #     ),
+    # },
     {
         "question": ( #028
             "What does an oxidizing catalytic converter need in order to oxidize CO and HC?\n\n"
@@ -413,39 +413,39 @@ QUESTIONS = [
             "images/exhaust_graph_before_after_converter.png"
         ),
     },
-    {
-        "question": ( #035
-            "The graphs show the concentration of harmful exhaust gases, according to the mix ratio.\n"
-            "Which substance(s) is/are converted effectively by the catalytic converter when the mixture is lean?\n\n"
-            "A. HC\n"
-            "B. NOx\n"
-            "C. CO"
-        ),
-        "answer": (
-            "A. HC\n"
-            "C. CO"
-        ),
-        "image": (
-            "images/exhaust_graph_before_after_converter.png"
-        ),
-    },
-    {
-        "question": ( #036
-            "The graphs show the concentration of harmful exhaust gases, according to the mix ratio.\n"
-            "Which substance(s) is/are converted effectively by the catalytic converter when the mixture is stoichiometric?\n\n"
-            "A. HC\n"
-            "B. NOx\n"
-            "C. CO"
-        ),
-        "answer": (
-            "A. HC\n"
-            "B. NOx\n"
-            "C. CO"
-        ),
-        "image": (
-            "images/exhaust_graph_before_after_converter.png"
-        ),
-    },
+    # {
+    #     "question": ( #035
+    #         "The graphs show the concentration of harmful exhaust gases, according to the mix ratio.\n"
+    #         "Which substance(s) is/are converted effectively by the catalytic converter when the mixture is lean?\n\n"
+    #         "A. HC\n"
+    #         "B. NOx\n"
+    #         "C. CO"
+    #     ),
+    #     "answer": (
+    #         "A. HC\n"
+    #         "C. CO"
+    #     ),
+    #     "image": (
+    #         "images/exhaust_graph_before_after_converter.png"
+    #     ),
+    # },
+    # {
+    #     "question": ( #036
+    #         "The graphs show the concentration of harmful exhaust gases, according to the mix ratio.\n"
+    #         "Which substance(s) is/are converted effectively by the catalytic converter when the mixture is stoichiometric?\n\n"
+    #         "A. HC\n"
+    #         "B. NOx\n"
+    #         "C. CO"
+    #     ),
+    #     "answer": (
+    #         "A. HC\n"
+    #         "B. NOx\n"
+    #         "C. CO"
+    #     ),
+    #     "image": (
+    #         "images/exhaust_graph_before_after_converter.png"
+    #     ),
+    # },
     {
         "question": ( #037
             "The graph shows the conversion rate of a catalytic converter at a number of different mix ratios.\n"
@@ -474,24 +474,24 @@ QUESTIONS = [
             "E. All of the above"
         ),
     },
-    {
-        "question": ( #039
-            "The diagram shows the three-way converter and the substrate from close-up.\n"
-            "With which precious metal(s) is/are the substrate coated?\n\n"
-            "A. Cerium oxide\n"
-            "B. Rhodium\n"
-            "C. Barium oxide\n"
-            "D. Platinum"
-        ),
-        "answer": (
-            "A. Cerium oxide\n"
-            "B. Rhodium\n"
-            "D. Platinum"
-        ),
-        "image": (
-            "images/three_way_converter_precious_metals.png"
-        ),
-    },
+    # {
+    #     "question": ( #039
+    #         "The diagram shows the three-way converter and the substrate from close-up.\n"
+    #         "With which precious metal(s) is/are the substrate coated?\n\n"
+    #         "A. Cerium oxide\n"
+    #         "B. Rhodium\n"
+    #         "C. Barium oxide\n"
+    #         "D. Platinum"
+    #     ),
+    #     "answer": (
+    #         "A. Cerium oxide\n"
+    #         "B. Rhodium\n"
+    #         "D. Platinum"
+    #     ),
+    #     "image": (
+    #         "images/three_way_converter_precious_metals.png"
+    #     ),
+    # },
     {
         "question": ( #040
             "Where is a three-way converter often used?\n\n"
@@ -513,35 +513,35 @@ QUESTIONS = [
             "A. The three-way converter converts 3 harmful substances into less harmful substances."
         ),
     },
-    {
-        "question": ( #042
-            "In a three-way catalytic converter, which harmful substance(s) is/are converted when the mixture is rich?\n\n"
-            "A. H2O\n"
-            "B. NOx\n"
-            "C. HC\n"
-            "D. O2\n"
-            "E. CO"
-        ),
-        "answer": (
-            "B. NOx\n"
-            "E. CO"
-        ),
-    },
-    {
-        "question": ( #043
-            "In a three-way catalytic converter, which harmful substance(s) is/are converted when the mixture is ideal?\n\n"
-            "A. H2O\n"
-            "B. NOx\n"
-            "C. CO\n"
-            "D. O2\n"
-            "E. HC"
-        ),
-        "answer": (
-            "B. NOx\n"
-            "C. CO\n"
-            "E. HC"
-        ),
-    },
+    # {
+    #     "question": ( #042
+    #         "In a three-way catalytic converter, which harmful substance(s) is/are converted when the mixture is rich?\n\n"
+    #         "A. H2O\n"
+    #         "B. NOx\n"
+    #         "C. HC\n"
+    #         "D. O2\n"
+    #         "E. CO"
+    #     ),
+    #     "answer": (
+    #         "B. NOx\n"
+    #         "E. CO"
+    #     ),
+    # },
+    # {
+    #     "question": ( #043
+    #         "In a three-way catalytic converter, which harmful substance(s) is/are converted when the mixture is ideal?\n\n"
+    #         "A. H2O\n"
+    #         "B. NOx\n"
+    #         "C. CO\n"
+    #         "D. O2\n"
+    #         "E. HC"
+    #     ),
+    #     "answer": (
+    #         "B. NOx\n"
+    #         "C. CO\n"
+    #         "E. HC"
+    #     ),
+    # },
     {
         "question": ( #044
             "What is the condition for the proper operation of a three-way converter?\n\n"
@@ -586,19 +586,19 @@ QUESTIONS = [
             "B. To reduce the toxicity of the exhaust emissions."
         ),
     },
-    {
-        "question": ( #048
-            "What gases does the term nitrogen oxides (NOx) refer to?\n\n"
-            "A. NO2\n"
-            "B. NO\n"
-            "C. N2\n"
-            "D. H2O"
-        ),
-        "answer": (
-            "A. NO2\n"
-            "B. NO"
-        ),
-    },
+    # {
+    #     "question": ( #048
+    #         "What gases does the term nitrogen oxides (NOx) refer to?\n\n"
+    #         "A. NO2\n"
+    #         "B. NO\n"
+    #         "C. N2\n"
+    #         "D. H2O"
+    #     ),
+    #     "answer": (
+    #         "A. NO2\n"
+    #         "B. NO"
+    #     ),
+    # },
     {
         "question": ( #049
             "What type of catalytic converter is the NOx catalytic converter?\n\n"
@@ -621,18 +621,18 @@ QUESTIONS = [
             "B. The stored nitrogen oxides are converted into less toxic substances."
         ),
     },
-    {
-        "question": ( #051
-            "With what types of engine(s) may you find the NOx catalytic converter?\n\n"
-            "A. Diesel engines\n"
-            "B. Indirect injection gasoline engines\n"
-            "C. Direct injection gasoline engines"
-        ),
-        "answer": (
-            "A. Diesel engines\n"
-            "C. Direct injection gasoline engines"
-        ),
-    },
+    # {
+    #     "question": ( #051
+    #         "With what types of engine(s) may you find the NOx catalytic converter?\n\n"
+    #         "A. Diesel engines\n"
+    #         "B. Indirect injection gasoline engines\n"
+    #         "C. Direct injection gasoline engines"
+    #     ),
+    #     "answer": (
+    #         "A. Diesel engines\n"
+    #         "C. Direct injection gasoline engines"
+    #     ),
+    # },
     {
         "question": ( #052
             "Why is the NOx catalytic converter used on diesel engines and direct injection gasoline engines?\n\n"
@@ -645,35 +645,35 @@ QUESTIONS = [
             "A. Because there is a shortage of HC and CO in the exhaust."
         ),
     },
-    {
-        "question": ( #053
-            "Which precious metal(s) make up a NOx catalytic converter?\n\n"
-            "A. Rhodium\n"
-            "B. Gold\n"
-            "C. Platinum\n"
-            "D. Barium oxide\n"
-            "E. Cerium oxide"
-        ),
-        "answer": (
-            "A. Rhodium\n"
-            "C. Platinum\n"
-            "D. Barium oxide\n"
-            "E. Cerium oxide"
-        ),
-    },
-    {
-        "question": ( #054
-            "Under which condition(s) does the NOx catalytic converter store nitrogen oxides?\n\n"
-            "A. When the engine is running with an excess of air.\n"
-            "B. When fuel is injected into the NOx catalytic converter.\n"
-            "C. When the temperature of the exhaust gas is 300-400°C.\n"
-            "D. When fresh air is pumped into the NOx catalytic converter."
-        ),
-        "answer": (
-            "A. When the engine is running with an excess of air.\n"
-            "C. When the temperature of the exhaust gas is 300-400°C."
-        ),
-    },
+    # {
+    #     "question": ( #053
+    #         "Which precious metal(s) make up a NOx catalytic converter?\n\n"
+    #         "A. Rhodium\n"
+    #         "B. Gold\n"
+    #         "C. Platinum\n"
+    #         "D. Barium oxide\n"
+    #         "E. Cerium oxide"
+    #     ),
+    #     "answer": (
+    #         "A. Rhodium\n"
+    #         "C. Platinum\n"
+    #         "D. Barium oxide\n"
+    #         "E. Cerium oxide"
+    #     ),
+    # },
+    # {
+    #     "question": ( #054
+    #         "Under which condition(s) does the NOx catalytic converter store nitrogen oxides?\n\n"
+    #         "A. When the engine is running with an excess of air.\n"
+    #         "B. When fuel is injected into the NOx catalytic converter.\n"
+    #         "C. When the temperature of the exhaust gas is 300-400°C.\n"
+    #         "D. When fresh air is pumped into the NOx catalytic converter."
+    #     ),
+    #     "answer": (
+    #         "A. When the engine is running with an excess of air.\n"
+    #         "C. When the temperature of the exhaust gas is 300-400°C."
+    #     ),
+    # },
     {
         "question": ( #055
             "What is the function of the temperature sensor for the NOx catalytic converter?\n\n"
@@ -686,21 +686,21 @@ QUESTIONS = [
             "A. To measure the temperature of the exhaust gases."
         ),
     },
-    {
-        "question": ( #056
-            "Which substance(s) flow out of the NOx catalytic converter during storage?\n\n"
-            "A. S\n"
-            "B. O2\n"
-            "C. CO2\n"
-            "D. Ba(NO3)2\n"
-            "E. H2O\n"
-            "F. BaO"
-        ),
-        "answer": (
-            "C. CO2\n"
-            "E. H2O"
-        ),
-    },
+    # {
+    #     "question": ( #056
+    #         "Which substance(s) flow out of the NOx catalytic converter during storage?\n\n"
+    #         "A. S\n"
+    #         "B. O2\n"
+    #         "C. CO2\n"
+    #         "D. Ba(NO3)2\n"
+    #         "E. H2O\n"
+    #         "F. BaO"
+    #     ),
+    #     "answer": (
+    #         "C. CO2\n"
+    #         "E. H2O"
+    #     ),
+    # },
     {
         "question": ( #057
             "What happens to the NOx and O2 in the NOx catalytic converter during the storage phase?\n\n"
@@ -724,19 +724,19 @@ QUESTIONS = [
             "B. To measure the nitrogen oxides that exit from the NOx catalytic converter."
         ),
     },
-    {
-        "question": ( #059
-            "Under what circumstances does the NOx catalytic converter regenerate nitrogen oxides?\n\n"
-            "A. If the fuel is injected into the NOx catalytic converter\n"
-            "B. If the temperature of the exhaust gases is between 500-600°C.\n"
-            "C. When fresh air is pumped into the NOx catalytic converter\n"
-            "D. If the engine is running on a rich mixture"
-        ),
-        "answer": (
-            "B. If the temperature of the exhaust gases is between 500-600°C.\n"
-            "D. If the engine is running on a rich mixture."
-        ),
-    },
+    # {
+    #     "question": ( #059
+    #         "Under what circumstances does the NOx catalytic converter regenerate nitrogen oxides?\n\n"
+    #         "A. If the fuel is injected into the NOx catalytic converter\n"
+    #         "B. If the temperature of the exhaust gases is between 500-600°C.\n"
+    #         "C. When fresh air is pumped into the NOx catalytic converter\n"
+    #         "D. If the engine is running on a rich mixture"
+    #     ),
+    #     "answer": (
+    #         "B. If the temperature of the exhaust gases is between 500-600°C.\n"
+    #         "D. If the engine is running on a rich mixture."
+    #     ),
+    # },
     {
         "question": ( #060
             "Which component controls the regeneration of nitrogen oxides?\n\n"
@@ -749,38 +749,38 @@ QUESTIONS = [
             "D. The engine control unit (ECU)"
         ),
     },
-    {
-        "question": ( #061
-            "What substances flow into the NOx catalytic converter during regeneration?\n\n"
-            "A. BaO\n"
-            "B. NO\n"
-            "C. O2\n"
-            "D. CO\n"
-            "E. Ba(NO3)2\n"
-            "F. HC"
-        ),
-        "answer": (
-            "D. CO\n"
-            "F. HC"
-        ),
-    },
-    {
-        "question": ( #062
-            "What substances flow out of the NOx catalytic converter when nitrogen oxides are being regenerated?\n\n"
-            "A. N2\n"
-            "B. HC\n"
-            "C. CO2\n"
-            "D. NO\n"
-            "E. O2\n"
-            "F. H2O"
-        ),
-        "answer": (
-            "A. N2\n"
-            "B. HC\n"
-            "C. CO2\n"
-            "F. H2O"
-        ),
-    },
+    # {
+    #     "question": ( #061
+    #         "What substances flow into the NOx catalytic converter during regeneration?\n\n"
+    #         "A. BaO\n"
+    #         "B. NO\n"
+    #         "C. O2\n"
+    #         "D. CO\n"
+    #         "E. Ba(NO3)2\n"
+    #         "F. HC"
+    #     ),
+    #     "answer": (
+    #         "D. CO\n"
+    #         "F. HC"
+    #     ),
+    # },
+    # {
+    #     "question": ( #062
+    #         "What substances flow out of the NOx catalytic converter when nitrogen oxides are being regenerated?\n\n"
+    #         "A. N2\n"
+    #         "B. HC\n"
+    #         "C. CO2\n"
+    #         "D. NO\n"
+    #         "E. O2\n"
+    #         "F. H2O"
+    #     ),
+    #     "answer": (
+    #         "A. N2\n"
+    #         "B. HC\n"
+    #         "C. CO2\n"
+    #         "F. H2O"
+    #     ),
+    # },
     {
         "question": ( #063
             "What happens when carbon monoxide does NOT reach the NOx catalytic converter?\n\n"
@@ -803,22 +803,22 @@ QUESTIONS = [
             "A. The signal from the sensor is used by the ECU to determine the start and end of the regeneration."
         ),
     },
-    {
-        "question": ( #065
-            "Which substances does the NOx catalytic converter store during the storage phase?\n\n"
-            "A. BaO\n"
-            "B. Ba(NO3)2\n"
-            "C. CO2\n"
-            "D. S\n"
-            "E. O2\n"
-            "F. H2O\n"
-            "G. NOx"
-        ),
-        "answer": (
-            "D. S\n"
-            "G. NOx"
-        ),
-    },
+    # {
+    #     "question": ( #065
+    #         "Which substances does the NOx catalytic converter store during the storage phase?\n\n"
+    #         "A. BaO\n"
+    #         "B. Ba(NO3)2\n"
+    #         "C. CO2\n"
+    #         "D. S\n"
+    #         "E. O2\n"
+    #         "F. H2O\n"
+    #         "G. NOx"
+    #     ),
+    #     "answer": (
+    #         "D. S\n"
+    #         "G. NOx"
+    #     ),
+    # },
     {
         "question": ( #066
             "Where does the sulfur in the exhaust gas come from?\n\n"
@@ -831,19 +831,19 @@ QUESTIONS = [
             "A. From the fuel."
         ),
     },
-    {
-        "question": ( #067
-            "Under what conditions does the NOx catalytic converter regenerate sulfur?\n\n"
-            "A. The engine is running on a rich mixture.\n"
-            "B. Fresh air is being pumped into the NOx catalytic converter.\n"
-            "C. The temperature of the NOx catalytic converter is 600-650°C.\n"
-            "D. Fuel is injected into the NOx catalytic converter."
-        ),
-        "answer": (
-            "A. The engine is running on a rich mixture.\n"
-            "C. The temperature of the NOx catalytic converter is 600-650°C."
-        ),
-    },
+    # {
+    #     "question": ( #067
+    #         "Under what conditions does the NOx catalytic converter regenerate sulfur?\n\n"
+    #         "A. The engine is running on a rich mixture.\n"
+    #         "B. Fresh air is being pumped into the NOx catalytic converter.\n"
+    #         "C. The temperature of the NOx catalytic converter is 600-650°C.\n"
+    #         "D. Fuel is injected into the NOx catalytic converter."
+    #     ),
+    #     "answer": (
+    #         "A. The engine is running on a rich mixture.\n"
+    #         "C. The temperature of the NOx catalytic converter is 600-650°C."
+    #     ),
+    # },
     {
         "question": ( #068
             "Which component controls the regeneration of sulfur?\n\n"
@@ -856,25 +856,25 @@ QUESTIONS = [
             "B. The engine control unit (ECU)"
         ),
     },
-    {
-        "question": ( #069
-            "What substances flow out of the NOx catalytic converter while sulfur is being regenerated?\n\n"
-            "A. HC\n"
-            "B. CO2\n"
-            "C. H2O\n"
-            "D. S\n"
-            "E. N2\n"
-            "F. O2\n"
-            "G. NO"
-        ),
-        "answer": (
-            "A. HC\n"
-            "B. CO2\n"
-            "C. H2O\n"
-            "D. S\n"
-            "E. N2"
-        ),
-    },
+    # {
+    #     "question": ( #069
+    #         "What substances flow out of the NOx catalytic converter while sulfur is being regenerated?\n\n"
+    #         "A. HC\n"
+    #         "B. CO2\n"
+    #         "C. H2O\n"
+    #         "D. S\n"
+    #         "E. N2\n"
+    #         "F. O2\n"
+    #         "G. NO"
+    #     ),
+    #     "answer": (
+    #         "A. HC\n"
+    #         "B. CO2\n"
+    #         "C. H2O\n"
+    #         "D. S\n"
+    #         "E. N2"
+    #     ),
+    # },
     {
         "question": ( #070
             "What is the function of the NOx sensor during the regeneration of sulfur?\n\n"
