@@ -8,7 +8,7 @@ from electude_data.resistors import QUESTIONS as resistor_questions
 from electude_data.fuses import QUESTIONS as fuse_questions
 from electude_data.lighting_and_signaling_circuits import QUESTIONS as lighting_and_signaling_circuits_questions
 from electude_data.schematics import QUESTIONS as schematics_questions
-from electude_data.batteries import QUESTIONS as batteries_questions
+# from electude_data.batteries import QUESTIONS as batteries_questions
 from electude_data.charging_system_theory import QUESTIONS as charging_system_theory_questions
 from electude_data.safety_and_emissions import QUESTIONS as safety_and_emissions_questions
 from electude_data.series_and_parallel_circuits import QUESTIONS as series_and_parallel_circuits_questions
@@ -67,10 +67,10 @@ ELECTUDE_TOPICS = {
         "label": "Schematics",
         "questions": schematics_questions,
     },
-    "batteries": {
-        "label": "Batteries",
-        "questions": batteries_questions,
-    },
+    # "batteries": {
+    #     "label": "Batteries",
+    #     "questions": batteries_questions,
+    # },
     "charging_system_theory": {
         "label": "Charging System Theory",
         "questions": charging_system_theory_questions,
@@ -255,7 +255,7 @@ class NextQuestionButton(discord.ui.Button):
     app_commands.Choice(name="Fuses", value="fuses"),
     app_commands.Choice(name="Lighting & Signaling Circuits", value="lighting_and_signaling_circuits"),
     app_commands.Choice(name="Schematics", value="schematics"),
-    app_commands.Choice(name="Batteries", value="batteries"),
+    # app_commands.Choice(name="Batteries", value="batteries"),
     app_commands.Choice(name="Charging System Theory", value="charging_system_theory"),
     app_commands.Choice(name="Safety & Emissions", value="safety_and_emissions"),
     app_commands.Choice(name="Series & Parallel Circuits", value="series_and_parallel_circuits"),
