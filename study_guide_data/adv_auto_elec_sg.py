@@ -284,13 +284,13 @@ QUESTIONS = [
     {
         "question": ( #028
             "Technician A says electrical circuit resistance causes voltage drop. Technician B says high-resistance problems cause an increase in current flow. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "A. A only"
+            "A. Tech A only"
         ),
     },
     {
@@ -320,13 +320,13 @@ QUESTIONS = [
     {
         "question": ( #031
             "Technician A says fuses and other circuit protection devices normally wear out. Technician B says to avoid future problems, replace a bad fuse with a higher ampere-rated fuse. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "D. Neither A nor B"
+            "D. Neither tech A nor tech B"
         ),
     },
     {
@@ -368,13 +368,13 @@ QUESTIONS = [
     {
         "question": ( #035
             "Technician A says uses an ohmmeter to measure resistance of a component. Technician B uses a voltmeter to measure voltage drop. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
@@ -428,25 +428,25 @@ QUESTIONS = [
     {
         "question": ( #040
             "Sensor problems are being discussed. Technician A says small amounts of unwanted resistance in a low voltage sensor circuit will not have a significant effect on the vehicle’s performance. Technician B says a poor ground in the reference voltage circuit can cause higher than normal readings at the computer. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "B. B only"
+            "B. Tech B only"
         ),
     },
     {
         "question": ( #041
             "A cranking current test is performed, and the amperage is found to be less than specification. Technician A says the starter is bad and it should be replaced. Technician B insists on testing the resistance of the cables, grounds, and connections. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "B. B only"
+            "B. Tech B only"
         ),
     },
     {
@@ -536,37 +536,37 @@ QUESTIONS = [
     {
         "question": ( #049
             "Checking for excessive resistance in the starting circuit is being discussed. Technician A says connecting a voltmeter across the ground cable from the battery to the ground connection of the cable is the preferred method. Technician B says connecting an ohmmeter across the positive battery cable after it has been removed from the vehicle is the preferred method. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "A. A only"
+            "A. Tech A only"
         ),
     },
     {
         "question": ( #050
             "Technician A says the condition of the vehicle’s springs and shocks should be checked before aligning the headlamps. Technician B says the vehicle should have a full tank of fuel when its headlamps are being adjusted. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "A. A only"
+            "A. Tech A only"
         ),
     },
     {
         "question": ( #051
             "Technician A uses a voltmeter to test the open circuit voltage of a battery. Technician B uses the results of an open circuit voltage test to determine the battery’s state of charge. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
@@ -584,25 +584,25 @@ QUESTIONS = [
     {
         "question": ( #053
             "Oscilloscopes are being discussed. Technician A says the vertical positions represent time. Technician B says the horizontal positions represent voltage. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "D. Neither A nor B"
+            "D. Neither tech A nor tech B"
         ),
     },
     {
         "question": ( #054
             "Technician A says current 14-volt systems are rated at 800 W to 1500 W. Technician B says a higher voltage system requires more amperage to produce the same wattage. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "A. A only"
+            "A. Tech A only"
         ),
     },
     {
@@ -620,97 +620,97 @@ QUESTIONS = [
     {
         "question": ( #056
             "Technician A says blinking headlights can be caused by the self-resetting circuit breaker installed between battery and the headlight switch, that is kicking out due to a short. Technician B says flickering vehicle lights can be caused by a loose electrical connection. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
         "question": ( #057
             "Technician A says the reserve capacity rating of a battery is the amount of steady current that a fully charged battery can supply for 20 hours without the voltage dropping below 10.5 volts. Technician B says an ampere-hour rating states how many hours the battery is capable of supplying 25 amperes. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "D. Neither A nor B"
+            "D. Neither tech A nor tech B"
         ),
     },
     {
         "question": ( #058
             "Technician A uses a voltmeter to check circuit resistance. Technician B uses an ohmmeter is the best way to check circuit resistance. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "A. A only"
+            "A. Tech A only"
         ),
     },
     {
         "question": ( #059
             "Technician A says jump-starting an engine can cause a battery to explode. Technician B says jump-starting can damage the car’s electronics. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
         "question": ( #060
             "Technician A says the brake light switch receives voltage from the ignition switch. Technician B says when there is light pressure on the brake pedal, the brake lights will be dim. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "D. Neither A nor B"
+            "D. Neither tech A nor tech B"
         ),
     },
     {
         "question": ( #061
             "Technician A uses a current output test to check AC generator output. Technician B uses a voltage output test to check output. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
         "question": ( #062
             "Voltage drop testing is being discussed. Technician A connects the red voltmeter lead to the most positive side of the circuit being tested and the black lead to the most negative side or part of the circuit being tested. Technician B says the test must be conducted with the circuit operating with normal amounts of current. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
         "question": ( #063
             "Before adjusting drive-belt tension, Technician A checks for proper pulley alignment. Technician B looks up the specified belt tension in the vehicle’s service manual. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
@@ -728,25 +728,25 @@ QUESTIONS = [
     {
         "question": ( #065
             "Technician A says on some vehicles, if the turn signals blink faster than normal, the problem may be a burned out bulb. Technician B says on some vehicles, if the turn signals don’t blink at all, the problem may be a burned out bulb. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
         "question": ( #066
             "Technician A says the starter circuit carries high current from the battery to the starter motor. Technician B says the control circuit is a low current circuit that sends current from the ignition switch to the starter relay or solenoid. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
@@ -788,37 +788,37 @@ QUESTIONS = [
     {
         "question": ( #070
             "Technician A says the charging system recharges the battery by supplying a constant and relatively low charge to the battery. Technician B says the charging system works on the principles of magnetism to change mechanical energy into electrical energy. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
         "question": ( #071
             "Wire sizes are being discussed. Technician A says an AWG 20 gauge wire is larger than an AWG 22 gauge wire. Technician B says a metric 1.0 gauge wire is smaller than a metric .8 gauge wire.\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "A. A only"
+            "A. Tech A only"
         ),
     },
     {
         "question": ( #072
             "Technician A says electricity can be generated by moving a magnetic field across an electrical conductor. Technician B says electricity can be generated by moving an electrical conductor across a magnetic field. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
@@ -848,37 +848,37 @@ QUESTIONS = [
     {
         "question": ( #075
             "A vehicle is being diagnosed for a “no crank” problem. When the ignition switch is turned to the start position, a clicking (buzzing) noise is heard at the starter but the engine does not crank over. Technician A says the problem could be a weak battery. Technician B says the problem could be an open in the hold-in winding. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
         "question": ( #076
             "Hybrid vehicles are being discussed. Technician A says some hybrid vehicles use a motor/generator that is connected to the camshaft by a drive belt. Technician B says the motor/generator on a hybrid vehicle is located at the flywheel. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "B. B only"
+            "B. Tech B only"
         ),
     },
     {
         "question": ( #077
             "Technician A says when battery cells are connected together in series, the amperage increases. Technician B says when battery cells are connected together in parallel, the voltage increases. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "D. Neither A nor B"
+            "D. Neither tech A nor tech B"
         ),
     },
     {
@@ -920,13 +920,13 @@ QUESTIONS = [
     {
         "question": ( #081
             "Battery ratings are being discussed. Technician A says the reserve capacity rating is a measure of the battery’s ability to operate the lights and electrical system in the event of a generator failure. Technician B says the cold-cranking amps rating is a measure of the battery’s ability to provide current for the starter. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
@@ -956,13 +956,13 @@ QUESTIONS = [
     {
         "question": ( #084
             "A technician is diagnosing an HID headlight that intermittently turns on and off. Technician A says the problem is a worn out HID arc tube{bulb]. Technician B says the problem is a blown headlight fuse. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "A. A only"
+            "A. Tech A only"
         ),
     },
     {
@@ -1016,25 +1016,25 @@ QUESTIONS = [
     {
         "question": ( #089
             "Technician A says 42-volt automotive electrical systems can use smaller wires to supply the same amount of power to electrical accessories. Technician B says a 42-volt electrical system can kill you if your skin contacts exposed wiring. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "A. A only"
+            "A. Tech A only"
         ),
     },
     {
         "question": ( #090
             "Technician A says a circuit breaker can be reset after the problem that tripped the circuit breaker is fixed by disconnecting the power to the circuit breaker for a few seconds. Technician B says the circuit breaker can be reset by pressing the reset button on the breaker. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
@@ -1064,13 +1064,13 @@ QUESTIONS = [
     {
         "question": ( #093
             "A technician tests a circuit that uses a ground-controlled relay to provide power to the circuit load. With the relay installed in its socket, the control terminal of the relay is grounded by a jumper wire; nothing happens. Technician A checks the coil input terminal for voltage. Technician B connects a jumper wire between battery negative and the output terminal of the relay to check if the load is the problem. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "A. A only"
+            "A. Tech A only"
         ),
     },
     {
@@ -1100,13 +1100,13 @@ QUESTIONS = [
     {
         "question": ( #096
             "Headlight circuit protection devices are being discussed. Technician A says the headlight circuit is protected by a self-resetting circuit breaker. Technician B says the headlight circuit is protected by a single maxi fuse. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
@@ -1124,13 +1124,13 @@ QUESTIONS = [
     {
         "question": ( #098
             "Technician A says overcharging can overheat and damage the battery. Technician B says overcharging causes gassing that can cause the battery to lose water. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
@@ -1148,13 +1148,13 @@ QUESTIONS = [
     {
         "question": ( #100
             "Voltage regulators are being discussed. Technician A says charging voltage is decreased when the battery temperature is low because the battery cannot accept high charging rates at low temperatures. Technician B says the voltage regulator increases the current flowing through the field coil when the battery voltage is low. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "B. B only"
+            "B. Tech B only"
         ),
     },
     {
@@ -1172,13 +1172,13 @@ QUESTIONS = [
     {
         "question": ( #102
             "Hybrid vehicles are being discussed. Technician A says some hybrid vehicles use a motor/generator that is connected to the crankshaft by a drive belt. Technician B says the motor/generator on a hybrid vehicle is located at the flywheel. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
@@ -1196,13 +1196,13 @@ QUESTIONS = [
     {
         "question": ( #104
             "Technician A uses the schematic diagram to locate exactly where on the vehicle all of the circuit components are located. Technician B uses the electrical schematic diagram to trace the flow of current through all the switches, wires, connectors, circuit protection devices, and grounds related to the problem before he begins testing. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "B. B only"
+            "B. Tech B only"
         ),
     },
     {
@@ -1256,13 +1256,13 @@ QUESTIONS = [
     {
         "question": ( #109
             "Daytime running lights are being discussed. Technician A says DRLs turn on when the parking brake is applied. Technician B says the DRL module applies 6 volts to the high beam filaments when the ignition is on and the headlights are turned off. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "B. B only"
+            "B. Tech B only"
         ),
     },
     {
@@ -1280,13 +1280,13 @@ QUESTIONS = [
     {
         "question": ( #111
             "Technician A says dielectric grease is used on wire terminals and connectors to prevent corrosion. Technician B says dielectric grease reduces the resistance between the terminals. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "A. A only"
+            "A. Tech A only"
         ),
     },
     {
@@ -1316,13 +1316,13 @@ QUESTIONS = [
     {
         "question": ( #114
             "Technician A uses heat shrink tubing to insulate and seal soldered wire connections. Technician B wraps the soldered connection with electrical tape. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
@@ -1352,25 +1352,25 @@ QUESTIONS = [
     {
         "question": ( #117
             "A customer complains that the turn signal indicator flashes unusually fast when the turn signal switch is in a left turn position. Technician A says the left side turn signal flasher is defective. Technician B says one of the left turn signal bulbs is the wrong wattage. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "B. B only"
+            "B. Tech B only"
         ),
     },
     {
         "question": ( #118
             "Technician A says the charging system is needed to keep the battery fully charged and recharge the battery after starting. Technician B say the charging system supplies all the vehicle’s electrical current needs after the engine starts. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "C. Both A and B"
+            "C. Both tech A and tech B"
         ),
     },
     {
@@ -1448,13 +1448,13 @@ QUESTIONS = [
     {
         "question": ( #125
             "PCM-controlled AC generators are being discussed. Technician A says the battery current sensor is located inside the AC generator. Technician B says the battery current sensor is a three-wire hall effect type sensor that connects to the PCM. Who is correct?\n\n"
-            "A. A only\n"
-            "B. B only\n"
-            "C. Both A and B\n"
-            "D. Neither A nor B"
+            "A. Tech A only\n"
+            "B. Tech B only\n"
+            "C. Both tech A and tech B\n"
+            "D. Neither tech A nor tech B"
         ),
         "answer": (
-            "A. A only"
+            "A. Tech A only"
         ),
     },
 ]
