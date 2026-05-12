@@ -446,7 +446,7 @@ QUESTIONS = [
             "D. Neither A nor B"
         ),
         "answer": (
-            "B.B only"
+            "B. B only"
         ),
     },
     {
