@@ -21,6 +21,7 @@ from ase_data.ch1_5_gaskets_seals_fasteners import QUESTIONS as ch1_5_gaskets_se
 from ase_data.ch1_6_gen_engine_reassembly import QUESTIONS as ch1_6_gen_engine_reassembly_questions
 # from ase_data.ch2_1_hydraulic_automatic_transmission import QUESTIONS as ch2_1_hydraulic_automatic_transmission_questions
 from ase_data.ch2_2_mech_systems_components import QUESTIONS as ch2_2_mech_systems_components_questions
+from study_guide_data.adv_auto_elec_sg import QUESTIONS as adv_auto_elec_sg_questions
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
@@ -118,6 +119,12 @@ ASE_TOPICS = {
     "ch2_2_mech_systems_components": {
         "label": "02.02 Automatic Transmission/Transaxle: Mechanical Systems & Components",
         "questions": ch2_2_mech_systems_components_questions,
+    },
+}
+STUDY_GUIDE_TOPICS = {
+    "adv_auto_elec_sg": {
+        "label": "Advanced Automotive Electricity Study Guide",
+        "questions": adv_auto_elec_sg_questions,
     },
 }
 
@@ -255,6 +262,49 @@ async def ase(interaction: discord.Interaction, topic: app_commands.Choice[str])
             questions.append(question_copy)
 
     view = FlashcardView(questions, "ASE")
+    question_content = view.get_question_content()
+    image_path = view.get_image()
+
+    if image_path:
+        file = discord.File(image_path)
+        await interaction.response.send_message(
+            question_content,
+            file=file,
+            view=view
+        )
+    else:
+        await interaction.response.send_message(
+            question_content,
+            view=view
+        )
+
+@bot.tree.command(name="studyguide", description="Study guide flashcards")
+@app_commands.describe(topic="Choose a topic")
+@app_commands.choices(topic=[
+    app_commands.Choice(name="Any / Random", value="any"),
+    app_commands.Choice(
+        name="Advanced Automotive Electricity Study Guide",
+        value="adv_auto_elec_sg"
+    ),
+])
+async def studyguide(interaction: discord.Interaction, topic: app_commands.Choice[str]):
+
+    if topic.value == "any":
+        questions = get_all_questions(STUDY_GUIDE_TOPICS)
+    else:
+        topic_info = STUDY_GUIDE_TOPICS.get(topic.value)
+
+        if not topic_info:
+            await interaction.response.send_message("No questions found for this topic.")
+            return
+
+        questions = []
+        for question in topic_info["questions"]:
+            question_copy = question.copy()
+            question_copy["category"] = topic_info["label"]
+            questions.append(question_copy)
+
+    view = FlashcardView(questions, "Study Guide")
     question_content = view.get_question_content()
     image_path = view.get_image()
 
