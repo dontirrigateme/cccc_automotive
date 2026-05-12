@@ -27,50 +27,50 @@ QUESTIONS = [
             "D. Henry (H)"
         ),
     },
-    {
-        "question": ( #003
-            "What are the types of coils?\n\n"
-            "A. A coil without windings\n"
-            "B. A coil without core\n"
-            "C. A coil with core"
-        ),
-        "answer": (
-            "B. A coil without core\n"
-            "C. A coil with core"
-        ),
-    },
-    {
-        "question": ( #004
-            "Find the following components:\n\n"
-            "Coil with core\n"
-            "Coil without core\n"
-            "Transformer"
-        ),
-        "answer": (
-            "A. Coil without core\n"
-            "B. Coil with core\n"
-            "C. Transformer"
-        ),
-        "image": (
-            "images\types_of_coils.png"
-        ),
-    },
-    {
-        "question": ( #005
-            "Find the correct symbols:\n\n"
-            "Coil symbol with core\n"
-            "Coil symbol without core\n"
-            "Transformer symbol"
-        ),
-        "answer": (
-            "A. Coil symbol without core\n"
-            "B. Coil symbol with core\n"
-            "C. Transformer symbol"
-        ),
-        "image": (
-            "images\coil_transformer_symbols.png"
-        ),
-    },
+    # {
+    #     "question": ( #003
+    #         "What are the types of coils?\n\n"
+    #         "A. A coil without windings\n"
+    #         "B. A coil without core\n"
+    #         "C. A coil with core"
+    #     ),
+    #     "answer": (
+    #         "B. A coil without core\n"
+    #         "C. A coil with core"
+    #     ),
+    # },
+    # {
+    #     "question": ( #004
+    #         "Find the following components:\n\n"
+    #         "Coil with core\n"
+    #         "Coil without core\n"
+    #         "Transformer"
+    #     ),
+    #     "answer": (
+    #         "A. Coil without core\n"
+    #         "B. Coil with core\n"
+    #         "C. Transformer"
+    #     ),
+    #     "image": (
+    #         "images\types_of_coils.png"
+    #     ),
+    # },
+    # {
+    #     "question": ( #005
+    #         "Find the correct symbols:\n\n"
+    #         "Coil symbol with core\n"
+    #         "Coil symbol without core\n"
+    #         "Transformer symbol"
+    #     ),
+    #     "answer": (
+    #         "A. Coil symbol without core\n"
+    #         "B. Coil symbol with core\n"
+    #         "C. Transformer symbol"
+    #     ),
+    #     "image": (
+    #         "images\coil_transformer_symbols.png"
+    #     ),
+    # },
     {
         "question": ( #006
             "Each coil has a constant. What do you call this constant?\n\n"
@@ -94,22 +94,22 @@ QUESTIONS = [
             "B. By spooling an electric conductor into the shape of a coil"
         ),
     },
-    {
-        "question": ( #008
-            "Find the following parts of a coil:\n\n"
-            "Connections\n"
-            "Core\n"
-            "Windings"
-        ),
-        "answer": (
-            "A. Core\n"
-            "B. Connections\n"
-            "C. Windings"
-        ),
-        "image": (
-            "images\parts_of_a_coil.png"
-        ),
-    },
+    # {
+    #     "question": ( #008
+    #         "Find the following parts of a coil:\n\n"
+    #         "Connections\n"
+    #         "Core\n"
+    #         "Windings"
+    #     ),
+    #     "answer": (
+    #         "A. Core\n"
+    #         "B. Connections\n"
+    #         "C. Windings"
+    #     ),
+    #     "image": (
+    #         "images\parts_of_a_coil.png"
+    #     ),
+    # },
     {
         "question": ( #009
             "How is the property of a core expressed?\n\n"
@@ -155,58 +155,58 @@ QUESTIONS = [
             "E. All of the above"
         ),
     },
-    {
-        "question": ( #013
-            "What does the resistance of a coil depend on?\n\n"
-            "A. The coefficient of self-induction\n"
-            "B. The frequency\n"
-            "C. The current\n"
-            "D. The voltage\n"
-            "E. All of the above"
-        ),
-        "answer": (
-            "A. The coefficient of self-induction\n"
-            "B. The frequency"
-        ),
-    },
-    {
-        "question": ( #014
-            "The resistance of a coil depends on the frequency.\n"
-            "What can a coil be used for?\n\n"
-            "A. To block DC voltage\n"
-            "B. As a filter to block high frequencies\n"
-            "C. To suppress interfering signals\n"
-            "D. All of the above"
-        ),
-        "answer": (
-            "B. As a filter to block high frequencies\n"
-            "C. To suppress interfering signals"
-        ),
-    },
-    {
-        "question": ( #015
-            "Which coil has the largest coefficient of self-induction? The smallest?"
-        ),
-        "answer": (
-            "A. Smallest\n"
-            "B. Middle\n"
-            "C. Largest"
-        ),
-        "image": (
-            "images/coefficient_of_self_induction.png"
-        ),
-    },
-    {
-        "question": ( #015
-            "Which part of the circuit board is the coils of the transformer?"
-        ),
-        "answer": (
-            "D."
-        ),
-        "image": (
-            "images/circuit_board01.png"
-        ),
-    },
+    # {
+    #     "question": ( #013
+    #         "What does the resistance of a coil depend on?\n\n"
+    #         "A. The coefficient of self-induction\n"
+    #         "B. The frequency\n"
+    #         "C. The current\n"
+    #         "D. The voltage\n"
+    #         "E. All of the above"
+    #     ),
+    #     "answer": (
+    #         "A. The coefficient of self-induction\n"
+    #         "B. The frequency"
+    #     ),
+    # },
+    # {
+    #     "question": ( #014
+    #         "The resistance of a coil depends on the frequency.\n"
+    #         "What can a coil be used for?\n\n"
+    #         "A. To block DC voltage\n"
+    #         "B. As a filter to block high frequencies\n"
+    #         "C. To suppress interfering signals\n"
+    #         "D. All of the above"
+    #     ),
+    #     "answer": (
+    #         "B. As a filter to block high frequencies\n"
+    #         "C. To suppress interfering signals"
+    #     ),
+    # },
+    # {
+    #     "question": ( #015
+    #         "Which coil has the largest coefficient of self-induction? The smallest?"
+    #     ),
+    #     "answer": (
+    #         "A. Smallest\n"
+    #         "B. Middle\n"
+    #         "C. Largest"
+    #     ),
+    #     "image": (
+    #         "images/coefficient_of_self_induction.png"
+    #     ),
+    # },
+    # {
+    #     "question": ( #015
+    #         "Which part of the circuit board is the coils of the transformer?"
+    #     ),
+    #     "answer": (
+    #         "D."
+    #     ),
+    #     "image": (
+    #         "images/circuit_board01.png"
+    #     ),
+    # },
     {
         "question": ( #016
             "Why would your multimeter measure a low resistance in a coil?\n\n"
@@ -217,30 +217,30 @@ QUESTIONS = [
             "B. The resistance of copper is very low."
         ),
     },
-    {
-        "question": ( #017
-            "What are the connections of the relay in the schematic through which the control current will flow?\n\n"
-        ),
-        "answer": (
-            "A.\n"
-            "C."
-        ),
-        "image": (
-            "images/relay_schematic.png"
-        ),
-    },
-    {
-        "question": ( #018
-            "What are the connections of the relay in the schematic through which the main current will flow?\n\n"
-        ),
-        "answer": (
-            "B.\n"
-            "D."
-        ),
-        "image": (
-            "images/relay_schematic.png"
-        ),
-    },
+    # {
+    #     "question": ( #017
+    #         "What are the connections of the relay in the schematic through which the control current will flow?\n\n"
+    #     ),
+    #     "answer": (
+    #         "A.\n"
+    #         "C."
+    #     ),
+    #     "image": (
+    #         "images/relay_schematic.png"
+    #     ),
+    # },
+    # {
+    #     "question": ( #018
+    #         "What are the connections of the relay in the schematic through which the main current will flow?\n\n"
+    #     ),
+    #     "answer": (
+    #         "B.\n"
+    #         "D."
+    #     ),
+    #     "image": (
+    #         "images/relay_schematic.png"
+    #     ),
+    # },
     {
         "question": ( #019
             "Which kind of relay closes the circuit when it's energized?\n\n"
