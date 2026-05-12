@@ -2,28 +2,40 @@
 
 QUESTIONS = [
     {
-        "question": (
-            "Battery sensors are used to measure which parameters?"
-        ), #001
+        "question": ( #001
+            "Battery sensors are used to measure which parameters?\n\n"
+            "A. Electrical current draw\n"
+            "B. Temperature\n"
+            "C. Voltage\n"
+            "D. All of the above"
+        ),
         "answer": (
-            "Electrical current draw\n"
-            "Temperature\n"
-            "Voltage"
+            "D. All of the above"
         ),
     },
     {
-        "question": (
-            "What are the three states that determine a battery's condition?"
-        ), #002
+        "question": ( #002
+            "What are the three states that determine a battery's condition?\n\n"
+            "A. State of charge\n"
+            "B. State of health\n"
+            "C. State of function\n"
+            "D. All of the above"
+        ),
         "answer": (
-            "State of charge\n"
-            "State of health\n"
-            "State of function"
+            "D. All of the above"
         ),
     },
     {
-        "question": "The amount of __________ and __________ current is one of the most important parameters that the BMS needs in order to determine the state of charge (SOC).", #003
-        "answer": "charge, discharge",
+        "question": ( #003
+            "The amount of __________ and __________ current is one of the most important parameters that the BMS needs in order to determine the state of charge (SOC).\n\n"
+            "A. Charge, discharge\n"
+            "B. Positivity, negativity\n"
+            "C. Transistor, diode\n"
+            "D. All of the above"
+        ),
+        "answer": (
+            "A. Charge, discharge"
+        ),
     },
     {
         "question": "What is the state of charge?", #004
