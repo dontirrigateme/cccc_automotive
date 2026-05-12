@@ -146,7 +146,6 @@ class MultipleChoiceQuizView(discord.ui.View):
         self.source_name = source_name
         self.current = random.choice(self.questions)
 
-        # Add A/B/C/D buttons automatically
         for choice in ["A", "B", "C", "D"]:
             self.add_item(AnswerButton(choice))
 
@@ -156,12 +155,18 @@ class MultipleChoiceQuizView(discord.ui.View):
         return f"**{self.source_name} - {category}**\n\n{question}"
 
     def get_correct_letter(self):
-        # Assumes answer starts like "B. Something"
         answer = self.current["answer"].strip()
         return answer[0].upper()
 
     def get_answer(self):
         return self.current["answer"]
+
+    def get_image(self):
+        return self.current.get("image")
+
+    def disable_buttons(self):
+        for item in self.children:
+            item.disabled = True
 
     def disable_buttons(self):
         for item in self.children:
