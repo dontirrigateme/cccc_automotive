@@ -149,6 +149,8 @@ class MultipleChoiceQuizView(discord.ui.View):
         for choice in ["A", "B", "C", "D"]:
             self.add_item(AnswerButton(choice))
 
+        self.add_item(NextQuestionButton())
+
     def get_question_content(self):
         category = self.current.get("category", "Unknown")
         question = self.current["question"]
@@ -164,19 +166,22 @@ class MultipleChoiceQuizView(discord.ui.View):
     def get_image(self):
         return self.current.get("image")
 
-    def disable_buttons(self):
+    def disable_answer_buttons(self):
         for item in self.children:
-            item.disabled = True
+            if isinstance(item, AnswerButton):
+                item.disabled = True
 
-    def disable_buttons(self):
+    def enable_answer_buttons(self):
         for item in self.children:
-            item.disabled = True
+            if isinstance(item, AnswerButton):
+                item.disabled = False
 
 class AnswerButton(discord.ui.Button):
     def __init__(self, choice):
         super().__init__(
             label=choice,
-            style=discord.ButtonStyle.secondary
+            style=discord.ButtonStyle.secondary,
+            row=0
         )
         self.choice = choice
 
@@ -194,12 +199,42 @@ class AnswerButton(discord.ui.Button):
                 f"Correct answer: **{correct_answer}**"
             )
 
-        view.disable_buttons()
+        view.disable_answer_buttons()
 
         await interaction.response.edit_message(
             content=f"{view.get_question_content()}\n\n{result}",
             view=view
         )
+
+class NextQuestionButton(discord.ui.Button):
+    def __init__(self):
+        super().__init__(
+            label="Next Question",
+            style=discord.ButtonStyle.primary,
+            row=1
+        )
+
+    async def callback(self, interaction: discord.Interaction):
+        view = self.view
+        view.current = random.choice(view.questions)
+        view.enable_answer_buttons()
+
+        question_content = view.get_question_content()
+        image_path = view.get_image()
+
+        if image_path:
+            file = discord.File(image_path)
+            await interaction.response.edit_message(
+                content=question_content,
+                attachments=[file],
+                view=view
+            )
+        else:
+            await interaction.response.edit_message(
+                content=question_content,
+                attachments=[],
+                view=view
+            )
 
 @bot.tree.command(name="electude", description="Study Electude flashcards")
 @app_commands.describe(topic="Choose a topic")
