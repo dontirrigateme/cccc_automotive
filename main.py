@@ -139,48 +139,62 @@ def get_all_questions(topic_bank):
 
     return all_questions
 
-class FlashcardView(discord.ui.View):
+class MultipleChoiceQuizView(discord.ui.View):
     def __init__(self, questions, source_name):
-        super().__init__(timeout=None)
+        super().__init__(timeout=300)
         self.questions = questions
         self.source_name = source_name
         self.current = random.choice(self.questions)
+
+        # Add A/B/C/D buttons automatically
+        for choice in ["A", "B", "C", "D"]:
+            self.add_item(AnswerButton(choice))
 
     def get_question_content(self):
         category = self.current.get("category", "Unknown")
         question = self.current["question"]
         return f"**{self.source_name} - {category}**\n\n{question}"
 
+    def get_correct_letter(self):
+        # Assumes answer starts like "B. Something"
+        answer = self.current["answer"].strip()
+        return answer[0].upper()
+
     def get_answer(self):
         return self.current["answer"]
 
-    def get_image(self):
-        return self.current.get("image")
+    def disable_buttons(self):
+        for item in self.children:
+            item.disabled = True
 
-    @discord.ui.button(label="Show Answer", style=discord.ButtonStyle.primary)
-    async def show_answer(self, interaction: discord.Interaction, button: discord.ui.Button):
-        await interaction.response.send_message(self.get_answer(), ephemeral=True)
+class AnswerButton(discord.ui.Button):
+    def __init__(self, choice):
+        super().__init__(
+            label=choice,
+            style=discord.ButtonStyle.secondary
+        )
+        self.choice = choice
 
-    @discord.ui.button(label="Next Question", style=discord.ButtonStyle.secondary)
-    async def next_question(self, interaction: discord.Interaction, button: discord.ui.Button):
-        self.current = random.choice(self.questions)
+    async def callback(self, interaction: discord.Interaction):
+        view = self.view
+        correct_letter = view.get_correct_letter()
+        correct_answer = view.get_answer()
 
-        question_content = self.get_question_content()
-        image_path = self.get_image()
-
-        if image_path:
-            file = discord.File(image_path)
-            await interaction.response.edit_message(
-                content=question_content,
-                attachments=[file],
-                view=self
-            )
+        if self.choice == correct_letter:
+            result = f"✅ **Correct!**\n\nAnswer: **{correct_answer}**"
         else:
-            await interaction.response.edit_message(
-                content=question_content,
-                attachments=[],
-                view=self
+            result = (
+                f"❌ **Not quite.**\n\n"
+                f"You chose: **{self.choice}**\n"
+                f"Correct answer: **{correct_answer}**"
             )
+
+        view.disable_buttons()
+
+        await interaction.response.edit_message(
+            content=f"{view.get_question_content()}\n\n{result}",
+            view=view
+        )
 
 @bot.tree.command(name="electude", description="Study Electude flashcards")
 @app_commands.describe(topic="Choose a topic")
@@ -214,7 +228,7 @@ async def electude(interaction: discord.Interaction, topic: app_commands.Choice[
             question_copy["category"] = topic_info["label"]
             questions.append(question_copy)
 
-    view = FlashcardView(questions, "Electude")
+    view = MultipleChoiceQuizView(questions, "Electude")
     question_content = view.get_question_content()
     image_path = view.get_image()
 
@@ -223,12 +237,14 @@ async def electude(interaction: discord.Interaction, topic: app_commands.Choice[
         await interaction.response.send_message(
             question_content,
             file=file,
-            view=view
+            view=view,
+            ephemeral=True
         )
     else:
         await interaction.response.send_message(
             question_content,
-            view=view
+            view=view,
+            ephemeral=True
         )
 
 @bot.tree.command(name="ase", description="Study ASE flashcards")
@@ -261,7 +277,7 @@ async def ase(interaction: discord.Interaction, topic: app_commands.Choice[str])
             question_copy["category"] = topic_info["label"]
             questions.append(question_copy)
 
-    view = FlashcardView(questions, "ASE")
+    view = MultipleChoiceQuizView(questions, "ASE")
     question_content = view.get_question_content()
     image_path = view.get_image()
 
@@ -270,12 +286,14 @@ async def ase(interaction: discord.Interaction, topic: app_commands.Choice[str])
         await interaction.response.send_message(
             question_content,
             file=file,
-            view=view
+            view=view,
+            ephemeral=True
         )
     else:
         await interaction.response.send_message(
             question_content,
-            view=view
+            view=view,
+            ephemeral=True
         )
 
 @bot.tree.command(name="studyguide", description="Study guide flashcards")
@@ -304,7 +322,7 @@ async def studyguide(interaction: discord.Interaction, topic: app_commands.Choic
             question_copy["category"] = topic_info["label"]
             questions.append(question_copy)
 
-    view = FlashcardView(questions, "Study Guide")
+    view = MultipleChoiceQuizView(questions, "Study Guide")
     question_content = view.get_question_content()
     image_path = view.get_image()
 
@@ -313,12 +331,14 @@ async def studyguide(interaction: discord.Interaction, topic: app_commands.Choic
         await interaction.response.send_message(
             question_content,
             file=file,
-            view=view
+            view=view,
+            ephemeral=True
         )
     else:
         await interaction.response.send_message(
             question_content,
-            view=view
+            view=view,
+            ephemeral=True
         )
 
 
