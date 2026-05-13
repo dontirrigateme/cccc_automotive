@@ -24,6 +24,7 @@ from ase_data.ch2_2_mech_systems_components import QUESTIONS as ch2_2_mech_syste
 from study_guide_data.adv_auto_elec_sg import QUESTIONS as adv_auto_elec_sg_questions
 from study_guide_data.adv_transp_elec_sg import QUESTIONS as adv_transp_elec_sg_questions
 from study_guide_data.adv_eng_perf_sg import QUESTIONS as adv_eng_perf_sg_questions
+from study_guide_data.fuel_inj_sys_diag_sg import QUESTIONS as fuel_inj_sys_diag_sg_questions
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
@@ -135,6 +136,10 @@ STUDY_GUIDE_TOPICS = {
     "adv_eng_perf_sg": {
         "label": "Advanced Engine Performance Study Guide",
         "questions": adv_eng_perf_sg_questions,
+    },
+    "fuel_inj_sys_diag_sg": {
+        "label": "Fuel Injection System Diagnosis & Service Study Guide",
+        "questions": fuel_inj_sys_diag_sg_questions,
     },
 }
 
@@ -361,6 +366,10 @@ async def ase(interaction: discord.Interaction, topic: app_commands.Choice[str])
     app_commands.Choice(
         name="Advanced Engine Performance Study Guide",
         value="adv_eng_perf_sg"
+    ),
+    app_commands.Choice(
+        name="Fuel Injection System Diagnosis & Service Study Guide",
+        value="fuel_inj_sys_diag_sg"
     ),
 ])
 async def studyguide(interaction: discord.Interaction, topic: app_commands.Choice[str]):
