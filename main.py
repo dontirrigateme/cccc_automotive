@@ -13,6 +13,7 @@ import random
 from electude_data.safety_and_emissions import QUESTIONS as safety_and_emissions_questions
 # from electude_data.series_and_parallel_circuits import QUESTIONS as series_and_parallel_circuits_questions
 from electude_data.coils_and_relays import QUESTIONS as coils_and_relays_questions
+from electude_data.elec_braking_sys_theory import QUESTIONS as elec_braking_sys_theory_questions
 from ase_data.ch1_1_engine_diagnosis import QUESTIONS as ch1_1_engine_diagnosis_questions
 from ase_data.ch1_2_cylinder_head_valve_train import QUESTIONS as ch1_2_cylinder_head_valve_train_questions
 from ase_data.ch1_3_engine_block_diagnosis import QUESTIONS as ch1_3_engine_block_diagnosis_questions
@@ -88,6 +89,10 @@ ELECTUDE_TOPICS = {
     "coils_and_relays": {
         "label": "Coils & Relays",
         "questions": coils_and_relays_questions,
+    },
+    "electronic_braking_systems_theory": {
+        "label": "Electronic Braking Systems Theory",
+        "questions": elec_braking_sys_theory_questions,
     },
 }
 
@@ -270,6 +275,7 @@ class NextQuestionButton(discord.ui.Button):
     app_commands.Choice(name="Safety & Emissions", value="safety_and_emissions"),
     # app_commands.Choice(name="Series & Parallel Circuits", value="series_and_parallel_circuits"),
     app_commands.Choice(name="Coils & Relays", value="coils_and_relays"),
+    app_commands.Choice(name="Electronic Braking Systems Theory", value="elec_braking_sys_theory"),
 ])
 async def electude(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
