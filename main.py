@@ -14,6 +14,8 @@ from electude_data.safety_and_emissions import QUESTIONS as safety_and_emissions
 # from electude_data.series_and_parallel_circuits import QUESTIONS as series_and_parallel_circuits_questions
 from electude_data.coils_and_relays import QUESTIONS as coils_and_relays_questions
 from electude_data.elec_braking_sys_theory import QUESTIONS as elec_braking_sys_theory_questions
+from electude_data.tires_and_wheels_properties import QUESTIONS as tires_and_wheels_properties_questions
+
 from ase_data.ch1_1_engine_diagnosis import QUESTIONS as ch1_1_engine_diagnosis_questions
 from ase_data.ch1_2_cylinder_head_valve_train import QUESTIONS as ch1_2_cylinder_head_valve_train_questions
 from ase_data.ch1_3_engine_block_diagnosis import QUESTIONS as ch1_3_engine_block_diagnosis_questions
@@ -23,6 +25,7 @@ from ase_data.ch1_6_gen_engine_reassembly import QUESTIONS as ch1_6_gen_engine_r
 # from ase_data.ch2_1_hydraulic_automatic_transmission import QUESTIONS as ch2_1_hydraulic_automatic_transmission_questions
 from ase_data.ch2_2_mech_systems_components import QUESTIONS as ch2_2_mech_systems_components_questions
 from ase_data.ch2_3_electronic_control_sys import QUESTIONS as ch2_3_electronic_control_sys_questions
+
 from study_guide_data.adv_auto_elec_sg import QUESTIONS as adv_auto_elec_sg_questions
 from study_guide_data.adv_transp_elec_sg import QUESTIONS as adv_transp_elec_sg_questions
 from study_guide_data.adv_eng_perf_sg import QUESTIONS as adv_eng_perf_sg_questions
@@ -93,6 +96,10 @@ ELECTUDE_TOPICS = {
     "electronic_braking_systems_theory": {
         "label": "Electronic Braking Systems Theory",
         "questions": elec_braking_sys_theory_questions,
+    },
+    "tires_and_wheels_properties": {
+        "label": "Properties of Tires and Wheels",
+        "questions": tires_and_wheels_properties_questions",
     },
 }
 
@@ -276,6 +283,7 @@ class NextQuestionButton(discord.ui.Button):
     # app_commands.Choice(name="Series & Parallel Circuits", value="series_and_parallel_circuits"),
     app_commands.Choice(name="Coils & Relays", value="coils_and_relays"),
     app_commands.Choice(name="Electronic Braking Systems Theory", value="elec_braking_sys_theory"),
+    app_commands.Choice(name="Properties of Tires and Wheels", value="tires_and_wheels_properties"),
 ])
 async def electude(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
