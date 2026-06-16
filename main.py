@@ -99,7 +99,7 @@ ELECTUDE_TOPICS = {
     },
     "tires_and_wheels_properties": {
         "label": "Properties of Tires and Wheels",
-        "questions": tires_and_wheels_properties_questions",
+        "questions": tires_and_wheels_properties_questions,
     },
 }
 
