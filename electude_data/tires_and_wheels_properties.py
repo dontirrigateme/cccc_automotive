@@ -346,7 +346,7 @@ QUESTIONS = [
     {
         "question": ( #029
             "A car is driving up a slope.\n"
-            "What resistance(s) is (are) acting on the car?
+            "What resistance(s) is (are) acting on the car?\n\n"
             "A. Grade resistance\n"
             "B. Air resistance\n"
             "C. Rolling resistance\n"
