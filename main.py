@@ -15,6 +15,7 @@ from electude_data.safety_and_emissions import QUESTIONS as safety_and_emissions
 from electude_data.coils_and_relays import QUESTIONS as coils_and_relays_questions
 from electude_data.elec_braking_sys_theory import QUESTIONS as elec_braking_sys_theory_questions
 from electude_data.tires_and_wheels_properties import QUESTIONS as tires_and_wheels_properties_questions
+from electude_data.tire_theory import QUESTIONS as tire_theory_questions
 
 from ase_data.ch1_1_engine_diagnosis import QUESTIONS as ch1_1_engine_diagnosis_questions
 from ase_data.ch1_2_cylinder_head_valve_train import QUESTIONS as ch1_2_cylinder_head_valve_train_questions
@@ -100,6 +101,10 @@ ELECTUDE_TOPICS = {
     "tires_and_wheels_properties": {
         "label": "Properties of Tires and Wheels",
         "questions": tires_and_wheels_properties_questions,
+    },
+    "tire_theory": {
+        "label": "Tire Theory",
+        "questions": tire_theory_questions,
     },
 }
 
@@ -284,6 +289,7 @@ class NextQuestionButton(discord.ui.Button):
     app_commands.Choice(name="Coils & Relays", value="coils_and_relays"),
     app_commands.Choice(name="Electronic Braking Systems Theory", value="elec_braking_sys_theory"),
     app_commands.Choice(name="Properties of Tires and Wheels", value="tires_and_wheels_properties"),
+    app_commands.Choice(name="Tire Theory", value="tire_theory"),
 ])
 async def electude(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
