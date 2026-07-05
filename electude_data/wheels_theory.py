@@ -319,4 +319,262 @@ QUESTIONS = [
             "images/wheel_tire_size_chart01.png",
         ),
     },
+    {
+        "question": ( #022
+            "A function of the air-valve stem is to enable the tire to be inflated. True or false?\n\n"
+            "A. True\n"
+            "B. False"
+        ),
+        "answer": (
+            "A. True"
+        ),
+    },
+    {
+        "question": ( #023
+            "A function of the air-stem valve is to prevent air from escaping. True or false?\n\n"
+            "A. True\n"
+            "B. False"
+        ),
+        "answer": (
+            "A. True"
+        ),
+    },
+    {
+        "question": ( #024
+            "A funtion of the air-stem valve is to keep the tire at the correct pressure. True or false?\n\n"
+            "A. True\n"
+            "B. False"
+        ),
+        "answer": (
+            "B. False"
+        ),
+    },
+    {
+        "question": ( #025
+            "A function of the air-stem valve is to keep the air at the correct temperature. True or false?\n\n"
+            "A. True\n"
+            "B. False"
+        ),
+        "answer": (
+            "B. False"
+        ),
+    },
+    {
+        "question": ( #026
+            "Must an inner-tube valve stem seal the tire airtight against the rim?\n\n"
+            "A. No, the pressure is so low that the air can't escape\n"
+            "B. No, this is not necessary because the air is held within the inner tube\n"
+            "C. Yes; otherwise, air would escape from around the rim"
+        ),
+        "answer": (
+            "B. No, this is not necessary because the air is held within the inner tube"
+        ),
+    },
+    {
+        "question": ( #027
+            "What's an important property of a tubeless valve stem?\n\n"
+            "A. It must be inexpensive\n"
+            "B. It must regulate tire pressure automatically\n"
+            "C. It must form an airtight seal against the rim"
+        ),
+        "answer": (
+            "C. It must form an airtight seal against the rim\n"
+            "If the valve stem does not seal against the rim, air will escape from around the base of the valve stem"
+        ),
+    },
+    {
+        "question": ( #028
+            "There are two types of valve stems for tubeless tires.\n"
+            "Which one is the rubber tubeless valve stem?\n\n"
+            "A.\n"
+            "B."
+        ),
+        "answer": (
+            "B."
+        ),
+        "image": (
+            "images/valve_stems01.png",
+        ),
+    },
+    {
+        "question": ( #029
+            "There are two types of valve stems for tubeless tires.\n"
+            "Which one is the metal tubeless valve stem?\n\n"
+            "A.\n"
+            "B."
+        ),
+        "answer": (
+            "A."
+        ),
+        "image": (
+            "images/valve_stems01.png",
+        ),
+    },
+    {
+        "question": ( #030
+            "Which valve stem do you pull through the rim?\n\n"
+            "A. Metal tubeless valve stem\n"
+            "B. Metal inner-tube valve stem\n"
+            "C. Rubber tubeless valve stem\n"
+            "D. Rubber inner-tube valve stem"
+        ),
+        "answer": (
+            "C. Rubber tubeless valve stem"
+        ),
+    },
+    {
+        "question": ( #031
+            "Which toold can be used to loosen nuts and bolts?\n\n"
+            "A. Pneumatic impact wrench\n"
+            "B. Ratchet\n"
+            "C. Combination wrench\n"
+            "D. All of the above"
+        ),
+        "answer": (
+            "D. All of the above"
+        ),
+    },
+    {
+        "question": ( #032
+            "How is the pneumatic impact wrench driven?\n\n"
+            "A. By means of electricity\n"
+            "B. By means of compressed air\n"
+            "C. By means of hydraulics\n"
+            "D. All of the above"
+        ),
+        "answer": (
+            "B. By means of compressed air"
+        ),
+    },
+    {
+        "question": ( #033
+            "What's the normal operating pressure for a pneumatic impact wrench?\n\n"
+            "A. 6-8 bar\n"
+            "B. 3-4 bar\n"
+            "C. 1-2 bar\n"
+            "D. 10-12 bar"
+        ),
+        "answer": (
+            "A. 6-8 bar (85-120 psi)"
+        ),
+    },
+    {
+        "question": ( #034
+            "Which component easily connects the pneumatic hose to the compressor and pneumatic impact wrench?\n\n"
+            "A. Quick-release couplings\n"
+            "B. Screw couplings\n"
+            "C. Hose clamps\n"
+            "D. All of the above"
+        ),
+        "answer": (
+            "A. Quick-release couplings"
+        ),
+    },
+    {
+        "question": ( #035
+            "What differentiates impact sockets from other sockets?\n\n"
+            "A. Impact sockets are black\n"
+            "B. Impact sockets have thicker walls\n"
+            "C. Both A and B\n"
+            "D. Neither A nor B"
+        ),
+        "answer": (
+            "C. Both A and B"
+        ),
+    },
+    {
+        "question": ( #036
+            "Why should you use special impact sockets with impact wrenches?\n\n"
+            "A. Standard sockets will not fit over the drive of an impact wrench\n"
+            "B. Standard sockets may split as a result of the hammering from the impact wrench\n"
+            "C. Standard sockets will cause damage to the impact wrench"
+        ),
+        "answer": (
+            "B. Standard sockets may split as a result of the hammering from the impact wrench"
+        ),
+    },
+    {
+        "question": ( #037
+            "What is the function of the plastic cover over the impact sockets?\n\n"
+            "A. Prevent damaging alloy wheels\n"
+            "B. Protect nuts and bolts from damage\n"
+            "C. Dampen the hammering action from the impact wrench\n"
+            "D. All of the above"
+        ),
+        "answer": (
+            "A. Prevent damaging alloy wheels"
+        ),
+    },
+    {
+        "question": ( #038
+            "Which settings on an impact wrench can be changed?\n\n"
+            "A. The direction of rotation\n"
+            "B. The rotational speed\n"
+            "C. The impact torque\n"
+            "D. All of the above"
+        ),
+        "answer": (
+            "D. All of the above"
+        ),
+    },
+    {
+        "question": ( #039
+            "What should you always do after tightening wheel bolts with an impact wrench?\n\n"
+            "A. Tighten the bolts or nuts with a break over\n"
+            "B. Loosen the nuts or bolts slightly\n"
+            "C. Tighten the nuts or bolts to specification using a torque wrench\n"
+            "D. All of the above"
+        ),
+        "answer": (
+            "C. Tighten the nuts or bolts to specification using a torque wrench"
+        ),
+    },
+    {
+        "question": ( #040
+            "What is important in regard to the maintenance of a pneumatic impact wrench?\n\n"
+            "A. The exterior of the impact wrench needs to be oiled and polished daily\n"
+            "B. The square drive fitting of the impact wrench should be lubricated daily\n"
+            "C. The inside of the impact wrench should be lubricated daily\n"
+            "D. None of the above"
+        ),
+        "answer": (
+            "C. The inside of the impact wrench should be lubricated daily"
+        ),
+    },
+    {
+        "question": ( #041
+            "Which type of lubricant should you use to lubricate a pneumatic impact wrench?\n\n"
+            "A. Penetrating oil\n"
+            "B. Engine oil\n"
+            "C. Special air-tool oil\n"
+            "D. Teflon spray"
+        ),
+        "answer": (
+            "C.Special air-tool oil"
+        ),
+    },
+    {
+        "question": ( #042
+            "What is a Newton?\n\n"
+            "A. A unit of length\n"
+            "B. A unit of voltage\n"
+            "C. A unit of force\n"
+            "D. None of the above"
+        ),
+        "answer": (
+            "C. A unit of force"
+        ),
+    },
+    {
+        "question": ( #043
+            "\n\n"
+            "A. \n"
+            "B. \n"
+            "C. \n"
+            "D. "
+        ),
+        "answer": (
+            ""
+        ),
+    },
 ]
