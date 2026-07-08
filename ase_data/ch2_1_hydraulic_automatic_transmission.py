@@ -2,153 +2,196 @@
 
 QUESTIONS = [
     {
-        "question": (
-            "Automatic transmissions rely heavily on hydraulic systems for which three things?"
-        ), #001
+        "question": ( #001
+            "You are using a diagnostic symptom chart to diagnose an electronically controlled 8-speed automatic RWD (rear wheel drive) transmission with a strange noise in drive. Technician A says the control valve could be the cause and is an OFF-vehicle procedure. Technician B says the oil pump assembly could be the cause and is an OFF-vehicle procedure. Who is right?\n\n"
+            "A. Technician A only\n"
+            "B. Technician B only\n"
+            "C. Both technician A and technician B\n"
+            "D. Neither technician A nor technician B"
+        ),
         "answer": (
-            "Transfer power\n"
-            "Control gear shifts\n"
-            "Lubricate internal components"
+            "B. Technician B only\n"
+            "The oil pump assembly could be the diagnostic item and is an off-vehicle procedure. Technician A is wrong because the control valve is likely to be the cause in an on-vehicle procedure, not an off-vehicle procedure."
         ),
     },
     {
-        "question": (
-            "What are five common types of automatic transmission fluid (ATF)?"
-        ), #002
+        "question": ( #002
+            "On an electronically controlled 4-speed automatic transaxle, you experience a 'shock' when shifting from N to D. Which of the following will require an OFF-vehicle repair?\n\n"
+            "A. Line pressure test\n"
+            "B. A/T fluid temperature sensor\n"
+            "C. Control valve assembly\n"
+            "D. Forward clutch"
+        ),
         "answer": (
-            "Type A\n"
-            "Dexron® Series (II, III, VI)\n"
-            "Mercon® Series\n"
-            "CVT fluids\n"
-            "Synthetic ATFs"
+            "D. Forward clutch\n"
+            "The only off-vehicle repair listed for a vehicle that exhibits a shock when shifting between gears in the N to D range is the forward clutch. All of the others are on-vehicle repairs."
         ),
     },
     {
-        "question": (
-            "What are four characteristics of automatic transmission fluid (ATF)?"
-        ), #003
+        "question": ( #003
+            "Which transmission pump changes its flow rate to meet the needs of an automatic transmission?\n\n"
+            "A. A diaphragm positive displacement pump\n"
+            "B. A fixed-displacement crescent gear pump\n"
+            "C. A variable-displacement vane pump\n"
+            "D. A fixed-displacement rotor pump"
+        ),
         "answer": (
-            "Viscosity\n"
-            "Friction modifiers\n"
-            "Anti-wear additives\n"
-            "Oxidation inhibitors"
+            "C. A variable-displacement vane pump\n"
+            "A variable-displacement/rate transmission pump changes its flow rate according to the needs of the transmission. This pump saves on wasted energy and power."
         ),
     },
     {
-        "question": (
-            "What are the three common types of transmission pumps?"
-        ), #004
+        "question": ( #004
+            "The transmission's 1-2 shift valve is sticking in its bore. Use all of the following to clean and dry this shift valve EXCEPT:\n\n"
+            "A. A lint-free cloth\n"
+            "B. Compressed air\n"
+            "C. A varnish cleaning solution\n"
+            "D. Shop rags"
+        ),
         "answer": (
-            "Gear pumps\n"
-            "Vane pumps\n"
-            "Rotor pumps"
+            "D. Shop rags\n"
+            "Shop rags leave lint and residue on the valve's surface. Use a lint-free cloth or compressed air to dry the valve body and valves."
         ),
     },
     {
-        "question": (
-            "What are four types of hydraulic valves?"
-        ), #005
+        "question": ( #005
+            "A vehicle's automatic transmission is not downshifting correctly. A vacuum hose is detached and hanging down by the transmission pan. This vacuum hose should be connected to which of the following?\n\n"
+            "A. The governor\n"
+            "B. The throttle position sensor\n"
+            "C. The modulator\n"
+            "D. The vehicle speed sensor"
+        ),
         "answer": (
-            "Regulator valve\n"
-            "Shift valves\n"
-            "Manual valve\n"
-            "Pressure control valves"
+            "C. The modulator\n"
+            "A modulator is a vacuum-controlled device that controls throttle pressure."
         ),
     },
     {
-        "question": "What is the main function of a regulator valve?", #006
-        "answer": "Controls overall hydraulic line pressure",
-    },
-    {
-        "question": "What controls the regulator valve?", #007
-        "answer": "Spring and fluid pressure",
-    },
-    {
-        "question": "What is the main function of the shift valves?", #008
-        "answer": "Direct fluid for gear engagement",
-    },
-    {
-        "question": (
-            "What controls the shift valves?"
-        ), #009
+        "question": ( #006
+            "An automatic transmission has no overdrive and slips in second gear. View the chart to determine which of the following would MOST likely result in this condition.\n\n"
+            "A. The forward clutch\n"
+            "B. The low roller clutch\n"
+            "C. The 2-4 band\n"
+            "D. The low reverse clutch"
+        ),
         "answer": (
-            "Governor pressure\n"
-            "Throttle\n"
-            "Electronics"
+            "C. The 2-4 band\n"
+            "A worn 2-4 band wouold result in a slip in second and fourth gear."
+        ),
+        "image": (
+            "images/a2_auto_trans_table.png",
         ),
     },
     {
-        "question": "What is the main function of the manual valve?", #010
-        "answer": "Routes fluid based on gear selector position",
-    },
-    {
-        "question": "What controls the manual valve?", #011
-        "answer": "Driver gear selection",
-    },
-    {
-        "question": "What is the main function of the pressure control valves?", #012
-        "answer": "Fine-tune pressure to clutches and servos",
-    },
-    {
-        "question": (
-            "What controls the pressure control valves?"
-        ), #013
+        "question": ( #007
+            "A torque converter's stator:\n\n"
+            "A. Should spin freely in both directions\n"
+            "B. Spins freely until the torque converter reaches its coupling phase\n"
+            "C. Is fastened to the impeller\n"
+            "D. Has a one-way clutch that allows the stator to spin freely in one direction, but keeps it from rotating in the other"
+        ),
         "answer": (
-            "Load\n"
-            "Speed\n"
-            "Vacuum\n"
-            "Electronics"
+            "D. Has a one-way clutch that allows the stator to spin freely in one direction, but keeps it from rotating in the other\n"
+            "A stator has a one-way clutch that allows it to spin freely in one direction, but keeps it from rotating in the other."
         ),
     },
     {
-        "question": (
-            "What would low line pressure during hydraulic valve testing indicate??"
-        ), #014
+        "question": ( #008
+            "An automatic transmission with a planetary gearset is being diagnosed for harsh shifting. Which of these could be the case?\n\n"
+            "A. A sticking pressure regulating valve\n"
+            "B. A faulty EPC solenoid\n"
+            "C. Old, contaminated fluid\n"
+            "D. All of the above"
+        ),
         "answer": (
-            "Sticking or worn regulator valve\n"
-            "Leaks in valve bores\n"
-            "Worn pump"
+            "D. All of the above"
         ),
     },
     {
-        "question": (
-            "What is indicated by harsh or no shifting during hydraulic valve testing?"
-        ), #015
+        "question": ( #009
+            "Transmission fluid is leaking from the dipstick tube. Technician A says that this could be caused by overfilling the transmission. Technician B says this leak could be caused by aerated and foamy fluid. Who is correct?\n\n"
+            "A. Technician A only\n"
+            "B. Technician B only\n"
+            "C. Both technician A and technician B\n"
+            "D. Neither technician A nor technician B"
+        ),
         "answer": (
-            "Shift valves stuck or clogged\n"
-            "Manual valve misalignment\n"
-            "Pressure control valve failure"
+            "C. Both technician A and technician B"
         ),
     },
     {
-        "question": (
-            "A torque converter is a type of fluid coupling used in automatic transmissions. True or false?"
-        ), #016
+        "question": ( #010
+            "Technician A says petroleum-based ATF is dyed red and turns dark brown when overheated. Technician B says a slipping band or clutch can cause burnt, dark-colored transmission fluid. Who is correct?\n\n"
+            "A. Technician A\n"
+            "B. Technician B\n"
+            "C. Both technician A and technician B\n"
+            "D. Neither technician A nor technician B"
+        ),
         "answer": (
-            "True.\n"
-            "It transfers and multiplies engine torque to the transmission input shaft hydraulically, replacing the manual clutch found in manual transmissions."
+            "C. Both technician A and technician B"
         ),
     },
     {
-        "question": (
-            "What are the main components of a torque converter?"
-        ), #017
+        "question": ( #011
+            "You are checking fluid color on an automatic transmission/transaxle. Which of the following will cause the fluid to be varnished with a light to dark brown color?\n\n"
+            "A. Oxidation from overfilling\n"
+            "B. Water contamination\n"
+            "C. Engine coolant contamination\n"
+            "D. Wear from friction material"
+        ),
         "answer": (
-            "Impeller (pump)\n"
-            "Turbine\n"
-            "Stator (reaction member)\n"
-            "Lock-up clutch"
+            "A. Oxidation fromm overfilling\n"
         ),
     },
     {
-        "question": (
-            "What are some benefits of a torque converter?"
-        ), #018
+        "question": ( #012
+            "Technician A says low line pressure on an electronically controlled line pressure can cause the transmission to slip and operate sluggishly. Technician B says line pressure varies with engine speed. Who is correct?\n\n"
+            "A. Technician A\n"
+            "B. Technician B\n"
+            "C. Both technician A and technician B\n"
+            "D. Neither technician A nor technician B"
+        ),
         "answer": (
-            "Smooth power transfer\n"
-            "Torque multiplication\n"
-            "Hydraulic coupling\n"
-            "Automatic engagement"
+            "C. Both technician A and technician B"
+        ),
+    },
+    {
+        "question": ( #013
+            "A line pressure test shows low pressure at idle in all ranges on an electronically controlled automatic transmission. Which of the following can be the cause?\n\n"
+            "A. A maladjusted throttle position sensor\n"
+            "B. ATF temperature sensor\n"
+            "C. Open in dropping resistor circuit\n"
+            "D. Oil pump pressure regulator"
+        ),
+        "answer": (
+            "D. Oil pump pressure regulator\n"
+            "A problem in the oil pump or oil pump pressure regulator will cause low pressure at idle in all gear ranges."
+        ),
+    },
+    {
+        "question": ( #014
+            "When removing an engine from a vehicle equipped with an automatic transmission, the torque converter does which of the following?\n\n"
+            "A. Stays with transmission\n"
+            "B. Stays with engine\n"
+            "C. Must be drained\n"
+            "D. Must be flushed"
+        ),
+        "answer": (
+            "A. Stays with transmission\n"
+            "This is the proper procedure when the transmission or transaxle is removed. If left on the engine, all of the oil will leak out and make a huge mess."
+        ),
+    },
+    {
+        "question": ( #015
+            "An automatic transmission pressure test will identify which of the following?\n\n"
+            "A. Dirty transmission filter\n"
+            "B. Defective engine shutoff solenoid\n"
+            "C. Defective torque converter\n"
+            "D. Shift solenoid"
+        ),
+        "answer": (
+            "A. Dirty transmission filter\n"
+            "A dirty filter will cause lower line pressure and the other choices listed will not."
         ),
     },
 ]
