@@ -29,6 +29,7 @@ from ase_data.ch1_6_gen_engine_reassembly import QUESTIONS as ch1_6_gen_engine_r
 # from ase_data.ch2_1_hydraulic_automatic_transmission import QUESTIONS as ch2_1_hydraulic_automatic_transmission_questions
 from ase_data.ch2_2_mech_systems_components import QUESTIONS as ch2_2_mech_systems_components_questions
 from ase_data.ch2_3_electronic_control_sys import QUESTIONS as ch2_3_electronic_control_sys_questions
+from ase_data.ch2_4_auto_diag_test import QUESTIONS as ch2_4_auto_diag_test_questions
 
 from study_guide_data.adv_auto_elec_sg import QUESTIONS as adv_auto_elec_sg_questions
 from study_guide_data.adv_transp_elec_sg import QUESTIONS as adv_transp_elec_sg_questions
@@ -159,6 +160,10 @@ ASE_TOPICS = {
     "ch2_3_electronic_control_sys": {
         "label": "02.03 Automatic Transmission/Transaxle: Electronic Control Systems",
         "questions": ch2_3_electronic_control_sys_questions,
+    },
+    "ch2_4_auto_diag_test": {
+        "label": "02.04 Automatic Transmission/Transaxle: Diagnosis & Testing Procedures",
+        "questions": ch2_4_auto_diag_test_questions,
     },
 }
 
@@ -359,6 +364,7 @@ async def electude(interaction: discord.Interaction, topic: app_commands.Choice[
     # app_commands.Choice(name="02.01 Automatic Transmission/Transaxle: Hydraulic Systems in Automatic Transmissions", value="ch2_1_hydraulic_automatic_transmission"),
     app_commands.Choice(name="02.02 Automatic Transmission/Transaxle: Mechanical Systems & Components", value="ch2_2_mech_systems_components"),
     app_commands.Choice(name="02.03 Automatic Transmission/Transaxle: Electronic Control Systems", value="ch2_3_electronic_control_sys"),
+    app_commands.Choice(name="02.04 Automatic Transmission/Transaxle: Diagnosis & Testing Procedures", value="ch2_4_auto_diag_test"),
 ])
 async def ase(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
