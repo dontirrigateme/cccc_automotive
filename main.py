@@ -126,43 +126,43 @@ ELECTUDE_TOPICS = {
 
 ASE_TOPICS = {
     "ch1_1_engine_diagnosis": {
-        "label": "01.01 Engine Repair: Engine Diagnosis",
+        "label": "A1.01 Engine Repair: Engine Diagnosis",
         "questions": ch1_1_engine_diagnosis_questions,
     },
     "ch1_2_cylinder_head_valve_train": {
-        "label": "01.02 Engine Repair: Cylinder Head & Valve Train Diagnosis & Repair",
+        "label": "A1.02 Engine Repair: Cylinder Head & Valve Train Diagnosis & Repair",
         "questions": ch1_2_cylinder_head_valve_train_questions,
     },
     "ch1_3_engine_block_diagnosis": {
-        "label": "01.03 Engine Repair: Engine Block Diagnosis & Repair",
+        "label": "A1.03 Engine Repair: Engine Block Diagnosis & Repair",
         "questions": ch1_3_engine_block_diagnosis_questions,
     },
     "ch1_4_lubrication_cooling_diagnosis": {
-        "label": "01.04 Engine Repair: Lubrication & Cooling Systems Diagnosis & Repair",
+        "label": "A1.04 Engine Repair: Lubrication & Cooling Systems Diagnosis & Repair",
         "questions": ch1_4_lubrication_cooling_diagnosis_questions,
     },
     "ch1_5_gaskets_seals_fasteners": {
-        "label": "01.05 Engine Repair: Gaskets, Seals, & Fastener Service",
+        "label": "A1.05 Engine Repair: Gaskets, Seals, & Fastener Service",
         "questions": ch1_5_gaskets_seals_fasteners_questions,
     },
     "ch1_6_gen_engine_reassembly": {
-        "label": "01.06 Engine Repair: General Engine Reassembly",
+        "label": "A1.06 Engine Repair: General Engine Reassembly",
         "questions": ch1_6_gen_engine_reassembly_questions,
     },
     # "ch2_1_hydraulic_automatic_transmission": {
-    #     "label": "02.01 Automatic Transmission/Transaxle: Hydraulic Systems in Automatic Transmissions",
+    #     "label": "A2.01 Automatic Transmission/Transaxle: Hydraulic Systems in Automatic Transmissions",
     #     "questions": ch2_1_hydraulic_automatic_transmission_questions,
     # },
     "ch2_2_mech_systems_components": {
-        "label": "02.02 Automatic Transmission/Transaxle: Mechanical Systems & Components",
+        "label": "A2.02 Automatic Transmission/Transaxle: Mechanical Systems & Components",
         "questions": ch2_2_mech_systems_components_questions,
     },
     "ch2_3_electronic_control_sys": {
-        "label": "02.03 Automatic Transmission/Transaxle: Electronic Control Systems",
+        "label": "A2.03 Automatic Transmission/Transaxle: Electronic Control Systems",
         "questions": ch2_3_electronic_control_sys_questions,
     },
     "ch2_4_auto_diag_test": {
-        "label": "02.04 Automatic Transmission/Transaxle: Diagnosis & Testing Procedures",
+        "label": "A2.04 Automatic Transmission/Transaxle: Diagnosis & Testing Procedures",
         "questions": ch2_4_auto_diag_test_questions,
     },
 }
@@ -355,16 +355,16 @@ async def electude(interaction: discord.Interaction, topic: app_commands.Choice[
 @app_commands.describe(topic="Choose a topic")
 @app_commands.choices(topic=[
     app_commands.Choice(name="Any / Random", value="any"),
-    app_commands.Choice(name="01.01 Engine Repair: Engine Diagnosis", value="ch1_1_engine_diagnosis"),
-    app_commands.Choice(name="01.02 Engine Repair: Cylinder Head & Valve Train Diagnosis & Repair", value="ch1_2_cylinder_head_valve_train"),
-    app_commands.Choice(name="01.03 Engine Repair: Engine Block Diagnosis & Repair", value="ch1_3_engine_block_diagnosis"),
-    app_commands.Choice(name="01.04 Engine Repair: Lubrication & Cooling Systems Diagnosis & Repair", value="ch1_4_lubrication_cooling_diagnosis"),
-    app_commands.Choice(name="01.05 Engine Repair: Gaskets, Seals, & Fastener Service", value="ch1_5_gaskets_seals_fasteners"),
-    app_commands.Choice(name="01.06 Engine Repair: General Engine Reassembly", value="ch1_6_gen_engine_reassembly"),
-    # app_commands.Choice(name="02.01 Automatic Transmission/Transaxle: Hydraulic Systems in Automatic Transmissions", value="ch2_1_hydraulic_automatic_transmission"),
-    app_commands.Choice(name="02.02 Automatic Transmission/Transaxle: Mechanical Systems & Components", value="ch2_2_mech_systems_components"),
-    app_commands.Choice(name="02.03 Automatic Transmission/Transaxle: Electronic Control Systems", value="ch2_3_electronic_control_sys"),
-    app_commands.Choice(name="02.04 Automatic Transmission/Transaxle: Diagnosis & Testing Procedures", value="ch2_4_auto_diag_test"),
+    app_commands.Choice(name="A1.01 Engine Repair: Engine Diagnosis", value="ch1_1_engine_diagnosis"),
+    app_commands.Choice(name="A1.02 Engine Repair: Cylinder Head & Valve Train Diagnosis & Repair", value="ch1_2_cylinder_head_valve_train"),
+    app_commands.Choice(name="A1.03 Engine Repair: Engine Block Diagnosis & Repair", value="ch1_3_engine_block_diagnosis"),
+    app_commands.Choice(name="A1.04 Engine Repair: Lubrication & Cooling Systems Diagnosis & Repair", value="ch1_4_lubrication_cooling_diagnosis"),
+    app_commands.Choice(name="A1.05 Engine Repair: Gaskets, Seals, & Fastener Service", value="ch1_5_gaskets_seals_fasteners"),
+    app_commands.Choice(name="A1.06 Engine Repair: General Engine Reassembly", value="ch1_6_gen_engine_reassembly"),
+    # app_commands.Choice(name="A2.01 Automatic Transmission/Transaxle: Hydraulic Systems in Automatic Transmissions", value="ch2_1_hydraulic_automatic_transmission"),
+    app_commands.Choice(name="A2.02 Automatic Transmission/Transaxle: Mechanical Systems & Components", value="ch2_2_mech_systems_components"),
+    app_commands.Choice(name="A2.03 Automatic Transmission/Transaxle: Electronic Control Systems", value="ch2_3_electronic_control_sys"),
+    app_commands.Choice(name="A2.04 Automatic Transmission/Transaxle: Diagnosis & Testing Procedures", value="ch2_4_auto_diag_test"),
 ])
 async def ase(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
