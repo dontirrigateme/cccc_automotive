@@ -36,6 +36,7 @@ from study_guide_data.adv_auto_elec_sg import QUESTIONS as adv_auto_elec_sg_ques
 from study_guide_data.adv_transp_elec_sg import QUESTIONS as adv_transp_elec_sg_questions
 from study_guide_data.adv_eng_perf_sg import QUESTIONS as adv_eng_perf_sg_questions
 from study_guide_data.fuel_inj_sys_diag_sg import QUESTIONS as fuel_inj_sys_diag_sg_questions
+from study_guide_data.ac_quiz_avi import QUESTIONS as ac_quiz_avi_questions
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
@@ -188,6 +189,10 @@ STUDY_GUIDE_TOPICS = {
     "fuel_inj_sys_diag_sg": {
         "label": "Fuel Injection System Diagnosis & Service Study Guide",
         "questions": fuel_inj_sys_diag_sg_questions,
+    },
+    "ac_quiz_avi": {
+        "label": "Keeping it Cool - AVI AC Quiz",
+        "questions": ac_quiz_avi_questions,
     },
 }
 
@@ -427,6 +432,10 @@ async def ase(interaction: discord.Interaction, topic: app_commands.Choice[str])
     app_commands.Choice(
         name="Fuel Injection System Diagnosis & Service Study Guide",
         value="fuel_inj_sys_diag_sg"
+    ),
+    app_commands.Choice(
+        name="AC AVI Quiz",
+        value="ac_quiz_avi"
     ),
 ])
 async def studyguide(interaction: discord.Interaction, topic: app_commands.Choice[str]):
