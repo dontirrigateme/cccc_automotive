@@ -53,7 +53,7 @@ QUESTIONS = [
     },
     {
         "question": ( #006
-            "During closed-loop engine mode, injector pulse width is controlled according to predetermined parameters held in the PCMs memory."\n\n"
+            "During closed-loop engine mode, injector pulse width is controlled according to predetermined parameters held in the PCMs memory.\n\n"
             "A. True\n"
             "B. False"
         ),
