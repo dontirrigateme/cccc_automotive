@@ -19,6 +19,7 @@ from electude_data.tire_theory import QUESTIONS as tire_theory_questions
 from electude_data.wheels_theory import QUESTIONS as wheels_theory_questions
 from electude_data.wheel_balancing_theory import QUESTIONS as wheel_balancing_theory_questions
 from electude_data.ac_systems import QUESTIONS as ac_systems_questions
+from electude_data.ac_comp import QUESTIONS as ac_comp_questions
 
 from ase_data.ch1_1_engine_diagnosis import QUESTIONS as ch1_1_engine_diagnosis_questions
 from ase_data.ch1_2_cylinder_head_valve_train import QUESTIONS as ch1_2_cylinder_head_valve_train_questions
@@ -128,6 +129,10 @@ ELECTUDE_TOPICS = {
     "ac_systems": {
         "label": "Air-Conditioning Systems",
         "questions": ac_systems_questions,
+    },
+    "ac_comp": {
+        "label": "Air-Conditioning Compressors",
+        "questions": ac_comp_questions,
     },
 }
 
@@ -348,6 +353,7 @@ class NextQuestionButton(discord.ui.Button):
     app_commands.Choice(name="Wheels Theory", value="wheels_theory"),
     app_commands.Choice(name="Wheel Balancing Theory", value="wheel_balancing_theory"),
     app_commands.Choice(name="Air-Conditioning Systems", value="ac_systems"),
+    app_commands.Choice(name="Air-Conditioning Compressors", value="ac_comp"),
 ])
 async def electude(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
