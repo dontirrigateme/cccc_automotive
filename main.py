@@ -104,7 +104,7 @@ ELECTUDE_TOPICS = {
         "label": "Coils & Relays",
         "questions": coils_and_relays_questions,
     },
-    "electronic_braking_systems_theory": {
+    "elec_braking_systems_theory": {
         "label": "Electronic Braking Systems Theory",
         "questions": elec_braking_sys_theory_questions,
     },
