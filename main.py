@@ -40,6 +40,8 @@ from study_guide_data.ac_quiz_avi import QUESTIONS as ac_quiz_avi_questions
 from study_guide_data.elec_fuel_inj import QUESTIONS as elec_fuel_inj_questions
 from study_guide_data.engine_perf_sys import QUESTIONS as engine_perf_sys_questions
 
+# from cdl_data.sec_1_intro import QUESTIONS as sec_1_intro_questions
+
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.default()
@@ -206,6 +208,13 @@ STUDY_GUIDE_TOPICS = {
     },
 }
 
+# CDL_TOPICS = {
+#     "sec_1_intro": {
+#         "label": "Section 1 - Introduction",
+#         "questions": sec_1_intro_questions,
+#     },
+# }
+
 def get_all_questions(topic_bank):
     all_questions = []
 
@@ -371,7 +380,7 @@ async def electude(interaction: discord.Interaction, topic: app_commands.Choice[
             ephemeral=True
         )
 
-@bot.tree.command(name="ase", description="Study ASE flashcards")
+@bot.tree.command(name="ase", description="ASE Study Guide")
 @app_commands.describe(topic="Choose a topic")
 @app_commands.choices(topic=[
     app_commands.Choice(name="Any / Random", value="any"),
@@ -491,6 +500,48 @@ async def studyguide(interaction: discord.Interaction, topic: app_commands.Choic
             view=view,
             ephemeral=True
         )
+
+# @bot.tree.command(name="cdl", description="CDL Study Guide")
+# @app_commands.describe(topic="Choose a topic")
+# @app_commands.choices(topic=[
+#     app_commands.Choice(name="Any / Random", value="any"),
+#     app_commands.Choice(name="CDL Section 1 - Introduction", value="sec_1_intro"),
+# ])
+# async def cdl(interaction: discord.Interaction, topic: app_commands.Choice[str]):
+
+#     if topic.value == "any":
+#         questions = get_all_questions(CDL_TOPICS)
+#     else:
+#         topic_info = CDL_TOPICS.get(topic.value)
+
+#         if not topic_info:
+#             await interaction.response.send_message("No questions found for this topic.")
+#             return
+
+#         questions = []
+#         for question in topic_info["questions"]:
+#             question_copy = question.copy()
+#             question_copy["category"] = topic_info["label"]
+#             questions.append(question_copy)
+
+#     view = MultipleChoiceQuizView(questions, "CDL")
+#     question_content = view.get_question_content()
+#     image_path = view.get_image()
+
+#     if image_path:
+#         file = discord.File(image_path)
+#         await interaction.response.send_message(
+#             question_content,
+#             file=file,
+#             view=view,
+#             ephemeral=True
+#         )
+#     else:
+#         await interaction.response.send_message(
+#             question_content,
+#             view=view,
+#             ephemeral=True
+#         )
 
 
 bot.run(TOKEN)
