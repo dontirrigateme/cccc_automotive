@@ -39,6 +39,7 @@ from study_guide_data.fuel_inj_sys_diag_sg import QUESTIONS as fuel_inj_sys_diag
 from study_guide_data.ac_quiz_avi import QUESTIONS as ac_quiz_avi_questions
 from study_guide_data.elec_fuel_inj import QUESTIONS as elec_fuel_inj_questions
 from study_guide_data.engine_perf_sys import QUESTIONS as engine_perf_sys_questions
+from study_guide_data.var_ac_comp_delphi import QUESTIONS as var_ac_comp_delphi_questions
 
 # from cdl_data.sec_1_intro import QUESTIONS as sec_1_intro_questions
 
@@ -205,6 +206,10 @@ STUDY_GUIDE_TOPICS = {
     "engine_perf_sys": {
         "label": "Engine Performance Systems Quiz",
         "questions": engine_perf_sys_questions,
+    },
+    "var_ac_comp_delphi": {
+        "label": "Variables of AC Compressors - Delphi",
+        "questions": var_ac_comp_delphi_questions,
     },
 }
 
@@ -463,6 +468,10 @@ async def ase(interaction: discord.Interaction, topic: app_commands.Choice[str])
     app_commands.Choice(
         name="Engine Performance Systems Quiz",
         value="engine_perf_sys",
+    ),
+    app_commands.Choice(
+        name="Variables of AC Compressors - Delphi",
+        value="var_ac_comp_delphi",
     ),
 ])
 async def studyguide(interaction: discord.Interaction, topic: app_commands.Choice[str]):
