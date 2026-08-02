@@ -33,6 +33,7 @@ from ase_data.ch2_3_electronic_control_sys import QUESTIONS as ch2_3_electronic_
 from ase_data.ch2_4_auto_diag_test import QUESTIONS as ch2_4_auto_diag_test_questions
 from ase_data.ch3_manual_drive_axles import QUESTIONS as ch3_manual_drive_axles_questions
 from ase_data.ch4_1_steering_sys import QUESTIONS as ch4_1_steering_sys_questions
+from ase_data.ch4_2_suspension_sys import QUESTIONS as ch4_2_suspension_sys_questions
 
 from study_guide_data.adv_auto_elec_sg import QUESTIONS as adv_auto_elec_sg_questions
 from study_guide_data.adv_transp_elec_sg import QUESTIONS as adv_transp_elec_sg_questions
@@ -186,6 +187,10 @@ ASE_TOPICS = {
     "ch4_1_steering_sys": {
         "label": "A4.01 Steering & Suspension: Steering Systems",
         "questions": ch4_1_steering_sys_questions,
+    },
+    "ch4_2_suspension_sys": {
+        "label": "A4.02 Steering & Suspension: Suspension Systems",
+        "questions": ch4_2_suspension_sys_questions,
     },
 }
 
@@ -417,6 +422,7 @@ async def electude(interaction: discord.Interaction, topic: app_commands.Choice[
     app_commands.Choice(name="A2.04 Automatic Transmission/Transaxle: Diagnosis & Testing Procedures", value="ch2_4_auto_diag_test"),
     app_commands.Choice(name="A3 Manual Drive Train & Axles", value="ch3_manual_drive_axles"),
     app_commands.Choice(name="A4.01 Steering & Suspension: Steering Systems", value="ch4_1_steering_sys"),
+    app_commands.Choice(name="A4.02 Steering & Suspension: Suspension Systems", value="ch4_2_suspension_sys"),
 ])
 async def ase(interaction: discord.Interaction, topic: app_commands.Choice[str]):
 
