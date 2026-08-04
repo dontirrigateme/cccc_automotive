@@ -44,6 +44,7 @@ from study_guide_data.elec_fuel_inj import QUESTIONS as elec_fuel_inj_questions
 from study_guide_data.engine_perf_sys import QUESTIONS as engine_perf_sys_questions
 from study_guide_data.var_ac_comp_delphi import QUESTIONS as var_ac_comp_delphi_questions
 from study_guide_data.brakes_quiz import QUESTIONS as brakes_quiz_questions
+from study_guide_data.final_practice import QUESTIONS as final_practice_questions
 
 # from cdl_data.sec_1_intro import QUESTIONS as sec_1_intro_questions
 
@@ -230,6 +231,10 @@ STUDY_GUIDE_TOPICS = {
     "brakes_quiz": {
         "label": "AVI - Brakes Quiz",
         "questions": brakes_quiz_questions,
+    },
+    "final_practice": {
+        "label": "Comprehensive Practice Test",
+        "questions": final_practice_questions,
     },
 }
 
@@ -499,6 +504,10 @@ async def ase(interaction: discord.Interaction, topic: app_commands.Choice[str])
     app_commands.Choice(
         name="AVI - Brakes Quiz",
         value="brakes_quiz",
+    ),
+    app_commands.Choice(
+        name="Comprehensive Practice Test",
+        value="final_practice",
     ),
 ])
 async def studyguide(interaction: discord.Interaction, topic: app_commands.Choice[str]):
